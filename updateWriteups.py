@@ -14,11 +14,12 @@ for category in listdir("./writeups"):
     challenge_categories.append(challenge_category)
     writeups += f'### {category}\n'
     for chall in listdir(f'./writeups/{category}'):
-        writeups += (f' - **{chall}**\n')
+        chall_url = f'/writeups/{category}/{chall}'.replace(' ', '%20')
+        writeups += (f' - **[{chall}]({chall_url})**\n')
         print(writeups)
         for writeup in next(walk(f'./writeups/{category}/{chall}'))[1]:
-            url = f'/writeups/{category}/{chall}/{writeup}'.replace(' ', '%20')
-            writeups += f"\t - [{writeup}]({url})  \n"
+            wripteup_url = f'/writeups/{category}/{chall}/{writeup}'.replace(' ', '%20')
+            writeups += f"\t - [{writeup}]({wripteup_url})  \n"
 
 challenge_categories = sorted(list(set(challenge_categories)), key=str.lower)
 table_of_content = ""
