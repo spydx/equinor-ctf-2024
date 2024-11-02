@@ -4,7 +4,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 
 
 ## Table of content
-- [Azure](#azure)
+
 - [boot2root](#boot2root)
 - [Crypto](#crypto)
 - [Forensics](#forensics)
@@ -82,3 +82,4 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **OMM API (root)**
  - **Prime Time (user)**
  - **OMM API (user)**
+
