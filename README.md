@@ -19,67 +19,67 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 
 ## Writeups
 
-### crypto
- - **Chatlog**
- - **Double Dip Dilemma**
- - **LFSXOR**
-### web
- - **Use the source**
- - **Shop 5**
- - **Shop 6**
- - **Blood In Blood Out**
- - **Images**
- - **Shop 4**
- - **EPT Security Hub**
- - **Let's bake**
+### onsite
+ - **EPT Printer**
+ - **Wooden Treasure Chest**
+ - **Pixel Perfect**
+ - **EPT Cyber Range 12aplha_release9d GOLD EDITION**
+ - **Run, Forrest! Revenge!**
+ - **WiFi Sanity Check**
+ - **Walkabout**
+ - **Button Smasher**
+### realworld
+ - **OMM API (user)**
+ - **OMM API (root)**
+ - **Prime Time (root)**
+ - **Prime Time (user)**
 ### pwn
- - **VM**
  - **Vault**
- - **Baby bro pwn**
  - **Jrsk Julepwn**
+ - **VM**
+ - **Baby bro pwn**
 ### forensics
- - **Honey, I shrunk the skids**
- - **Red Alert**
- - **Shadows of the Past**
  - **Stealth Stealer**
- - **Event Horizon**
+ - **Honey, I shrunk the skids**
+ - **Shadows of the Past**
  - **Phantom Phish**
+ - **Event Horizon**
+ - **Red Alert**
+### boot2root
+ - **Excellent (user)**
+ - **Excellent (root)**
 ### reversing
+ - **RotC**
+ - **Random Flag Generator**
+ - **Saint Rings**
  - **Jrsk Julekort**
  - **Find Me**
- - **Random Flag Generator**
- - **RotC**
  - **Waves**
- - **Saint Rings**
-### onsite
- - **WiFi Sanity Check**
- - **Button Smasher**
- - **Run, Forrest! Revenge!**
- - **Pixel Perfect**
- - **Walkabout**
- - **EPT Cyber Range 12aplha_release9d GOLD EDITION**
- - **Wooden Treasure Chest**
- - **EPT Printer**
-### boot2root
- - **Excellent (root)**
- - **Excellent (user)**
+### web
+ - **Shop 5**
+ - **Use the source**
+ - **EPT Security Hub**
+ - **Shop 4**
+ - **Images**
+ - **Shop 6**
+ - **Let's bake**
+ - **Blood In Blood Out**
 ### misc
- - **KQL Validation Service**
- - **Linux Levels**
- - **Obsolete (user)**
- - **EPT Arcade Game**
- - **Obsolete (root)**
- - **Canvas Curve**
+ - **EPT Got talent**
+ - **QR Madness**
  - **The Kusto Query Game**
- - **Leftovers**
+ - **Canvas Curve**
  - **SQL 101**
  - **Digital Archives**
- - **QR Madness**
+ - **Obsolete (root)**
+ - **Leftovers**
  - **Basketball with Dad**
- - **EPT Got talent**
-### realworld
- - **Prime Time (root)**
- - **OMM API (root)**
- - **Prime Time (user)**
- - **OMM API (user)**
+ - **KQL Validation Service**
+ - **Linux Levels**
+ - **EPT Arcade Game**
+ - **Obsolete (user)**
+### crypto
+ - **Double Dip Dilemma**
+ - **LFSXOR**
+ - **Chatlog**
 
