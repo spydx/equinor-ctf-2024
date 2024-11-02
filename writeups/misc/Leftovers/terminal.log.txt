@@ -1,0 +1,59 @@
+
+            .-/+oossssoo+/-.               USER108@ubuntu-s-1vcpu-512mb-10gb-ams3-01
+        `:+ssssssssssssssssss+:`           -------------------------------------
+      -+ssssssssssssssssssyyssss+-         OS: Ubuntu 24.04.1 LTS x86_64
+    .ossssssssssssssssssdMMMNysssso.       Host: Droplet 20171212
+   /ssssssssssshdmmNNmmyNMMMMhssssss/      Kernel: 6.8.0-41-generic
+  +ssssssssshmydMMMMMMMNddddyssssssss+     Uptime: 15 days, 2 hours, 29 mins
+ /sssssssshNMMMyhhyyyyhmNMMMNhssssssss/    Packages: 991 (dpkg)
+.ssssssssdMMMNhsssssssssshNMMMdssssssss.   Shell: zsh 5.9
++sssshhhyNMMNyssssssssssssyNMMMysssssss+   Resolution: 1024x768
+ossyNMMMNyMMhsssssssssssssshmmmhssssssso   Terminal: /dev/pts/0
+ossyNMMMNyMMhsssssssssssssshmmmhssssssso   CPU: DO-Regular (2) @ 2.294GHz
++sssshhhyNMMNyssssssssssssyNMMMysssssss+   GPU: 00:02.0 Red Hat, Inc. Virtio 1.0 GPU
+.ssssssssdMMMNhsssssssssshNMMMdssssssss.   Memory: 390MiB / 3916MiB
+ /sssssssshNMMMyhhyyyyhdNMMMNhssssssss/
+  +sssssssssdmydMMMMMMMMddddyssssssss+
+   /ssssssssssshdmNNNNmyNMMMMhssssss/
+    .ossssssssssssssssssdMMMNysssso.
+      -+sssssssssssssssssyyyssss+-
+        `:+ssssssssssssssssss+:`
+            .-/+oossssoo+/-.
+
+
+~/code
+> cd openssl
+
+~/code/openssl
+❯ ls -la
+total 8
+drwxr-xr-x   3 USER108  staff   96 Sep 20 14:22 .
+drwxr-xr-x  13 USER108  staff  416 Sep 20 14:04 ..
+-rw-r--r--   1 USER108  staff   54 Sep 20 14:22 master.txt
+
+~/code/openssl
+> export PWD=$(hostname)
+
+~/code/openssl
+> week
+38
+
+~/code/openssl
+> cal
+   September 2024
+Su Mo Tu We Th Fr Sa
+ 1  2  3  4  5  6  7
+ 8  9 10 11 12 13 14
+15 16 17 18 19 20 21
+22 23 24 25 26 27 28
+29 30
+
+~/code/openssl
+> export ITER=$(($(date +%s) / 1000000))
+
+~/code/openssl
+❯ openssl enc -aes-256-cbc -pbkdf2 -iter $ITER -in master.txt -k $PWD -a
+U2FsdGVkX1+/39qrCQ9rlxMW2E30ylTUXYS+GTAVDMUK0oXJvkUDBCRbhClK2GKYc50OQZ7zgLPBhkMW8CM5VVnZBrxfyH5CAG8nj5BPDCg=
+
+~/code/openssl
+❯ sudo shutdown -h now
