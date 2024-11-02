@@ -4,7 +4,7 @@ Author: nordbo
 Flag: `EPT{find_th3_p1n_f1nd_th3_fl4g}`
 ## Description
 ```
-{description}
+Find the vault password to get the flag.
 ```
 
 ## Provided challenge files

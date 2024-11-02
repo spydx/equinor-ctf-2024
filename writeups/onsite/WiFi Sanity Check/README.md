@@ -4,6 +4,6 @@ Author: nordbo
 Flag: `EPT{WIFI}`
 ## Description
 ```
-{description}
+Welcome to the CTF!
 ```
 

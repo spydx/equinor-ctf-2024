@@ -4,7 +4,7 @@ Author: Surprior
 Flag: `EPT{DOUBLECRYPTOFAIL}`
 ## Description
 ```
-{description}
+Fun with LFSRs and XOR! What could possibly go wrong?
 ```
 
 ## Provided challenge files

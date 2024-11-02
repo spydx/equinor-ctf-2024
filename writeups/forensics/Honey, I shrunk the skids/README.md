@@ -4,7 +4,8 @@ Author: LOLASL
 Flag: `EPT{it_works_the_machine_works!}`
 ## Description
 ```
-{description}
+My computer went to ransomland and all I got was this lousy pcap!
+Can you please help me unlock the FlagDisk.vhdx?
 ```
 
 ## Provided challenge files

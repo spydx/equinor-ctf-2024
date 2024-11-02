@@ -4,6 +4,8 @@ Author: zledge
 Flag: `EPT{z2641a3a}`
 ## Description
 ```
-{description}
+Let's play the Kusto Query Game!
+
+{{link}}
 ```
 
