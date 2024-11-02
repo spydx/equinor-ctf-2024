@@ -1,7 +1,7 @@
 # Chatlog
 Author: Surprior
 
-# Flag: `EPT{Shamir_is_up_2_something}`
+Flag: `EPT{Shamir_is_up_2_something}`
 ## Description
 ```
 {description}

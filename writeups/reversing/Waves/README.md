@@ -1,7 +1,7 @@
 # Waves
 Author: Surprior
 
-# Flag: `EPT{SEAOFSINUS}`
+Flag: `EPT{SEAOFSINUS}`
 ## Description
 ```
 {description}

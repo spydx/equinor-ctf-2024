@@ -1,7 +1,7 @@
 # Shop 4
 Author: null
 
-# Flag: `EPT{th0s3_f4ns_g0_brrrr}`
+Flag: `EPT{th0s3_f4ns_g0_brrrr}`
 ## Description
 ```
 {description}

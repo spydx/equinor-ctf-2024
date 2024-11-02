@@ -1,7 +1,7 @@
 # LFSXOR
 Author: Surprior
 
-# Flag: `EPT{DOUBLECRYPTOFAIL}`
+Flag: `EPT{DOUBLECRYPTOFAIL}`
 ## Description
 ```
 {description}
