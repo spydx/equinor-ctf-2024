@@ -1,7 +1,7 @@
 # 👶 Linux Levels 👶
 Author: EPT
 
-#Flag: `{'file': 'flag.txt'}`
+# Flag: `EPT{Some_unix_Commands_are_always_fun_to_know}`
 ## Description
 ```
 {description}

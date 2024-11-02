@@ -1,7 +1,7 @@
 # 🔥 Jærsk Julepwn 🔥
 Author: nordbo
 
-#Flag: `{'file': 'chall/flag.txt'}`
+# Flag: `EPT{759b757f1ae9e1c4572f0dee6590199e}`
 ## Description
 ```
 {description}

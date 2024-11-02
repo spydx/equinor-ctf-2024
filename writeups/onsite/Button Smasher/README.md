@@ -1,7 +1,7 @@
 # Button Smasher
 Author: vcpo, klarz
 
-#Flag: `EPT{6834636b3372}`
+# Flag: `EPT{6834636b3372}`
 ## Description
 ```
 {description}

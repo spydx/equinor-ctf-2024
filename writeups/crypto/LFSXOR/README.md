@@ -1,7 +1,7 @@
 # LFSXOR
 Author: Surprior
 
-#Flag: `{'file': 'flag.txt'}`
+# Flag: `EPT{DOUBLECRYPTOFAIL}`
 ## Description
 ```
 {description}

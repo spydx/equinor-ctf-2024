@@ -1,7 +1,7 @@
 # 👶 Let's bake 👶
 Author: iLoop
 
-#Flag: `{'file': 'flag.txt'}`
+# Flag: `EPT{Feed_Cookies_To_the_Monster}`
 ## Description
 ```
 {description}

@@ -1,7 +1,7 @@
 # The Kusto Query Game
 Author: zledge
 
-#Flag: `{'file': 'flag.txt'}`
+# Flag: `EPT{z2641a3a}`
 ## Description
 ```
 {description}

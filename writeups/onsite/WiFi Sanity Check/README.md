@@ -1,7 +1,7 @@
 # 👶 WiFi Sanity Check 👶
 Author: nordbo
 
-#Flag: `EPT{WIFI}`
+# Flag: `EPT{WIFI}`
 ## Description
 ```
 {description}

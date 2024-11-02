@@ -1,7 +1,7 @@
 # 👶 Images 👶
 Author: iLoop
 
-#Flag: `{'file': 'flag.txt'}`
+# Flag: `EPT{This_was_one_way_to_solve_this}`
 ## Description
 ```
 {description}

@@ -1,7 +1,7 @@
 # Vault
 Author: nordbo
 
-#Flag: `{'file': 'chall/flag.txt'}`
+# Flag: `EPT{find_th3_p1n_f1nd_th3_fl4g}`
 ## Description
 ```
 {description}

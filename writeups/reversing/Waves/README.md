@@ -1,7 +1,7 @@
 # Waves
 Author: Surprior
 
-#Flag: `{'file': 'flag.txt'}`
+# Flag: `EPT{SEAOFSINUS}`
 ## Description
 ```
 {description}

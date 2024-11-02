@@ -1,7 +1,7 @@
 # EPT Arcade Game
 Author: zledge
 
-#Flag: `{'file': 'flag.txt'}`
+# Flag: `EPT{b72b9f5611694c29b334c246f1d16a6d}`
 ## Description
 ```
 {description}

@@ -1,7 +1,7 @@
 # Run, Forrest! Revenge!
 Author: surprior
 
-#Flag: `{'file': 'flag.txt'}`
+# Flag: `EPT{missing_flag}`
 ## Description
 ```
 {description}

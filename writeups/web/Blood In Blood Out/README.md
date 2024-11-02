@@ -1,7 +1,7 @@
 # Blood In Blood Out
 Author: LOLASL
 
-#Flag: `{'file': 'flag.txt'}`
+# Flag: `EPT{vatos_locos_4_ever_ese!_<3}`
 ## Description
 ```
 {description}
