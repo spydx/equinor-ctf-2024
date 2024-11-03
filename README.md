@@ -85,6 +85,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[KQL Validation Service](/writeups/misc/KQL%20Validation%20Service)**
  - **[Linux Levels](/writeups/misc/Linux%20Levels)**
  - **[EPT Arcade Game](/writeups/misc/EPT%20Arcade%20Game)**
+	 - [koodl](/writeups/misc/EPT%20Arcade%20Game/koodl)  
  - **[Obsolete (user)](/writeups/misc/Obsolete%20(user))**
 ### crypto
  - **[Double Dip Dilemma](/writeups/crypto/Double%20Dip%20Dilemma)**
