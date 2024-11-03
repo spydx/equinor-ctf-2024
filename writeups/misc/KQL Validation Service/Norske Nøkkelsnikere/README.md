@@ -15,7 +15,7 @@ various [management commands](https://learn.microsoft.com/en-us/kusto/management
 
 ## Analysis
 
-Running prob queries for row(s) containing `EPT{` will reveal that the queries are not just *validated*, but actually
+Running probe queries for row(s) containing `EPT{` will reveal that the queries are not just *validated*, but actually
 run against the Data Explorer instance.
 
 **Query**:
