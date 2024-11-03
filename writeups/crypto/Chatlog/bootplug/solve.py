@@ -14,3 +14,4 @@ m = pow(ct, d, n) # decrypt ciphertext
 message = b2l(m) # decode message
 flag = re.findall(b'EPT\{.*\}', message)[0].decode() # regex the flag
 
+print(flag) # print flag 🥳
