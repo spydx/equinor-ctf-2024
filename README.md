@@ -53,6 +53,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 ### reversing
  - **[RotC](/writeups/reversing/RotC)**
  - **[Random Flag Generator](/writeups/reversing/Random%20Flag%20Generator)**
+	 - [koodl](/writeups/reversing/Random%20Flag%20Generator/koodl)  
  - **[Saint Rings](/writeups/reversing/Saint%20Rings)**
 	 - [koodl](/writeups/reversing/Saint%20Rings/koodl)  
  - **[Jrsk Julekort](/writeups/reversing/Jrsk%20Julekort)**
