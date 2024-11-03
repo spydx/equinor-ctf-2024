@@ -81,12 +81,12 @@ This was really interesting. We could listen to messages with `mosquitto_sub -v 
 
 We do not have a shell yet, so let's look for some other way in. Looking for Apache ActiveMQ exploits we find a metasploit exploit that could give us a reverse shell. It's called `multi/misc/apache_activemq_rce_cve_2023_46604`. Let's try it.
 
-Launching the metasploit console
+Launching the metasploit console.
 ```
 msfconsole
 ```
 
-Selecting the exploit we found
+Selecting the exploit we found.
 ```
 msf6 > use exploit/multi/misc/apache_activemq_rce_cve_2023_46604
 ```
