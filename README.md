@@ -74,6 +74,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Obsolete (root)](/writeups/misc/Obsolete%20(root))**
  - **[Leftovers](/writeups/misc/Leftovers)**
  - **[Basketball with Dad](/writeups/misc/Basketball%20with%20Dad)**
+	 - [telenor](/writeups/misc/Basketball%20with%20Dad/telenor)  
  - **[KQL Validation Service](/writeups/misc/KQL%20Validation%20Service)**
  - **[Linux Levels](/writeups/misc/Linux%20Levels)**
  - **[EPT Arcade Game](/writeups/misc/EPT%20Arcade%20Game)**
