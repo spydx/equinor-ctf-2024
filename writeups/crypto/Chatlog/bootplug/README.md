@@ -45,7 +45,7 @@ For example, take the fraction `37/7`, the following shows how one may expand it
 = 5 + 1/(3 + 1/(1 + 1/1))
 ```
 
-Notice how it keeps cascating, forming smaller and smaller fractions until we eventually reach `1/1`. The nice thing about cascading fractions is that is also allows us to find fractions which are close approximates to fractions with larger numerators and denominators, simply by ignoring the remainder after x number of steps. For instance, in the above example, an approximation for the fraction `37/7` would be `5 + 1/3 = 16/3`. It will soon be apparent why this is important.
+Notice how it keeps cascading, forming smaller and smaller fractions until we eventually reach `1/1`. The nice thing about continued fractions is that is also allows us to find small fractions which are close approximates to fractions with larger numerators and denominators, simply by ignoring the remainder after x number of steps. For instance, in the above example, an approximation for the fraction `37/7` would be `5 + 1/3 = 16/3`. It will soon be apparent why this is important.
 
 ## Wiener's attack: using continued fractions to recover d
 
