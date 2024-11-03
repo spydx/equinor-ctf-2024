@@ -96,7 +96,7 @@ def wiener(e, n):
     return None
 ```
 
-# FLAGZ
+# Challenge Solution
 
 For the solution, I used the python module [oweiner](https://github.com/orisano/owiener) which implements the attack. This was the most expedient way of solving the challenge, without having to implement the attack by hand.
 
