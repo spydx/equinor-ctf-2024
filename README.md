@@ -40,6 +40,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Jrsk Julepwn](/writeups/pwn/Jrsk%20Julepwn)**
  - **[VM](/writeups/pwn/VM)**
  - **[Baby bro pwn](/writeups/pwn/Baby%20bro%20pwn)**
+	 - [Equisør](/writeups/pwn/Baby%20bro%20pwn/Equisør)  
 ### forensics
  - **[Stealth Stealer](/writeups/forensics/Stealth%20Stealer)**
  - **[Honey, I shrunk the skids](/writeups/forensics/Honey,%20I%20shrunk%20the%20skids)**
@@ -53,7 +54,9 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 ### reversing
  - **[RotC](/writeups/reversing/RotC)**
  - **[Random Flag Generator](/writeups/reversing/Random%20Flag%20Generator)**
+	 - [koodl](/writeups/reversing/Random%20Flag%20Generator/koodl)  
  - **[Saint Rings](/writeups/reversing/Saint%20Rings)**
+	 - [koodl](/writeups/reversing/Saint%20Rings/koodl)  
  - **[Jrsk Julekort](/writeups/reversing/Jrsk%20Julekort)**
  - **[Find Me](/writeups/reversing/Find%20Me)**
  - **[Waves](/writeups/reversing/Waves)**
@@ -76,6 +79,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[The Kusto Query Game](/writeups/misc/The%20Kusto%20Query%20Game)**
 	 - [HASH GOBLINS](/writeups/misc/The%20Kusto%20Query%20Game/HASH%20GOBLINS)  
  - **[Canvas Curve](/writeups/misc/Canvas%20Curve)**
+	 - [Equisør](/writeups/misc/Canvas%20Curve/Equisør)  
  - **[SQL 101](/writeups/misc/SQL%20101)**
  - **[Digital Archives](/writeups/misc/Digital%20Archives)**
  - **[Obsolete (root)](/writeups/misc/Obsolete%20(root))**
@@ -85,9 +89,13 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[KQL Validation Service](/writeups/misc/KQL%20Validation%20Service)**
  - **[Linux Levels](/writeups/misc/Linux%20Levels)**
  - **[EPT Arcade Game](/writeups/misc/EPT%20Arcade%20Game)**
+	 - [koodl](/writeups/misc/EPT%20Arcade%20Game/koodl)  
  - **[Obsolete (user)](/writeups/misc/Obsolete%20(user))**
 ### crypto
  - **[Double Dip Dilemma](/writeups/crypto/Double%20Dip%20Dilemma)**
+	 - [bootplug](/writeups/crypto/Double%20Dip%20Dilemma/bootplug)  
  - **[LFSXOR](/writeups/crypto/LFSXOR)**
+	 - [bootplug](/writeups/crypto/LFSXOR/bootplug)  
  - **[Chatlog](/writeups/crypto/Chatlog)**
+	 - [bootplug](/writeups/crypto/Chatlog/bootplug)  
 
