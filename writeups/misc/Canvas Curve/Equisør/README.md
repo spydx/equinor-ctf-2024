@@ -18,7 +18,7 @@ function tick() {
                     var xhit = Math.abs((Math.floor(this.snakeArray[snake].x)) - (this.apples[this.currentApplePosition].x)) <=10;
                     var yhit = Math.abs((Math.floor(this.snakeArray[snake].y)) - (this.apples[this.currentApplePosition].y)) <=10;
 -                   if(xhit && yhit){
-+                   if(true){           
++                   if(true){
                         this.collectedApples.pushTitle(this.apples[this.currentApplePosition]);
                         delete this.apples[this.currentApplePosition];Title
 
@@ -32,8 +32,8 @@ function tick() {
                 }
 
 ```
+![Flag](flag.png)
 
-<video controls src="example.mp4" title="Example Video"></video>
 
 ## Explanation
 There were **three things** we found that pointed us to client side JavaScript code:
@@ -76,5 +76,5 @@ function tick() {
 ```
 **After modifying we see the flag printed on the webpage:**
 
-![Flag](explanation.png)
+![Flag](flag.png)
 EPT{DI3_COMIC_CurV3}
