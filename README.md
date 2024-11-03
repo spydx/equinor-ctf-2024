@@ -21,6 +21,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 
 ### onsite
  - **[EPT Printer](/writeups/onsite/EPT%20Printer)**
+	 - [the-nio](/writeups/onsite/EPT%20Printer/the-nio)  
  - **[Wooden Treasure Chest](/writeups/onsite/Wooden%20Treasure%20Chest)**
  - **[Pixel Perfect](/writeups/onsite/Pixel%20Perfect)**
  - **[EPT Cyber Range 12aplha_release9d GOLD EDITION](/writeups/onsite/EPT%20Cyber%20Range%2012aplha_release9d%20GOLD%20EDITION)**
