@@ -7,7 +7,7 @@ TL;DR: Wiener's attack.
 
 This writeup will give a more deep-dive coverage of how this attack works under the hood. Many years ago I also co-authored a [CryptoBook article](https://cryptohack.gitbook.io/cryptobook/untitled/low-private-component-attacks/wieners-attack) on this attack which I recommend checking out.
 
-During the CTF, I simply found an old script for the attack and ran it. But I want to share how this attack actually works, so that 
+During the CTF, I simply found a script for the attack on GitHub and ran it. But I want to share how this attack actually works, so that you can get a more thorough understanding of how one would approach this type of problem.
 
 ## Introduction 
 

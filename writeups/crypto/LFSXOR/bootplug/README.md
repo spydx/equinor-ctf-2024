@@ -1,6 +1,8 @@
 
 # LFSXOR
 
+*Writeup by Sithis/solem.dev of team bootplug*
+
 We are given a `.bmp` image file and a python script used for image encryption. The bitmap image looks at first glance to be pure noise. The python script looks like som sort of [Linear-Feedback Shift Register](https://en.wikipedia.org/wiki/Linear-feedback_shift_register). This challenge also requires having a bit of knowledge about the XOR-operation and its properties when used in cryptography, have a look at my writeup on Double Dip Dilemma on how that works.
 
 # LFSR
@@ -13,7 +15,7 @@ This PRNG will at most have a preiod equal to the number of possible internal st
 
 # Challenge Solution
 
-The first step is to check the period of the LFSR. We may due this by simulating the generation of bytes with a random seed until we get an internal state that equals the initial seed; this will indicate that the LFSR as circled back to its initial state, and will thus start repeating itself. The number of steps before it reaches this point of repition is known as the *period.*
+The first step is to check the period of the LFSR. We may due this by simulating the generation of bytes with a random seed until we get an internal state that equals the initial seed; this will indicate that the LFSR has circled back to its initial state, and will thus start repeating itself. The number of steps before it reaches this point of repition is known as the *period.*
 
 Credits to feynman137 who found that the LFSR had a short period:
 

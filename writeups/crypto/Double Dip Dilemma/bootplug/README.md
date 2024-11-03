@@ -1,11 +1,13 @@
 
 # Double Dip Dilemma
 
+*Writeup by Sithis/solem.dev of team bootplug*
+
 We're given a file `intercept.txt` containing one plaintext and two ciphertexts. The messages are encrypted with a so-called [One-Time Pad](https://en.wikipedia.org/wiki/One-time_pad) (OTP). This is a very simple form of encryption which relies of bitwise XORing a message with a random binary sequence. As the name implies, the pad may only be used once. Using the pad twice allows an attacker to recover it using the inherent properties of XOR.
 
-# XOR
+# Exclusive OR
 
-XOR is a bit operation between two or more bits. For two bits, this operation will be `1` if and only if the two bits are different, and `0` otherwise. This operation has a nice property in that it functions as both a commutative operation and as its own inverse operation, which makes it very handy for cryptograpy IF used cautiously. This operation is usually denoted as an encircled plus-sign `⊕`, usually programming languages denote it with the caret sign `^` (not to be confused with exponentiation, which is often denoted as a double asterisk `**`). In general, any number of input bits, the XOR-operation whether there is an odd number of `1`; this property is known as "parity" and is handy in e.g. error correction algorithms.
+Exclusive OR, called *XOR* for short, is a bit operation between two or more bits. For two bits, this operation will be `1` if and only if the two bits are different, and `0` otherwise. This operation has a nice property in that it functions as both a commutative operation and as its own inverse operation, which makes it very handy for cryptograpy IF used cautiously. This operation is usually denoted as an encircled plus-sign `⊕`, usually programming languages denote it with the caret sign `^` (not to be confused with exponentiation, which is often denoted as a double asterisk `**`). In general, any number of input bits, the XOR-operation whether there is an odd number of `1`; this property is known as "parity" and is handy in e.g. error correction algorithms.
 
 Here is a truth table of the XOR operation
 
