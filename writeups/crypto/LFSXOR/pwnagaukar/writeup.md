@@ -92,4 +92,6 @@ Decrypting using the key `2525603961` we get
 
 ![](flag.bmp)
 
-Although this is not the correct key, we can still read the flag `EPT{DOUBLECRYPTOFAIL}`
+Although this is not the correct key, we can still read the flag `EPT{DOUBLECRYPTOFAIL}`.
+
+Easy first blood.
