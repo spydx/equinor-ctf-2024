@@ -4,8 +4,8 @@ import re
 
 chat_log = open('chat.log','r').read()
 
-params = re.findall(r'[0-9a-f]{20,}',chat_log) # capture long numbers
-n, e, ct = map(lambda x:int(x), params) # convert hex strings to long types
+params = re.findall(r'[0-9]{20,}',chat_log) # capture long digit sequences
+n, e, ct = map(lambda x:int(x), params) # convert digit sequences to long types (integers)
 
 d = owiener.attack(e, n) # run attack to recover private key
 assert not d is None, "Attack failed" # assert that the private key was found
