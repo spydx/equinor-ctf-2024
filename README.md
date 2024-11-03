@@ -59,6 +59,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Waves](/writeups/reversing/Waves)**
 ### web
  - **[Shop 5](/writeups/web/Shop%205)**
+	 - [telenor](/writeups/web/Shop%205/telenor)  
  - **[Use the source](/writeups/web/Use%20the%20source)**
  - **[EPT Security Hub](/writeups/web/EPT%20Security%20Hub)**
  - **[Shop 4](/writeups/web/Shop%204)**
