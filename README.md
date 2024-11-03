@@ -70,6 +70,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [SIFI](/writeups/web/Blood%20In%20Blood%20Out/SIFI)  
 ### misc
  - **[EPT Got talent](/writeups/misc/EPT%20Got%20talent)**
+	 - [Norske Nøkkelsnikere](/writeups/misc/EPT%20Got%20talent/Norske%20Nøkkelsnikere)  
  - **[QR Madness](/writeups/misc/QR%20Madness)**
 	 - [Statskanalen](/writeups/misc/QR%20Madness/Statskanalen)  
  - **[The Kusto Query Game](/writeups/misc/The%20Kusto%20Query%20Game)**
