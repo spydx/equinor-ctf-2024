@@ -26,6 +26,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[EPT Cyber Range 12aplha_release9d GOLD EDITION](/writeups/onsite/EPT%20Cyber%20Range%2012aplha_release9d%20GOLD%20EDITION)**
  - **[Run, Forrest! Revenge!](/writeups/onsite/Run,%20Forrest!%20Revenge!)**
  - **[WiFi Sanity Check](/writeups/onsite/WiFi%20Sanity%20Check)**
+	 - [Norske Nøkkelsnikere](/writeups/onsite/WiFi%20Sanity%20Check/Norske%20Nøkkelsnikere)  
  - **[Walkabout](/writeups/onsite/Walkabout)**
  - **[Button Smasher](/writeups/onsite/Button%20Smasher)**
 ### realworld
