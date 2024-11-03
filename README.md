@@ -70,6 +70,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[EPT Got talent](/writeups/misc/EPT%20Got%20talent)**
  - **[QR Madness](/writeups/misc/QR%20Madness)**
  - **[The Kusto Query Game](/writeups/misc/The%20Kusto%20Query%20Game)**
+	 - [HASH GOBLINS](/writeups/misc/The%20Kusto%20Query%20Game/HASH%20GOBLINS)  
  - **[Canvas Curve](/writeups/misc/Canvas%20Curve)**
  - **[SQL 101](/writeups/misc/SQL%20101)**
  - **[Digital Archives](/writeups/misc/Digital%20Archives)**
