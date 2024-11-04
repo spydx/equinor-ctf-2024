@@ -3,6 +3,11 @@ Task Author: LOLASL
 
 Writeup author: Raresh1t (SIFI)
 
+CVE exploited: Sensitive Information leak in Apache Tomcat available through version 9.0.43
+
+CVE-2024-21733
+
+
 **Task text:** 
 
 *Hey carnal, sometimes you gotta slide in a little extra something for the homies. Theres a placa looking every minute so keep it tight, ese.*
