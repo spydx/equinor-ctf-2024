@@ -97,6 +97,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Basketball with Dad](/writeups/misc/Basketball%20with%20Dad)**
 	 - [telenor](/writeups/misc/Basketball%20with%20Dad/telenor)  
  - **[KQL Validation Service](/writeups/misc/KQL%20Validation%20Service)**
+	 - [HASH GOBLINS](/writeups/misc/KQL%20Validation%20Service/HASH%20GOBLINS)  
 	 - [Norske Nøkkelsnikere](/writeups/misc/KQL%20Validation%20Service/Norske%20Nøkkelsnikere)  
  - **[Linux Levels](/writeups/misc/Linux%20Levels)**
  - **[EPT Arcade Game](/writeups/misc/EPT%20Arcade%20Game)**
