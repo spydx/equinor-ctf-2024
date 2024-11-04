@@ -36,6 +36,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[OMM API (user)](/writeups/realworld/OMM%20API%20(user))**
  - **[OMM API (root)](/writeups/realworld/OMM%20API%20(root))**
  - **[Prime Time (root)](/writeups/realworld/Prime%20Time%20(root))**
+	 - [Equisør](/writeups/realworld/Prime%20Time%20(root)/Equisør)  
  - **[Prime Time (user)](/writeups/realworld/Prime%20Time%20(user))**
 	 - [Equisør](/writeups/realworld/Prime%20Time%20(user)/Equisør)  
 ### pwn
