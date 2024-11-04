@@ -90,6 +90,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [Equisør](/writeups/misc/Canvas%20Curve/Equisør)  
  - **[SQL 101](/writeups/misc/SQL%20101)**
  - **[Digital Archives](/writeups/misc/Digital%20Archives)**
+	 - [UiACTF](/writeups/misc/Digital%20Archives/UiACTF)  
  - **[Obsolete (root)](/writeups/misc/Obsolete%20(root))**
  - **[Leftovers](/writeups/misc/Leftovers)**
 	 - [arctic_anon](/writeups/misc/Leftovers/arctic_anon)  
