@@ -42,6 +42,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Vault](/writeups/pwn/Vault)**
  - **[Jrsk Julepwn](/writeups/pwn/Jrsk%20Julepwn)**
  - **[VM](/writeups/pwn/VM)**
+	 - [Iku-toppene](/writeups/pwn/VM/Iku-toppene)  
  - **[Baby bro pwn](/writeups/pwn/Baby%20bro%20pwn)**
 	 - [Equisør](/writeups/pwn/Baby%20bro%20pwn/Equisør)  
 ### forensics
