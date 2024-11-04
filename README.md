@@ -36,6 +36,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[OMM API (root)](/writeups/realworld/OMM%20API%20(root))**
  - **[Prime Time (root)](/writeups/realworld/Prime%20Time%20(root))**
  - **[Prime Time (user)](/writeups/realworld/Prime%20Time%20(user))**
+	 - [Equisør](/writeups/realworld/Prime%20Time%20(user)/Equisør)  
 ### pwn
  - **[Vault](/writeups/pwn/Vault)**
  - **[Jrsk Julepwn](/writeups/pwn/Jrsk%20Julepwn)**
@@ -54,6 +55,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Excellent (root)](/writeups/boot2root/Excellent%20(root))**
 ### reversing
  - **[RotC](/writeups/reversing/RotC)**
+	 - [koodl](/writeups/reversing/RotC/koodl)  
  - **[Random Flag Generator](/writeups/reversing/Random%20Flag%20Generator)**
 	 - [koodl](/writeups/reversing/Random%20Flag%20Generator/koodl)  
  - **[Saint Rings](/writeups/reversing/Saint%20Rings)**
@@ -88,6 +90,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Basketball with Dad](/writeups/misc/Basketball%20with%20Dad)**
 	 - [telenor](/writeups/misc/Basketball%20with%20Dad/telenor)  
  - **[KQL Validation Service](/writeups/misc/KQL%20Validation%20Service)**
+	 - [Norske Nøkkelsnikere](/writeups/misc/KQL%20Validation%20Service/Norske%20Nøkkelsnikere)  
  - **[Linux Levels](/writeups/misc/Linux%20Levels)**
  - **[EPT Arcade Game](/writeups/misc/EPT%20Arcade%20Game)**
 	 - [koodl](/writeups/misc/EPT%20Arcade%20Game/koodl)  
