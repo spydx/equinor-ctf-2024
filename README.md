@@ -31,6 +31,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Walkabout](/writeups/onsite/Walkabout)**
 	 - [mneF00](/writeups/onsite/Walkabout/mneF00)  
  - **[Button Smasher](/writeups/onsite/Button%20Smasher)**
+	 - [corax](/writeups/onsite/Button%20Smasher/corax)  
 ### realworld
  - **[OMM API (user)](/writeups/realworld/OMM%20API%20(user))**
  - **[OMM API (root)](/writeups/realworld/OMM%20API%20(root))**
