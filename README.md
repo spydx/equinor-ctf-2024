@@ -96,6 +96,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Double Dip Dilemma](/writeups/crypto/Double%20Dip%20Dilemma)**
 	 - [bootplug](/writeups/crypto/Double%20Dip%20Dilemma/bootplug)  
  - **[LFSXOR](/writeups/crypto/LFSXOR)**
+	 - [pwnagaukar](/writeups/crypto/LFSXOR/pwnagaukar)  
 	 - [bootplug](/writeups/crypto/LFSXOR/bootplug)  
  - **[Chatlog](/writeups/crypto/Chatlog)**
 	 - [bootplug](/writeups/crypto/Chatlog/bootplug)  
