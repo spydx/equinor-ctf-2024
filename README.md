@@ -29,6 +29,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[WiFi Sanity Check](/writeups/onsite/WiFi%20Sanity%20Check)**
 	 - [Norske Nøkkelsnikere](/writeups/onsite/WiFi%20Sanity%20Check/Norske%20Nøkkelsnikere)  
  - **[Walkabout](/writeups/onsite/Walkabout)**
+	 - [mneF00](/writeups/onsite/Walkabout/mneF00)  
  - **[Button Smasher](/writeups/onsite/Button%20Smasher)**
 ### realworld
  - **[OMM API (user)](/writeups/realworld/OMM%20API%20(user))**
