@@ -88,6 +88,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Digital Archives](/writeups/misc/Digital%20Archives)**
  - **[Obsolete (root)](/writeups/misc/Obsolete%20(root))**
  - **[Leftovers](/writeups/misc/Leftovers)**
+	 - [arctic_anon](/writeups/misc/Leftovers/arctic_anon)  
  - **[Basketball with Dad](/writeups/misc/Basketball%20with%20Dad)**
 	 - [telenor](/writeups/misc/Basketball%20with%20Dad/telenor)  
  - **[KQL Validation Service](/writeups/misc/KQL%20Validation%20Service)**
