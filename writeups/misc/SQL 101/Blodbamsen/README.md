@@ -17,7 +17,7 @@ Okay, an excellent place to start is intercepting some traffic with Burp. By usi
 We can either try our luck to find the one login form that supposedly is vulnerable -- **or** -- try them all as fast as we can.
 
 The first step is to identify all the different forms and endpoints.
-Here Python with a bit of help from bs4 and requests.
+Here Python with a bit of help from bs4 and requests. 
 
 ```py
 # Function to retrieve login endpoints from the main page
