@@ -95,7 +95,7 @@ sudo /opt/CSCOlumos/rcmds/hmadmin.sh
 
 
 ```
-`hmadmin.sh` just read our local, custom, init.sh script and not the one in `/opt/CSCOlumos/rcmds/`!
+*`hmadmin.sh` just read our local, custom, init.sh script and not the one in `/opt/CSCOlumos/rcmds/`!*
 
 We now see a shell connecting to our socket! 🎉
 ```
