@@ -51,6 +51,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Shadows of the Past](/writeups/forensics/Shadows%20of%20the%20Past)**
  - **[Phantom Phish](/writeups/forensics/Phantom%20Phish)**
  - **[Event Horizon](/writeups/forensics/Event%20Horizon)**
+	 - [RumbleInTheJungle](/writeups/forensics/Event%20Horizon/RumbleInTheJungle)  
  - **[Red Alert](/writeups/forensics/Red%20Alert)**
 ### boot2root
  - **[Excellent (user)](/writeups/boot2root/Excellent%20(user))**
