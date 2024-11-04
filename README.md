@@ -74,6 +74,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Shop 4](/writeups/web/Shop%204)**
  - **[Images](/writeups/web/Images)**
  - **[Shop 6](/writeups/web/Shop%206)**
+	 - [Datasnok](/writeups/web/Shop%206/Datasnok)  
  - **[Let's bake](/writeups/web/Let's%20bake)**
  - **[Blood In Blood Out](/writeups/web/Blood%20In%20Blood%20Out)**
 	 - [EPT](/writeups/web/Blood%20In%20Blood%20Out/EPT)  
