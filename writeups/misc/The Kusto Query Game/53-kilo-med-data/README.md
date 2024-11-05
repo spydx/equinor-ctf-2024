@@ -29,7 +29,7 @@ We can try to use one of the example queries from the main page to return the co
 
 ![example queries](example_queries.png)
 
-But we are told that using "take" is cheating :(
+But when trying `StormEvents | take <n>` are told that using "take" is cheating :(
 
 !["take" gives us "cheating is not allowed"](take.png)
 
