@@ -51,6 +51,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [Iku-toppene](/writeups/pwn/VM/Iku-toppene)  
  - **[Baby bro pwn](/writeups/pwn/Baby%20bro%20pwn)**
 	 - [Equisør](/writeups/pwn/Baby%20bro%20pwn/Equisør)  
+	 - [bwnfools](/writeups/pwn/Baby%20bro%20pwn/bwnfools)  
 ### forensics
  - **[Stealth Stealer](/writeups/forensics/Stealth%20Stealer)**
  - **[Honey, I shrunk the skids](/writeups/forensics/Honey,%20I%20shrunk%20the%20skids)**
