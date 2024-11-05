@@ -78,7 +78,7 @@ else
 fi
 ```
 
-The script gets the username and group of the owner of the file, and checks that it match the `User` and `Group` the service is set to run as. This check is however not bulletproff, as it only checks if `User=f_omm_app` and `Group=f_omm_app` *exist* in the service file. So what happens if the service file contains the following?
+The script gets the username and group of the owner of the file, and checks if it matches the `User` and `Group` set in the service file. The intention of this is to make users only able to create services running with the same privilege level as them. This check is however not bulletproff, as it only checks if `User=f_omm_app` and `Group=f_omm_app` *exist* in the service file. So what happens if the service file contains the following?
 ```
 User=f_omm_app
 Group=f_omm_app
