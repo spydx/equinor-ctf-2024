@@ -107,6 +107,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [HASH GOBLINS](/writeups/misc/KQL%20Validation%20Service/HASH%20GOBLINS)  
 	 - [Norske Nøkkelsnikere](/writeups/misc/KQL%20Validation%20Service/Norske%20Nøkkelsnikere)  
  - **[Linux Levels](/writeups/misc/Linux%20Levels)**
+	 - [arctic_anon](/writeups/misc/Linux%20Levels/arctic_anon)  
  - **[EPT Arcade Game](/writeups/misc/EPT%20Arcade%20Game)**
 	 - [koodl](/writeups/misc/EPT%20Arcade%20Game/koodl)  
  - **[Obsolete (user)](/writeups/misc/Obsolete%20(user))**
