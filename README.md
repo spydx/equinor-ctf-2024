@@ -56,6 +56,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Honey, I shrunk the skids](/writeups/forensics/Honey,%20I%20shrunk%20the%20skids)**
  - **[Shadows of the Past](/writeups/forensics/Shadows%20of%20the%20Past)**
  - **[Phantom Phish](/writeups/forensics/Phantom%20Phish)**
+	 - [arctic_anon](/writeups/forensics/Phantom%20Phish/arctic_anon)  
  - **[Event Horizon](/writeups/forensics/Event%20Horizon)**
 	 - [RumbleInTheJungle](/writeups/forensics/Event%20Horizon/RumbleInTheJungle)  
  - **[Red Alert](/writeups/forensics/Red%20Alert)**
