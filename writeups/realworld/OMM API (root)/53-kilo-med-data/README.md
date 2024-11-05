@@ -1,5 +1,5 @@
 # OMM API root
-*Disclaimer: We solved this challenge after the CTF had ended*
+*Disclaimer: We solved this challenge after the CTF had ended. During the ctf we got to the very last step trying to bypass the if-check.*
 
 <p align="center">
     <img src="img/omm_api_root_chall.png" alt="Challenge" width="500"/>
