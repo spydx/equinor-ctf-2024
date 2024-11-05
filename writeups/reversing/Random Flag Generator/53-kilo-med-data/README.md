@@ -58,5 +58,5 @@ public class RandomFlagGenerator {
 The program base64 decodes `var1` and xor it with the string `Den e brun`. It then uses the result of the xor to generate and print a random flag. Because `var4` is not the correct flag, it is reasonable to think that `var3` might be the *decrypted* flag, so we base64 decode `var1` and xor it with `var2` with [CyberChef](https://gchq.github.io/CyberChef/).
 
 <p align="center">
-    <img src="img/random_flag_gen_flag.png" alt="Flag" width="500"/>
+    <img src="img/random_flag_gen_flag.png" alt="Flag" width="700"/>
 </p>
