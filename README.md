@@ -77,6 +77,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Shop 4](/writeups/web/Shop%204)**
 	 - [53-kilo-med-data](/writeups/web/Shop%204/53-kilo-med-data)  
 	 - [bwnfools](/writeups/web/Shop%204/bwnfools)  
+	 - [Blodbamsen](/writeups/web/Shop%204/Blodbamsen)  
  - **[Images](/writeups/web/Images)**
  - **[Shop 6](/writeups/web/Shop%206)**
 	 - [Datasnok](/writeups/web/Shop%206/Datasnok)  
@@ -93,6 +94,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [HASH GOBLINS](/writeups/misc/The%20Kusto%20Query%20Game/HASH%20GOBLINS)  
  - **[Canvas Curve](/writeups/misc/Canvas%20Curve)**
 	 - [Equisør](/writeups/misc/Canvas%20Curve/Equisør)  
+	 - [Norske Nøkkelsnikere](/writeups/misc/Canvas%20Curve/Norske%20Nøkkelsnikere)  
  - **[SQL 101](/writeups/misc/SQL%20101)**
 	 - [Blodbamsen](/writeups/misc/SQL%20101/Blodbamsen)  
  - **[Digital Archives](/writeups/misc/Digital%20Archives)**
@@ -106,15 +108,18 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [HASH GOBLINS](/writeups/misc/KQL%20Validation%20Service/HASH%20GOBLINS)  
 	 - [Norske Nøkkelsnikere](/writeups/misc/KQL%20Validation%20Service/Norske%20Nøkkelsnikere)  
  - **[Linux Levels](/writeups/misc/Linux%20Levels)**
+	 - [arctic_anon](/writeups/misc/Linux%20Levels/arctic_anon)  
  - **[EPT Arcade Game](/writeups/misc/EPT%20Arcade%20Game)**
 	 - [koodl](/writeups/misc/EPT%20Arcade%20Game/koodl)  
  - **[Obsolete (user)](/writeups/misc/Obsolete%20(user))**
 ### crypto
  - **[Double Dip Dilemma](/writeups/crypto/Double%20Dip%20Dilemma)**
 	 - [bootplug](/writeups/crypto/Double%20Dip%20Dilemma/bootplug)  
+	 - [Norske Nøkkelsnikere](/writeups/crypto/Double%20Dip%20Dilemma/Norske%20Nøkkelsnikere)  
  - **[LFSXOR](/writeups/crypto/LFSXOR)**
 	 - [pwnagaukar](/writeups/crypto/LFSXOR/pwnagaukar)  
 	 - [bootplug](/writeups/crypto/LFSXOR/bootplug)  
+	 - [Norske Nøkkelsnikere](/writeups/crypto/LFSXOR/Norske%20Nøkkelsnikere)  
  - **[Chatlog](/writeups/crypto/Chatlog)**
 	 - [bootplug](/writeups/crypto/Chatlog/bootplug)  
 
