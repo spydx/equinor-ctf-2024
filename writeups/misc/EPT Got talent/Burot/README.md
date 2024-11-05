@@ -46,7 +46,7 @@ Then we open the file and insert our written code using our chosen method I will
 
 ![picture of the bash script](bashscript.PNG)
 
-then we run the command with the linux command
+then we run the script with the linux command
 >**source find_flag.sh**
 
 ![picture of result from script](secret_file_found.PNG)
