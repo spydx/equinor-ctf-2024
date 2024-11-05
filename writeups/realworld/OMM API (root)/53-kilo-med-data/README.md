@@ -1,5 +1,5 @@
 # OMM API root
-*Disclaimer: We solved this challenge after the CTF had ended. During the ctf we got to the very last step trying to bypass the if-check.*
+*Disclaimer: We solved this challenge after the CTF had ended. During the ctf we got to the very last step trying to bypass the if-check, but ran out of time.*
 
 <p align="center">
     <img src="img/omm_api_root_chall.png" alt="Challenge" width="500"/>
@@ -60,8 +60,8 @@ appsysctladd: Looking up systemctl services for  under /dev/shm
 appsysctladd: /dev/shm/ip-10-128-3-164/test.service was rejected. User and Group must match file user and group
 ```
 
-Unfortunately, that would be too easy. Looking closer into the `/prog/util/sbin/appsysctladd` script we can see the following check:
-```
+Unfortunately, that would be too easy. Looking closer into the `/prog/util/sbin/appsysctladd` script we can see the following if-check:
+```bash
 U=$( stat -c '%U' "${SRV}" )
 G=$( stat -c '%G' "${SRV}" )
 
@@ -79,7 +79,7 @@ fi
 ```
 
 The script gets the username and group of the owner of the file, and checks that it match the `User` and `Group` the service is set to run as. This check is however not bulletproff, as it only checks if `User=f_omm_app` and `Group=f_omm_app` *exist* in the service file. So what happens if the service file contains the following?
-```¨
+```
 User=f_omm_app
 Group=f_omm_app
 User=root
