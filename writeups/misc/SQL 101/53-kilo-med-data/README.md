@@ -1,4 +1,4 @@
-## SQL 101
+# SQL 101
 <p align="center">
     <img src="img/sql101_chall.png" alt="Challenge" width="500"/>
 </p>
