@@ -36,7 +36,7 @@ echo "OK"
 The command `/usr/bin/systemctl restart *` allows us to restart the systemctl services, but does not turn out to be very useful for us.
 
 [/prog/util/sbin/appsysctladd](./appsysctladd.sh) is the most interesting script that we can run.
-`appsysctladd` is a bash script which takes one or more directories as arguments. For each directory-argument given it searches for the directory `$HOSTNAME` and starts each `.service` file as a `systemctl` service. This means that if we create a service file with `User=root` the created service should execute our defined command as `root`!
+`appsysctladd` is a bash script which takes one or more directories as arguments. For each directory-argument given it searches for the directory `$HOSTNAME` in it and starts `systemctl` services for each `.service` file located in that directory. This means that if we create a service file with `User=root` the created service should execute our defined command as `root`!
 ```
 f_omm_app@ip-10-128-3-164:/dev/shm$ ls
 eic-hostkey-MGy07Txb  ip-10-128-3-164
