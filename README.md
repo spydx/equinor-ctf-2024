@@ -91,6 +91,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[QR Madness](/writeups/misc/QR%20Madness)**
 	 - [Statskanalen](/writeups/misc/QR%20Madness/Statskanalen)  
  - **[The Kusto Query Game](/writeups/misc/The%20Kusto%20Query%20Game)**
+	 - [53-kilo-med-data](/writeups/misc/The%20Kusto%20Query%20Game/53-kilo-med-data)  
 	 - [HASH GOBLINS](/writeups/misc/The%20Kusto%20Query%20Game/HASH%20GOBLINS)  
  - **[Canvas Curve](/writeups/misc/Canvas%20Curve)**
 	 - [53-kilo-med-data](/writeups/misc/Canvas%20Curve/53-kilo-med-data)  
