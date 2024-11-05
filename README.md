@@ -93,6 +93,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[The Kusto Query Game](/writeups/misc/The%20Kusto%20Query%20Game)**
 	 - [HASH GOBLINS](/writeups/misc/The%20Kusto%20Query%20Game/HASH%20GOBLINS)  
  - **[Canvas Curve](/writeups/misc/Canvas%20Curve)**
+	 - [53-kilo-med-data](/writeups/misc/Canvas%20Curve/53-kilo-med-data)  
 	 - [Equisør](/writeups/misc/Canvas%20Curve/Equisør)  
 	 - [Norske Nøkkelsnikere](/writeups/misc/Canvas%20Curve/Norske%20Nøkkelsnikere)  
  - **[SQL 101](/writeups/misc/SQL%20101)**
