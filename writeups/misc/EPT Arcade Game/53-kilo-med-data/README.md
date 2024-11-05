@@ -47,12 +47,12 @@ Looking at the html-code of the webpage we see the following:
 </html>
 ```
 
-The `target_url` is interesting. It references what seems like an Azure Blob storage, where it stores its image files. Without any knowledge of how this could be useful googling `ctf blob.core.windows.net` lead to [this](https://braropad.medium.com/azure-pentesting-exploiting-the-anonymous-access-to-the-blob-storage-draft-english-d80f3831a590) writeup of a similar challenge. It seems that if `anonymous access` is enabled for this type of storage, requesting the url `<StorageAccountName>.blob.core.windows.net/<ContainerName>?restype=container&comp=list` will list the files stored within this container. The `ContainerName` is in our case `private`, and requesting the url lists the following three files:
+The `target_url` is interesting. It references what seems like an Azure Blob storage, where it stores its image files. Without any knowledge of how this could be useful, googling `ctf blob.core.windows.net` lead to [this](https://braropad.medium.com/azure-pentesting-exploiting-the-anonymous-access-to-the-blob-storage-draft-english-d80f3831a590) writeup of a similar challenge. It seems that if `anonymous access` is enabled for this type of storage, requesting the url `<StorageAccountName>.blob.core.windows.net/<ContainerName>?restype=container&comp=list` will list the files stored within this container. The `ContainerName` is in our case `private`, and requesting the url lists the following three files:
 - `ept.png`
 - `ept.svg`
 - `flag-1s-h3r3.txt`
 
-We now have the name of the flag-file.
+We can then just get the flag from the storage.
 ```
 $ curl https://<StorageAccountName>.blob.core.windows.net/private/flag-1s-h3r3.txt
 EPT{b72b9f5611694c29b334c246f1d16a6d}
