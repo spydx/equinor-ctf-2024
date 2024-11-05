@@ -34,13 +34,17 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [corax](/writeups/onsite/Button%20Smasher/corax)  
 ### realworld
  - **[OMM API (user)](/writeups/realworld/OMM%20API%20(user))**
+	 - [53-kilo-med-data](/writeups/realworld/OMM%20API%20(user)/53-kilo-med-data)  
  - **[OMM API (root)](/writeups/realworld/OMM%20API%20(root))**
  - **[Prime Time (root)](/writeups/realworld/Prime%20Time%20(root))**
+	 - [53-kilo-med-data](/writeups/realworld/Prime%20Time%20(root)/53-kilo-med-data)  
 	 - [Equisør](/writeups/realworld/Prime%20Time%20(root)/Equisør)  
  - **[Prime Time (user)](/writeups/realworld/Prime%20Time%20(user))**
+	 - [53-kilo-med-data](/writeups/realworld/Prime%20Time%20(user)/53-kilo-med-data)  
 	 - [Equisør](/writeups/realworld/Prime%20Time%20(user)/Equisør)  
 ### pwn
  - **[Vault](/writeups/pwn/Vault)**
+	 - [53-kilo-med-data](/writeups/pwn/Vault/53-kilo-med-data)  
  - **[Jrsk Julepwn](/writeups/pwn/Jrsk%20Julepwn)**
 	 - [Iku-toppene](/writeups/pwn/Jrsk%20Julepwn/Iku-toppene)  
  - **[VM](/writeups/pwn/VM)**
@@ -61,6 +65,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 ### reversing
  - **[RotC](/writeups/reversing/RotC)**
 	 - [koodl](/writeups/reversing/RotC/koodl)  
+	 - [bwnfools](/writeups/reversing/RotC/bwnfools)  
  - **[Random Flag Generator](/writeups/reversing/Random%20Flag%20Generator)**
 	 - [koodl](/writeups/reversing/Random%20Flag%20Generator/koodl)  
  - **[Saint Rings](/writeups/reversing/Saint%20Rings)**
