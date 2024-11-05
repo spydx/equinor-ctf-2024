@@ -94,6 +94,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [HASH GOBLINS](/writeups/misc/The%20Kusto%20Query%20Game/HASH%20GOBLINS)  
  - **[Canvas Curve](/writeups/misc/Canvas%20Curve)**
 	 - [Equisør](/writeups/misc/Canvas%20Curve/Equisør)  
+	 - [Norske Nøkkelsnikere](/writeups/misc/Canvas%20Curve/Norske%20Nøkkelsnikere)  
  - **[SQL 101](/writeups/misc/SQL%20101)**
 	 - [Blodbamsen](/writeups/misc/SQL%20101/Blodbamsen)  
  - **[Digital Archives](/writeups/misc/Digital%20Archives)**
@@ -114,9 +115,11 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 ### crypto
  - **[Double Dip Dilemma](/writeups/crypto/Double%20Dip%20Dilemma)**
 	 - [bootplug](/writeups/crypto/Double%20Dip%20Dilemma/bootplug)  
+	 - [Norske Nøkkelsnikere](/writeups/crypto/Double%20Dip%20Dilemma/Norske%20Nøkkelsnikere)  
  - **[LFSXOR](/writeups/crypto/LFSXOR)**
 	 - [pwnagaukar](/writeups/crypto/LFSXOR/pwnagaukar)  
 	 - [bootplug](/writeups/crypto/LFSXOR/bootplug)  
+	 - [Norske Nøkkelsnikere](/writeups/crypto/LFSXOR/Norske%20Nøkkelsnikere)  
  - **[Chatlog](/writeups/crypto/Chatlog)**
 	 - [bootplug](/writeups/crypto/Chatlog/bootplug)  
 
