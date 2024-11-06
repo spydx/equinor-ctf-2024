@@ -2,7 +2,7 @@
 by fluffyhake
 
 ## Solution
-By looking through the responses from the webserver when requesting a password reset, we see answers for security questions. By putting answers into the Forgot Password form we can reset `klarz` password and get the flag.
+ Answers for security questions are found in the response when doing a password reset. We can change `klarz` password by using these answers. When we log in with the new password the flag is shown.
 
 ### Example
 
