@@ -76,6 +76,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Random Flag Generator](/writeups/reversing/Random%20Flag%20Generator)**
 	 - [53-kilo-med-data](/writeups/reversing/Random%20Flag%20Generator/53-kilo-med-data)  
 	 - [koodl](/writeups/reversing/Random%20Flag%20Generator/koodl)  
+	 - [Datasnok](/writeups/reversing/Random%20Flag%20Generator/Datasnok)  
  - **[Saint Rings](/writeups/reversing/Saint%20Rings)**
 	 - [koodl](/writeups/reversing/Saint%20Rings/koodl)  
  - **[Jrsk Julekort](/writeups/reversing/Jrsk%20Julekort)**
