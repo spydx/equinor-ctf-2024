@@ -36,17 +36,15 @@ When submitting the username we see a request being sent to `/get-secret-answers
 
 ![Questions](questions.png)
 
-Filling these answers into the webpage and pressing submit we are prompted to enter a new password.
+We are prompted to enter a new password after submitting these answers.
 
 ![Reset](reset.png)
-
-`Password has been reset successfully` 
 
 Let's try our new password:
 ![Success-1](login_screen.png)
 
 
-Logging in we get the flag!
+After logging in with the new password we get the flag!
 ![Flag](flag.png)
 
 
