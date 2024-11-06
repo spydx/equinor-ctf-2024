@@ -27,6 +27,8 @@ Sadly most items seems out of stock. On a positive note, ~~the website are deepl
 
 ## The race
 
+Well, alot of time went into looking for other vulnerabilities, despite the giant hint in form of the website kind of telling us: "Hello! The only product you can afford is a race car.... R A C E car".
+After an embarrassing amount of time has passed, I realize the path. Quickly looking at the source code to confirm there is no thread-safe handling of the refund functionality, or other elements making this unfeasible, I am confident that the webshop is vulnerable to race condition.
 So how does a race condition work in an web environment? Well, let's say you go to an actual store and make a purchase. Let's say you purchase an AI designed race-car:
 
 ![Buy Race-car](racecar.jpeg)
