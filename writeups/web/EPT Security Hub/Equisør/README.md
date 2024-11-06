@@ -7,7 +7,7 @@ By looking through the responses from the webserver when requesting a password r
 ### Example
 
 Resetting password with answers present in the response for `/get-secret-answers`: 
-![Resetting the password](resetting_the_password.png)
+![Resetting the password](reset.png)
 
 
 Logging in with our new password:
@@ -30,7 +30,7 @@ Starting at the top of the list we chose klarz as the first victim for a passwor
 
 ![Forgot Password](forgot_password.png)
 
-Usually during web challenges we tend to use developer tools in the Network tab to keep an eye on all requests.
+Usually during web challenges we use developer tools in the Network tab to keep an eye on all requests.
 
 When submitting the username we se a request going to `/get-secret-answers`. Taking a look at the response we see the answers for our security questions.
 
@@ -46,3 +46,9 @@ We now see `Password has been reset successfully` and we can try our new passwor
 
 Logging in we get the flag!
 ![Flag](flag.png)
+
+
+---
+
+After the initial solve i tried with the other Admin user called iLoop. It results in the same outcome and the flag. iLoop has some other answers to the security questions:
+![iLoop](iloop.png)
