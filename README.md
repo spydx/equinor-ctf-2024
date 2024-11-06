@@ -54,9 +54,11 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [bwnfools](/writeups/pwn/Baby%20bro%20pwn/bwnfools)  
 ### forensics
  - **[Stealth Stealer](/writeups/forensics/Stealth%20Stealer)**
+	 - [53-kilo-med-data](/writeups/forensics/Stealth%20Stealer/53-kilo-med-data)  
  - **[Honey, I shrunk the skids](/writeups/forensics/Honey,%20I%20shrunk%20the%20skids)**
  - **[Shadows of the Past](/writeups/forensics/Shadows%20of%20the%20Past)**
  - **[Phantom Phish](/writeups/forensics/Phantom%20Phish)**
+	 - [53-kilo-med-data](/writeups/forensics/Phantom%20Phish/53-kilo-med-data)  
 	 - [arctic_anon](/writeups/forensics/Phantom%20Phish/arctic_anon)  
  - **[Event Horizon](/writeups/forensics/Event%20Horizon)**
 	 - [RumbleInTheJungle](/writeups/forensics/Event%20Horizon/RumbleInTheJungle)  
@@ -69,11 +71,13 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [koodl](/writeups/reversing/RotC/koodl)  
 	 - [bwnfools](/writeups/reversing/RotC/bwnfools)  
  - **[Random Flag Generator](/writeups/reversing/Random%20Flag%20Generator)**
+	 - [53-kilo-med-data](/writeups/reversing/Random%20Flag%20Generator/53-kilo-med-data)  
 	 - [koodl](/writeups/reversing/Random%20Flag%20Generator/koodl)  
  - **[Saint Rings](/writeups/reversing/Saint%20Rings)**
 	 - [koodl](/writeups/reversing/Saint%20Rings/koodl)  
  - **[Jrsk Julekort](/writeups/reversing/Jrsk%20Julekort)**
  - **[Find Me](/writeups/reversing/Find%20Me)**
+	 - [53-kilo-med-data](/writeups/reversing/Find%20Me/53-kilo-med-data)  
  - **[Waves](/writeups/reversing/Waves)**
 ### web
  - **[Shop 5](/writeups/web/Shop%205)**
@@ -105,6 +109,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [Equisør](/writeups/misc/Canvas%20Curve/Equisør)  
 	 - [Norske Nøkkelsnikere](/writeups/misc/Canvas%20Curve/Norske%20Nøkkelsnikere)  
  - **[SQL 101](/writeups/misc/SQL%20101)**
+	 - [53-kilo-med-data](/writeups/misc/SQL%20101/53-kilo-med-data)  
 	 - [Blodbamsen](/writeups/misc/SQL%20101/Blodbamsen)  
  - **[Digital Archives](/writeups/misc/Digital%20Archives)**
 	 - [UiACTF](/writeups/misc/Digital%20Archives/UiACTF)  
@@ -119,6 +124,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Linux Levels](/writeups/misc/Linux%20Levels)**
 	 - [arctic_anon](/writeups/misc/Linux%20Levels/arctic_anon)  
  - **[EPT Arcade Game](/writeups/misc/EPT%20Arcade%20Game)**
+	 - [53-kilo-med-data](/writeups/misc/EPT%20Arcade%20Game/53-kilo-med-data)  
 	 - [koodl](/writeups/misc/EPT%20Arcade%20Game/koodl)  
  - **[Obsolete (user)](/writeups/misc/Obsolete%20(user))**
 ### crypto
