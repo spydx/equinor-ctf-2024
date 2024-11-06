@@ -135,6 +135,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 ### crypto
  - **[Double Dip Dilemma](/writeups/crypto/Double%20Dip%20Dilemma)**
 	 - [bootplug](/writeups/crypto/Double%20Dip%20Dilemma/bootplug)  
+	 - [bwnfools](/writeups/crypto/Double%20Dip%20Dilemma/bwnfools)  
 	 - [Norske Nøkkelsnikere](/writeups/crypto/Double%20Dip%20Dilemma/Norske%20Nøkkelsnikere)  
  - **[LFSXOR](/writeups/crypto/LFSXOR)**
 	 - [pwnagaukar](/writeups/crypto/LFSXOR/pwnagaukar)  
