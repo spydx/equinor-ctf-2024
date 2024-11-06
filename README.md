@@ -93,6 +93,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [bwnfools](/writeups/web/Shop%204/bwnfools)  
 	 - [Blodbamsen](/writeups/web/Shop%204/Blodbamsen)  
  - **[Images](/writeups/web/Images)**
+	 - [Blodbamsen](/writeups/web/Images/Blodbamsen)  
  - **[Shop 6](/writeups/web/Shop%206)**
 	 - [Datasnok](/writeups/web/Shop%206/Datasnok)  
  - **[Let's bake](/writeups/web/Let's%20bake)**
