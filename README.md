@@ -36,6 +36,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[OMM API (user)](/writeups/realworld/OMM%20API%20(user))**
 	 - [53-kilo-med-data](/writeups/realworld/OMM%20API%20(user)/53-kilo-med-data)  
  - **[OMM API (root)](/writeups/realworld/OMM%20API%20(root))**
+	 - [53-kilo-med-data](/writeups/realworld/OMM%20API%20(root)/53-kilo-med-data)  
  - **[Prime Time (root)](/writeups/realworld/Prime%20Time%20(root))**
 	 - [53-kilo-med-data](/writeups/realworld/Prime%20Time%20(root)/53-kilo-med-data)  
 	 - [Equisør](/writeups/realworld/Prime%20Time%20(root)/Equisør)  
@@ -56,6 +57,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Stealth Stealer](/writeups/forensics/Stealth%20Stealer)**
 	 - [53-kilo-med-data](/writeups/forensics/Stealth%20Stealer/53-kilo-med-data)  
  - **[Honey, I shrunk the skids](/writeups/forensics/Honey,%20I%20shrunk%20the%20skids)**
+	 - [RumbleInTheJungle](/writeups/forensics/Honey,%20I%20shrunk%20the%20skids/RumbleInTheJungle)  
  - **[Shadows of the Past](/writeups/forensics/Shadows%20of%20the%20Past)**
  - **[Phantom Phish](/writeups/forensics/Phantom%20Phish)**
 	 - [53-kilo-med-data](/writeups/forensics/Phantom%20Phish/53-kilo-med-data)  
