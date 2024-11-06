@@ -48,7 +48,10 @@ After logging in with the new password we get the flag!
 ![Flag](flag.png)
 
 
----
 
 After the initial solve i tried with the other Admin user called iLoop. It results in the same outcome and the flag. iLoop has some other answers to the security questions:
 ![iLoop](iloop.png)
+
+
+---
+*This is the first CTF challenge we have gotten first blood on. Even though that was mostly due to luck, it was really cool to receive a balloon and to have our [theme song](https://www.youtube.com/watch?v=B8VR5mQcgjI) played!*
