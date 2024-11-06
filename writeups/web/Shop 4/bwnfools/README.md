@@ -18,10 +18,7 @@ If you should manage, somehow to buy the new exclusive EPT fan merchandise, you 
 
 ## First look
 
-Looking at the webshop, we can register an account, login and make one-click purchases, and even immediatly invoke the [customer return right](https://lovdata.no/artikkel/nar_kan_jeg_angre_pa_kjopet/4498) and get an instant refund. 
-![Login](shop4a.png)
-
-I register as admin, as one does.
+Looking at the webshop, we can register an account, login and make one-click purchases, and even immediatly invoke the [customer return right](https://lovdata.no/artikkel/nar_kan_jeg_angre_pa_kjopet/4498) and get an instant refund. I register as admin, as one does.
 ![Register](shop4b.png)
 
 Sadly most items seems out of stock. On a positive note, ~~the website are deeply integrated with my bank account - 100$ is the exact amount that I have in my checkings account~~ we are awarded with a 100$ signup balance.
@@ -30,6 +27,8 @@ Sadly most items seems out of stock. On a positive note, ~~the website are deepl
 
 ## The race
 
+Well, alot of time went into looking for other vulnerabilities, despite the giant hint in form of the website kind of telling us: "Hello! The only product you can afford is a race car.... R A C E car".
+After an embarrassing amount of time has passed, I realize the path. Quickly looking at the source code to confirm there is no thread-safe handling of the refund functionality, or other elements making this unfeasible, I am confident that the webshop is vulnerable to race condition.
 So how does a race condition work in an web environment? Well, let's say you go to an actual store and make a purchase. Let's say you purchase an AI designed race-car:
 
 ![Buy Race-car](racecar.jpeg)
@@ -65,6 +64,7 @@ Buying my first race-car:
 Asking for a refund using the GUI (I know - so total n00b), only to have Burp intercept the request:
 
 ![Intrude this](shop4e.png)
+
 (AI AI AI my EYES!!!) (Burp HAS dark-mode you know....)
 
 Sending it to intruder and setting payload position somewhere in the user-agent string, I create a new resource pool with 50 concurrent requests maximum.
@@ -77,7 +77,7 @@ Running the attack gives us back around 1000$.
 
 That is not enough, so we'll just repeat the steps (buy a racecar, nag for a refund from everyone):
 
-![Refund again][moneyback3.jpeg]
+![Refund again](moneyback3.jpeg)
 
 until we have enough money for the nice EPT fan promising to blow us away!
 
