@@ -137,4 +137,5 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [Norske Nøkkelsnikere](/writeups/crypto/LFSXOR/Norske%20Nøkkelsnikere)  
  - **[Chatlog](/writeups/crypto/Chatlog)**
 	 - [bootplug](/writeups/crypto/Chatlog/bootplug)  
+	 - [53-kilo-med-data](/writeups/crypto/Chatlog/53-kilo-med-data)  
 
