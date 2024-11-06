@@ -66,6 +66,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Event Horizon](/writeups/forensics/Event%20Horizon)**
 	 - [RumbleInTheJungle](/writeups/forensics/Event%20Horizon/RumbleInTheJungle)  
  - **[Red Alert](/writeups/forensics/Red%20Alert)**
+	 - [RumbleInTheJungle](/writeups/forensics/Red%20Alert/RumbleInTheJungle)  
 ### boot2root
  - **[Excellent (user)](/writeups/boot2root/Excellent%20(user))**
  - **[Excellent (root)](/writeups/boot2root/Excellent%20(root))**
