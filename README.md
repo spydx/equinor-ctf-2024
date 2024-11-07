@@ -101,6 +101,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Shop 6](/writeups/web/Shop%206)**
 	 - [Datasnok](/writeups/web/Shop%206/Datasnok)  
  - **[Let's bake](/writeups/web/Let's%20bake)**
+	 - [bwnfools](/writeups/web/Let's%20bake/bwnfools)  
  - **[Blood In Blood Out](/writeups/web/Blood%20In%20Blood%20Out)**
 	 - [EPT](/writeups/web/Blood%20In%20Blood%20Out/EPT)  
 	 - [SIFI](/writeups/web/Blood%20In%20Blood%20Out/SIFI)  
