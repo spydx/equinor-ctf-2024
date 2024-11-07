@@ -22,7 +22,7 @@ This seems a bit annoying, but we'll try. Since the challenge is called "SQL 101
 
 ## Login
 
-The URL https://dragonslayerz-70ff-allthoseforms.ept.gg/login show us a loooot of logins.. there will be one manual testing here.. :(
+The URL https://dragonslayerz-70ff-allthoseforms.ept.gg/login show us a loooot of logins.. there will be no manual testing here.. :(
 
 ![login.png](./assets/login.png)
 
