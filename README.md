@@ -83,6 +83,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Jrsk Julekort](/writeups/reversing/Jrsk%20Julekort)**
  - **[Find Me](/writeups/reversing/Find%20Me)**
 	 - [53-kilo-med-data](/writeups/reversing/Find%20Me/53-kilo-med-data)  
+	 - [corax](/writeups/reversing/Find%20Me/corax)  
  - **[Waves](/writeups/reversing/Waves)**
 ### web
  - **[Shop 5](/writeups/web/Shop%205)**
@@ -118,6 +119,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [Norske Nøkkelsnikere](/writeups/misc/Canvas%20Curve/Norske%20Nøkkelsnikere)  
  - **[SQL 101](/writeups/misc/SQL%20101)**
 	 - [53-kilo-med-data](/writeups/misc/SQL%20101/53-kilo-med-data)  
+	 - [dragonslayerz](/writeups/misc/SQL%20101/dragonslayerz)  
 	 - [Blodbamsen](/writeups/misc/SQL%20101/Blodbamsen)  
  - **[Digital Archives](/writeups/misc/Digital%20Archives)**
 	 - [UiACTF](/writeups/misc/Digital%20Archives/UiACTF)  
