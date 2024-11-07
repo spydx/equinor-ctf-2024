@@ -66,6 +66,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Event Horizon](/writeups/forensics/Event%20Horizon)**
 	 - [RumbleInTheJungle](/writeups/forensics/Event%20Horizon/RumbleInTheJungle)  
  - **[Red Alert](/writeups/forensics/Red%20Alert)**
+	 - [RumbleInTheJungle](/writeups/forensics/Red%20Alert/RumbleInTheJungle)  
 ### boot2root
  - **[Excellent (user)](/writeups/boot2root/Excellent%20(user))**
  - **[Excellent (root)](/writeups/boot2root/Excellent%20(root))**
@@ -76,6 +77,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Random Flag Generator](/writeups/reversing/Random%20Flag%20Generator)**
 	 - [53-kilo-med-data](/writeups/reversing/Random%20Flag%20Generator/53-kilo-med-data)  
 	 - [koodl](/writeups/reversing/Random%20Flag%20Generator/koodl)  
+	 - [Datasnok](/writeups/reversing/Random%20Flag%20Generator/Datasnok)  
  - **[Saint Rings](/writeups/reversing/Saint%20Rings)**
 	 - [koodl](/writeups/reversing/Saint%20Rings/koodl)  
  - **[Jrsk Julekort](/writeups/reversing/Jrsk%20Julekort)**
@@ -88,11 +90,13 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Use the source](/writeups/web/Use%20the%20source)**
 	 - [53-kilo-med-data](/writeups/web/Use%20the%20source/53-kilo-med-data)  
  - **[EPT Security Hub](/writeups/web/EPT%20Security%20Hub)**
+	 - [Equisør](/writeups/web/EPT%20Security%20Hub/Equisør)  
  - **[Shop 4](/writeups/web/Shop%204)**
 	 - [53-kilo-med-data](/writeups/web/Shop%204/53-kilo-med-data)  
 	 - [bwnfools](/writeups/web/Shop%204/bwnfools)  
 	 - [Blodbamsen](/writeups/web/Shop%204/Blodbamsen)  
  - **[Images](/writeups/web/Images)**
+	 - [Blodbamsen](/writeups/web/Images/Blodbamsen)  
  - **[Shop 6](/writeups/web/Shop%206)**
 	 - [Datasnok](/writeups/web/Shop%206/Datasnok)  
  - **[Let's bake](/writeups/web/Let's%20bake)**
@@ -134,6 +138,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 ### crypto
  - **[Double Dip Dilemma](/writeups/crypto/Double%20Dip%20Dilemma)**
 	 - [bootplug](/writeups/crypto/Double%20Dip%20Dilemma/bootplug)  
+	 - [bwnfools](/writeups/crypto/Double%20Dip%20Dilemma/bwnfools)  
 	 - [Norske Nøkkelsnikere](/writeups/crypto/Double%20Dip%20Dilemma/Norske%20Nøkkelsnikere)  
  - **[LFSXOR](/writeups/crypto/LFSXOR)**
 	 - [pwnagaukar](/writeups/crypto/LFSXOR/pwnagaukar)  
