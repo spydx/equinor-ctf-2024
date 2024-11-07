@@ -1,4 +1,4 @@
-# Shadows of the past 👶
+# Shadows of the past
 GtHoo @ Buggy bunch
 ## Writeup
 
