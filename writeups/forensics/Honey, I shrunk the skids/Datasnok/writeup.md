@@ -72,7 +72,7 @@ And lo and behold we can find that request in our .pcap file.
 Decoding the base64 string we get "DESKTOP-59C1C3D	43906.83" where 43906.83 is our seed.
 
 
-By writing the strRandom function ourselves and initializing the Rnd() function with the seed "43906.83" 
+By copying and running the strRandom function ourselves and initializing the Rnd() function with the seed "43906.83" 
 
 
 ```vbscript
