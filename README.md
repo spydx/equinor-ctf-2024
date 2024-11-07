@@ -60,6 +60,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [RumbleInTheJungle](/writeups/forensics/Honey,%20I%20shrunk%20the%20skids/RumbleInTheJungle)  
 	 - [bwnfools](/writeups/forensics/Honey,%20I%20shrunk%20the%20skids/bwnfools)  
  - **[Shadows of the Past](/writeups/forensics/Shadows%20of%20the%20Past)**
+	 - [bwnfools](/writeups/forensics/Shadows%20of%20the%20Past/bwnfools)  
  - **[Phantom Phish](/writeups/forensics/Phantom%20Phish)**
 	 - [53-kilo-med-data](/writeups/forensics/Phantom%20Phish/53-kilo-med-data)  
 	 - [arctic_anon](/writeups/forensics/Phantom%20Phish/arctic_anon)  
