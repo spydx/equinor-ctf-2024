@@ -17,7 +17,7 @@ We forgot the sequence though, are you able to figure it out?
 We begun by opening button_smasher.elf in Ghidra. Here we did a quick search for "EPT" to get an idea of where the flag is located and where it might be used. This is what we got:
 
 <p align="center">
-<img src="images/ept-string.png" alt="Ghidra strings" width="500">
+<img src="images/EPT-string.png" alt="Ghidra strings" width="500">
 </p>
 
 Here we got a good list of strings that we can check through to get an idea of what is happening in the program.
@@ -25,7 +25,7 @@ Here we got a good list of strings that we can check through to get an idea of w
 At the bottom of all the strings we find a data value of 15 elements with values of 1's and 0's. (This picture was taken at 18:33... 1h and 27 minutes to go!):
 
 <p align="center">
-<img src="images/Ghidra-buttons.png" alt="Ghidra Button Results" width="500">
+<img src="images/Ghidra-Buttons.png" alt="Ghidra Button Results" width="500">
 </p>
 
 We walk up to the button smashing machines and try to enter ```<>>><<<>>>>>>><```, however the machine did not dispaly anything and it even accepted 4 or 5 more inputs  before displaying ```Incorrect input!```.
