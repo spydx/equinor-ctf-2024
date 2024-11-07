@@ -90,6 +90,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Use the source](/writeups/web/Use%20the%20source)**
 	 - [53-kilo-med-data](/writeups/web/Use%20the%20source/53-kilo-med-data)  
  - **[EPT Security Hub](/writeups/web/EPT%20Security%20Hub)**
+	 - [Equisør](/writeups/web/EPT%20Security%20Hub/Equisør)  
  - **[Shop 4](/writeups/web/Shop%204)**
 	 - [53-kilo-med-data](/writeups/web/Shop%204/53-kilo-med-data)  
 	 - [bwnfools](/writeups/web/Shop%204/bwnfools)  
