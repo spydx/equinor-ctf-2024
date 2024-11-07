@@ -1,4 +1,4 @@
-# Honey, I shrunk the skids
+# Writeup: Honey, I shrunk the skids
 
 We are given a fairly small .pcap file that we open with Wireshark. Upon filtering for HTTP traffic, we find the first interesting request.
 
@@ -12,7 +12,7 @@ The downloaded file is a zip file containing a file called gpedit.msc.
 
 The first hint about what this file is comes when we copy it to a Windows machine and it gets deleted immediately. This file might be malware! Here’s a pro tip for people wanting an EPT-Token: Turn off your Windows Defender and run gpedit.msc. It will irrecoverably encrypt your entire system, BUT you will also get an EPT-Coin.
 
-Upon analyzing gpedit.msc, we stumble upon this large block of URL-encoded characters:
+Upon analyzing gpedit.msc, we stumble upon this large block of URL-encoded characters that seems to be more code packed in our original script:
 ![Alt text](images/text_block.PNG)
 By utilizing yet another online tool, [CyberChef](https://gchq.github.io/CyberChef/), we decode the characters and get another Visual Basic script!
 
