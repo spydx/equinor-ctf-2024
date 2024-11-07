@@ -82,7 +82,7 @@ This ```&DAT_3f4001d1``` value was the same value that we had seen at the beginn
 
 We still hadn't figured out what the rest of the button combinations were, so we just continued trying to search trough the program. 
 
-The time was beginning to near the end of the CTF, so we were getting desparate (SveinPavel was becoming slightly skitzo). In addition to that, 10 minutes before the deadline, our team had been overtaken placing SIFI in 3rd place among the student teams.
+The time was beginning to near the end of the CTF, so we were getting desparate (SveinPavel was becoming slightly crazy). In addition to that, 10 minutes before the deadline, our team had been overtaken placing SIFI in 3rd place among the student teams.
 
 Once there was 3 minutes left, SveinPavel found some random data that could be interpereted as left and right inputs (Image of random data for demonstration purposes only, this was not the actual data SveinPavel found):
 
