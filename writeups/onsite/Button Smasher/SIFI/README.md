@@ -1,4 +1,4 @@
-# Button Smasher
+# Button Smasher Writeup
 
 Writeup Author: eav28 (SIFI)
 
@@ -32,7 +32,7 @@ We walk up to the button smashing machines and try to enter ```<>>><<<>>>>>>><``
 
 We did notice that when we pressed both buttons at the same time we also got the ```Incorrect input!```, so we decided to try entering the same input and then pressing both buttons at the same time. However, this did not work either :/
 
-We then decided to continue reversing the program. We start by finding the references to the EPT{placeholder} string to see when this is printed out. This leads us to a function called checkflag:
+We then decided to continue reversing the program. We start by finding the references to the EPT{placeholder} string to see when this is printed out. This leads us to a function called ```checkflag```:
 
 <p align="center">
 <img src="images/EPT-reference.png" alt="Ghidra EPT reference" width="500">
@@ -40,15 +40,15 @@ We then decided to continue reversing the program. We start by finding the refer
 
 In the decoder of Ghidra there seems to be a comparison beteen ```&button_presses``` and ```&flag```, and the flag ```EPT{placeholder}``` should be displayed if these are equal.
 
-We then continued through the program by checking the references to the checkflag() function, and found a function called loop():
+We then continued through the program by checking the references to the ```checkflag()``` function, and found a function called ```loop()```:
 
 <p align="center">
 <img src="images/reversing-the-code.png" alt="Ghidra reverseing" width="500">
 </p>
 
-We used some time reversing the code and guessing what the variables might be used for. And we concluded that our assumtion about pressing both buttons at the same time might be the correct way to call the checkFlag() function.
+We used some time reversing the code and guessing what the variables might be used for. And we concluded that our assumtion about pressing both buttons at the same time might be the correct way to call the ```checkFlag()``` function.
 
-We still did not know what the actual combination could be, so we continued exploring. We ended up finding a function called _GLOBAL__sub_I_flagBeingDisplayed(), but the decoding was very messy:
+We still did not know what the actual combination could be, so we continued exploring. We ended up finding a function called ```_GLOBAL__sub_I_flagBeingDisplayed()```, but the decoding was very messy:
 
 <p align="center">
 <img src="images/flag-being-displayed.png" alt="Ghidra Flag being displayed function" width="500">
