@@ -100,6 +100,8 @@ Me and SveinPavel panicked as there was barely any time of the CTF left... and S
 <img src="images/amazing-picture.png" alt="Amazing picture" width="500">
 </p>
 
+Flag: ```EPT{6834636b3372}```
+
 I rushed to write in the flag, and we managed to send in the flag 74 seconds before the deadline, placing SIFI in 2nd place among the students.
 
 ![Time submitted](images/time-of-flag.png)
