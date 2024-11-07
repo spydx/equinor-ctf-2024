@@ -1,3 +1,5 @@
+# Honey, I shrunk the skids
+
 We are given a fairly small .pcap file that we open with Wireshark. Upon filtering for HTTP traffic, we find the first interesting request.
 
 ![Alt text](images/request.PNG)
