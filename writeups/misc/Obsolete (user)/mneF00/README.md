@@ -170,7 +170,7 @@ The hint was:
 
 ![](images/obsolete_hint.png)
 
-This clicked instantly. The `config.ini` file had to be read from `C:\Users\Administrators\AppData\Local\VirtualStore\Progrma Files (x86)\CHronoRunnerXP\config.ini`
+This clicked instantly. The `config.ini` file had to be read from `C:\Users\Administrator\AppData\Local\VirtualStore\Program Files (x86)\ChronoRunnerXP\config.ini`
 Windows is funny when it comes to file permissions. Even though you do not have any rights to `C:\Users\Administrators\*`, you can still access the specific files you have access to.
 
 To open the file, I ran the command `notepad C:\Users\Administrator\AppData\Local\VirtualStore\Program Files (x86)\ChronoRunnerXP\config.ini`
