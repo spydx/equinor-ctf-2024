@@ -4,7 +4,7 @@ We are given a fairly small .pcap file that we open with Wireshark. Upon filteri
 
 ![Alt text](images/request.PNG)
 
-It seems that a zip file was sent to the target machine. We can extract the .zip file by "following the HTTP Stream" in Wireshark and copying the raw bytes. Now, of course, we could paste these bytes into a new file using a hex editor. However, I like to promote the use of unnecessary online tools. So, I paste them into ![This Website](https://tomeko.net/online_tools/hex_to_file.php?lang=en) and download the file.
+It seems that a zip file was sent to the target machine. We can extract the .zip file by "following the HTTP Stream" in Wireshark and copying the raw bytes. Now, of course, we could paste these bytes into a new file using a hex editor. However, I like to promote the use of unnecessary online tools. So, I paste them into [This Website](https://tomeko.net/online_tools/hex_to_file.php?lang=en) and download the file.
 
 If they save the files being processed, that is what we call a "no-no" in privacy terms. Let’s hope they don’t try to open the file on a Windows machine.
 
