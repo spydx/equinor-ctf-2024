@@ -2,9 +2,11 @@
 
 Writeup author: [`SondreUM`](https://github.com/SondreUM/)
 
-## Analysis
+Challenge file(s):
 
-[Source file](../terminal.log.txt)
+- [terminal.log.txt](../terminal.log.txt)
+
+## Analysis
 
 The command provided in the challenge description is an encryption command using the `openssl` tool. The command encrypts the contents of the file `master.txt` using the AES-256-CBC encryption algorithm with PBKDF2 key derivation and a specified number of iterations. The encryption key is derived from the password provided by the user. The encrypted output is then base64 encoded.
 
@@ -28,7 +30,7 @@ The encryption command explained without any help from chatgpt:
 
 Since aes-256-cbc is a symmetric encryption algorithm, we can decrypt the encrypted file using the same password and iterations used for encryption.
 
-First we find the `$PWD` variable, which is set to the current hostname and can be found on the first line on the login prompt.
+First we find the `$PWD` variable, which is set to the current hostname and can be found on the first line in the login prompt.
 
 ```bash
 .-/+oossssoo+/-.               USER108@ubuntu-s-1vcpu-512mb-10gb-ams3-01
@@ -56,7 +58,7 @@ $ echo $(($(date -d "2024-09-22" +%s)/1000000))
 1726
 ```
 
-We now know the values of both `$PWD` and `$ITER`.
+We now know the values of both `$PWD` and `$ITER` that are needed for decryption.
 We check the openssl tool to check for any decryption options.
 
 ```bash
@@ -69,8 +71,14 @@ General options:
  -d                  Decrypt
 ```
 
-We now know the values of both `$PWD` and `$ITER`.
-And construct the following command to decrypt the file.
+Save the ciphertext from the openssl output given in the
+`terminal.log.txt` file to a file named `cipher.txt`.
+
+```bash
+echo "U2FsdGVkX1+/39qrCQ9rlxMW2E30ylTUXYS+GTAVDMUK0oXJvkUDBCRbhClK2GKYc50OQZ7zgLPBhkMW8CM5VVnZBrxfyH5CAG8nj5BPDCg=" > cipher.txt
+```
+
+Then construct the following command to decrypt the file.
 
 ```bash
 $ openssl enc -aes-256-cbc -pbkdf2 -iter 1726 -in cipher.txt -k ubuntu-s-1vcpu-512mb-10gb-ams3-01 -a -d
