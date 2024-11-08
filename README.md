@@ -33,6 +33,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [mneF00](/writeups/onsite/Walkabout/mneF00)  
  - **[Button Smasher](/writeups/onsite/Button%20Smasher)**
 	 - [corax](/writeups/onsite/Button%20Smasher/corax)  
+	 - [SIFI](/writeups/onsite/Button%20Smasher/SIFI)  
 ### realworld
  - **[OMM API (user)](/writeups/realworld/OMM%20API%20(user))**
 	 - [53-kilo-med-data](/writeups/realworld/OMM%20API%20(user)/53-kilo-med-data)  
