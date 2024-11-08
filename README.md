@@ -62,6 +62,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Honey, I shrunk the skids](/writeups/forensics/Honey,%20I%20shrunk%20the%20skids)**
 	 - [RumbleInTheJungle](/writeups/forensics/Honey,%20I%20shrunk%20the%20skids/RumbleInTheJungle)  
 	 - [bwnfools](/writeups/forensics/Honey,%20I%20shrunk%20the%20skids/bwnfools)  
+	 - [Datasnok](/writeups/forensics/Honey,%20I%20shrunk%20the%20skids/Datasnok)  
  - **[Shadows of the Past](/writeups/forensics/Shadows%20of%20the%20Past)**
 	 - [Buggy bunch](/writeups/forensics/Shadows%20of%20the%20Past/Buggy%20bunch)  
 	 - [bwnfools](/writeups/forensics/Shadows%20of%20the%20Past/bwnfools)  
