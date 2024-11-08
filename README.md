@@ -22,6 +22,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 ### onsite
  - **[EPT Printer](/writeups/onsite/EPT%20Printer)**
 	 - [the-nio](/writeups/onsite/EPT%20Printer/the-nio)  
+	 - [Datasnok](/writeups/onsite/EPT%20Printer/Datasnok)  
  - **[Wooden Treasure Chest](/writeups/onsite/Wooden%20Treasure%20Chest)**
  - **[Pixel Perfect](/writeups/onsite/Pixel%20Perfect)**
  - **[EPT Cyber Range 12aplha_release9d GOLD EDITION](/writeups/onsite/EPT%20Cyber%20Range%2012aplha_release9d%20GOLD%20EDITION)**
@@ -29,9 +30,11 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[WiFi Sanity Check](/writeups/onsite/WiFi%20Sanity%20Check)**
 	 - [Norske Nøkkelsnikere](/writeups/onsite/WiFi%20Sanity%20Check/Norske%20Nøkkelsnikere)  
  - **[Walkabout](/writeups/onsite/Walkabout)**
+	 - [FesseMisk](/writeups/onsite/Walkabout/FesseMisk)  
 	 - [mneF00](/writeups/onsite/Walkabout/mneF00)  
  - **[Button Smasher](/writeups/onsite/Button%20Smasher)**
 	 - [corax](/writeups/onsite/Button%20Smasher/corax)  
+	 - [SIFI](/writeups/onsite/Button%20Smasher/SIFI)  
 ### realworld
  - **[OMM API (user)](/writeups/realworld/OMM%20API%20(user))**
 	 - [53-kilo-med-data](/writeups/realworld/OMM%20API%20(user)/53-kilo-med-data)  
@@ -57,9 +60,13 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Stealth Stealer](/writeups/forensics/Stealth%20Stealer)**
 	 - [53-kilo-med-data](/writeups/forensics/Stealth%20Stealer/53-kilo-med-data)  
  - **[Honey, I shrunk the skids](/writeups/forensics/Honey,%20I%20shrunk%20the%20skids)**
+	 - [dragonslayerz](/writeups/forensics/Honey,%20I%20shrunk%20the%20skids/dragonslayerz)  
 	 - [RumbleInTheJungle](/writeups/forensics/Honey,%20I%20shrunk%20the%20skids/RumbleInTheJungle)  
 	 - [bwnfools](/writeups/forensics/Honey,%20I%20shrunk%20the%20skids/bwnfools)  
+	 - [Datasnok](/writeups/forensics/Honey,%20I%20shrunk%20the%20skids/Datasnok)  
  - **[Shadows of the Past](/writeups/forensics/Shadows%20of%20the%20Past)**
+	 - [Buggy bunch](/writeups/forensics/Shadows%20of%20the%20Past/Buggy%20bunch)  
+	 - [bwnfools](/writeups/forensics/Shadows%20of%20the%20Past/bwnfools)  
  - **[Phantom Phish](/writeups/forensics/Phantom%20Phish)**
 	 - [53-kilo-med-data](/writeups/forensics/Phantom%20Phish/53-kilo-med-data)  
 	 - [arctic_anon](/writeups/forensics/Phantom%20Phish/arctic_anon)  
@@ -83,22 +90,28 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Jrsk Julekort](/writeups/reversing/Jrsk%20Julekort)**
  - **[Find Me](/writeups/reversing/Find%20Me)**
 	 - [53-kilo-med-data](/writeups/reversing/Find%20Me/53-kilo-med-data)  
+	 - [corax](/writeups/reversing/Find%20Me/corax)  
  - **[Waves](/writeups/reversing/Waves)**
 ### web
  - **[Shop 5](/writeups/web/Shop%205)**
+	 - [RumbleInTheJungle](/writeups/web/Shop%205/RumbleInTheJungle)  
 	 - [telenor](/writeups/web/Shop%205/telenor)  
+	 - [Datasnok](/writeups/web/Shop%205/Datasnok)  
  - **[Use the source](/writeups/web/Use%20the%20source)**
 	 - [53-kilo-med-data](/writeups/web/Use%20the%20source/53-kilo-med-data)  
  - **[EPT Security Hub](/writeups/web/EPT%20Security%20Hub)**
+	 - [Equisør](/writeups/web/EPT%20Security%20Hub/Equisør)  
  - **[Shop 4](/writeups/web/Shop%204)**
 	 - [53-kilo-med-data](/writeups/web/Shop%204/53-kilo-med-data)  
 	 - [bwnfools](/writeups/web/Shop%204/bwnfools)  
+	 - [Datasnok](/writeups/web/Shop%204/Datasnok)  
 	 - [Blodbamsen](/writeups/web/Shop%204/Blodbamsen)  
  - **[Images](/writeups/web/Images)**
 	 - [Blodbamsen](/writeups/web/Images/Blodbamsen)  
  - **[Shop 6](/writeups/web/Shop%206)**
 	 - [Datasnok](/writeups/web/Shop%206/Datasnok)  
  - **[Let's bake](/writeups/web/Let's%20bake)**
+	 - [bwnfools](/writeups/web/Let's%20bake/bwnfools)  
  - **[Blood In Blood Out](/writeups/web/Blood%20In%20Blood%20Out)**
 	 - [EPT](/writeups/web/Blood%20In%20Blood%20Out/EPT)  
 	 - [SIFI](/writeups/web/Blood%20In%20Blood%20Out/SIFI)  
@@ -107,8 +120,10 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [Burot](/writeups/misc/EPT%20Got%20talent/Burot)  
 	 - [Norske Nøkkelsnikere](/writeups/misc/EPT%20Got%20talent/Norske%20Nøkkelsnikere)  
  - **[QR Madness](/writeups/misc/QR%20Madness)**
+	 - [FesseMisk](/writeups/misc/QR%20Madness/FesseMisk)  
 	 - [Statskanalen](/writeups/misc/QR%20Madness/Statskanalen)  
  - **[The Kusto Query Game](/writeups/misc/The%20Kusto%20Query%20Game)**
+	 - [FesseMisk](/writeups/misc/The%20Kusto%20Query%20Game/FesseMisk)  
 	 - [53-kilo-med-data](/writeups/misc/The%20Kusto%20Query%20Game/53-kilo-med-data)  
 	 - [HASH GOBLINS](/writeups/misc/The%20Kusto%20Query%20Game/HASH%20GOBLINS)  
  - **[Canvas Curve](/writeups/misc/Canvas%20Curve)**
@@ -117,15 +132,19 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [Norske Nøkkelsnikere](/writeups/misc/Canvas%20Curve/Norske%20Nøkkelsnikere)  
  - **[SQL 101](/writeups/misc/SQL%20101)**
 	 - [53-kilo-med-data](/writeups/misc/SQL%20101/53-kilo-med-data)  
+	 - [dragonslayerz](/writeups/misc/SQL%20101/dragonslayerz)  
 	 - [Blodbamsen](/writeups/misc/SQL%20101/Blodbamsen)  
  - **[Digital Archives](/writeups/misc/Digital%20Archives)**
+	 - [FesseMisk](/writeups/misc/Digital%20Archives/FesseMisk)  
 	 - [UiACTF](/writeups/misc/Digital%20Archives/UiACTF)  
  - **[Obsolete (root)](/writeups/misc/Obsolete%20(root))**
  - **[Leftovers](/writeups/misc/Leftovers)**
 	 - [arctic_anon](/writeups/misc/Leftovers/arctic_anon)  
  - **[Basketball with Dad](/writeups/misc/Basketball%20with%20Dad)**
+	 - [FesseMisk](/writeups/misc/Basketball%20with%20Dad/FesseMisk)  
 	 - [telenor](/writeups/misc/Basketball%20with%20Dad/telenor)  
  - **[KQL Validation Service](/writeups/misc/KQL%20Validation%20Service)**
+	 - [FesseMisk](/writeups/misc/KQL%20Validation%20Service/FesseMisk)  
 	 - [HASH GOBLINS](/writeups/misc/KQL%20Validation%20Service/HASH%20GOBLINS)  
 	 - [Norske Nøkkelsnikere](/writeups/misc/KQL%20Validation%20Service/Norske%20Nøkkelsnikere)  
  - **[Linux Levels](/writeups/misc/Linux%20Levels)**
@@ -134,6 +153,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [53-kilo-med-data](/writeups/misc/EPT%20Arcade%20Game/53-kilo-med-data)  
 	 - [koodl](/writeups/misc/EPT%20Arcade%20Game/koodl)  
  - **[Obsolete (user)](/writeups/misc/Obsolete%20(user))**
+	 - [mneF00](/writeups/misc/Obsolete%20(user)/mneF00)  
 ### crypto
  - **[Double Dip Dilemma](/writeups/crypto/Double%20Dip%20Dilemma)**
 	 - [bootplug](/writeups/crypto/Double%20Dip%20Dilemma/bootplug)  
@@ -146,4 +166,5 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Chatlog](/writeups/crypto/Chatlog)**
 	 - [bootplug](/writeups/crypto/Chatlog/bootplug)  
 	 - [53-kilo-med-data](/writeups/crypto/Chatlog/53-kilo-med-data)  
+	 - [dragonslayerz](/writeups/crypto/Chatlog/dragonslayerz)  
 
