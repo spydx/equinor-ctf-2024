@@ -22,6 +22,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 ### onsite
  - **[EPT Printer](/writeups/onsite/EPT%20Printer)**
 	 - [the-nio](/writeups/onsite/EPT%20Printer/the-nio)  
+	 - [Datasnok](/writeups/onsite/EPT%20Printer/Datasnok)  
  - **[Wooden Treasure Chest](/writeups/onsite/Wooden%20Treasure%20Chest)**
  - **[Pixel Perfect](/writeups/onsite/Pixel%20Perfect)**
  - **[EPT Cyber Range 12aplha_release9d GOLD EDITION](/writeups/onsite/EPT%20Cyber%20Range%2012aplha_release9d%20GOLD%20EDITION)**
@@ -89,6 +90,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 ### web
  - **[Shop 5](/writeups/web/Shop%205)**
 	 - [telenor](/writeups/web/Shop%205/telenor)  
+	 - [Datasnok](/writeups/web/Shop%205/Datasnok)  
  - **[Use the source](/writeups/web/Use%20the%20source)**
 	 - [53-kilo-med-data](/writeups/web/Use%20the%20source/53-kilo-med-data)  
  - **[EPT Security Hub](/writeups/web/EPT%20Security%20Hub)**
@@ -96,6 +98,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Shop 4](/writeups/web/Shop%204)**
 	 - [53-kilo-med-data](/writeups/web/Shop%204/53-kilo-med-data)  
 	 - [bwnfools](/writeups/web/Shop%204/bwnfools)  
+	 - [Datasnok](/writeups/web/Shop%204/Datasnok)  
 	 - [Blodbamsen](/writeups/web/Shop%204/Blodbamsen)  
  - **[Images](/writeups/web/Images)**
 	 - [Blodbamsen](/writeups/web/Images/Blodbamsen)  
