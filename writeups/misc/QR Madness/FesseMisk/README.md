@@ -1,22 +1,23 @@
 ## QR MADNESS
 
-Vi blir gitt et stort bilde med mange qr koder. 10 i bredden, og veldig mange i høyden.
+We are given a large image with many QR codes. 10 in width, and very many in height.
 
-Fra bildestørrelsen **3300x32670** ser jeg at det må være 10x100 qrkoder.
+From the image size **3300x32670**, I can deduce that there are 10x100 QR codes.
 
-Scanner vi den første blir vi sendt til får vi opp: `https://127.0.0.1/A`
+Scanning the first one, we are sent to: `https://127.0.0.1/A`
 
-### Løsning
+### Solution
 
-Løsningen blir å bruke pyzbar for å lese qrkodene. Den leser alle qrkoder i bildet, så det er ikke nødvendig å splitte bildet opp i biter.
+The solution is to use `pyzbar` to read the QR codes. It reads all the QR codes in the image, so there is no need to split the image into parts.
 
-Looper vi gjennom alle kodene og setter sammen svaret får vi en lang streng med tekst. Jeg forstår at pyzbar har lest alle kodene i baklengs rekkefølge, derfor legger jeg til en reversed i for-loopen:
+By looping through all the codes and concatenating the result, we get a long string of text. I understand that `pyzbar` has read all the codes in reverse order, so I add a `reversed` in the `for` loop:
 
 ```bash
 sudo apt-get install libzbar0
 pip install pyzbar
 ```
-```py
+
+```python
 import cv2
 from pyzbar.pyzbar import decode
 
@@ -31,14 +32,14 @@ for qrcode in reversed(decode(image)):
 print(result)
 ```
 
-Scriptet gir en lang streng, der vi også finner flagget:
+The script gives a long string, and we also find the flag:
 
 ```
 AQRcodeisatypeoftwo-dimensionalmatrixbarcode,inventedin1994,byJapan ... EPT{***} ... identification,time
 ```
 
 <details>
-<summary>Flagg</summary>
+<summary>Flag</summary>
 
 `EPT{QR_qu3st_0wn3d_2024}`
 </details>

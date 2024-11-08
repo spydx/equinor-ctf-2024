@@ -1,8 +1,8 @@
 ## BASKETBALL WITH DAD
 
-### Oppgave
+### Task
 
-I analysen av oppgaven finner vi at det er her alt av inndata blir behandlet, så det er bare denne delen av koden vi kan gjøre noe med:
+In the analysis of the task, we find that this is where all the input is processed, so this is the only part of the code where we can make changes:
 
 ```py
 if re.match("^[1-3]{1,3}$", inp):
@@ -14,23 +14,23 @@ if re.match("^[1-3]{1,3}$", inp):
         }.get(c, 1)
         state += value
 ```
-        
-### Løsning
 
-Løsningen er å sende dobbel `\n` på slutten av tallene. Dette fungerer fordi pythoncoden kun fjerner den siste \n fra stringen.
+### Solution
+
+The solution is to send a double `\n` at the end of the numbers. This works because the Python code only removes the last `\n` from the string.
 
 ```python
 if inp and inp[-1] == '\n':
 		inp = inp[:-1]
 ```
 
-Siden `$` matcher `\n` vil du passere regexsjekken:
+Since `$` matches `\n`, the regex check will pass:
 
 ```py
 if re.match("^[1-3]{1,3}$", inp):
 ```
 
-Men hvorfor vil vi ha med en ekstra `\n`? Jo det er fordi `.get(c, 1)` har angitt en default verdi, `1`. Derfor vil `\n` føre til at vi scorer ett ekstra poeng:
+But why would we want an extra `\n`? The reason is that `.get(c, 1)` has set a default value of `1`. Therefore, `\n` will cause the code to score an additional point:
 
 ```py
 for c in inp:
@@ -42,11 +42,12 @@ for c in inp:
     state += value
 ```
 
-Dette gjør at dine skudd gir totalt 10 poeng. Derfor klarer du å slå **dad** når han skyter scoren opp til 19.
+This results in your shots giving a total of 10 points. Therefore, you can beat **dad**, whose score is 19.
 
 ```bash
 (echo -n "333\n\n"; cat) | ncat --ssl game.ept.gg 1337
 ```
+
 ```
 Each round you get up to 3 shots, each shot is worth up to 3 points.
 First one to bring the score to 20 point wins.
@@ -66,11 +67,11 @@ Enter your shots as a series of numbers (max 3)
 The total score is now 20
 
 You win! Here are my dads final words to you:
+EPT{ ... }
 ```
 
-
 <details>
-<summary>Flagg</summary>
+<summary>Flag</summary>
 
 `EPT{l3t_m3_ad0pt_y0u_pl34s3}`
 </details>
