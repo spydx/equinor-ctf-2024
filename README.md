@@ -60,6 +60,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Stealth Stealer](/writeups/forensics/Stealth%20Stealer)**
 	 - [53-kilo-med-data](/writeups/forensics/Stealth%20Stealer/53-kilo-med-data)  
  - **[Honey, I shrunk the skids](/writeups/forensics/Honey,%20I%20shrunk%20the%20skids)**
+	 - [dragonslayerz](/writeups/forensics/Honey,%20I%20shrunk%20the%20skids/dragonslayerz)  
 	 - [RumbleInTheJungle](/writeups/forensics/Honey,%20I%20shrunk%20the%20skids/RumbleInTheJungle)  
 	 - [bwnfools](/writeups/forensics/Honey,%20I%20shrunk%20the%20skids/bwnfools)  
 	 - [Datasnok](/writeups/forensics/Honey,%20I%20shrunk%20the%20skids/Datasnok)  
@@ -165,4 +166,5 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Chatlog](/writeups/crypto/Chatlog)**
 	 - [bootplug](/writeups/crypto/Chatlog/bootplug)  
 	 - [53-kilo-med-data](/writeups/crypto/Chatlog/53-kilo-med-data)  
+	 - [dragonslayerz](/writeups/crypto/Chatlog/dragonslayerz)  
 
