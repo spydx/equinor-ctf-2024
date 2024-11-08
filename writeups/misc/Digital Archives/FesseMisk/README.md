@@ -1,32 +1,33 @@
 ## DIGITAL ARCHIVES
 
-### Oppgave
+### Task
 
-In 1922 a sailor has emigrated from Fjære, Norway. He was born in 1890 and embarked on a journey towards New York on board a ship named "Stvr.fj.".
+First we break down what we know and sort out whats importaint:
 
-He left a substantial fortune to his descendants, who we are desperately trying to find. We believe, that we have found the name of his wife, but in order for all of the paperwork to be complete, we need to obtain her last name.
+1. Man
+1. Born in 1890
+1. Emigrated from Fjære 1922 towards New York on ship named "Stvr.fj."
+1. Was a sailor
+1. Probably rich
 
-The documents seem to be missing some information and it was initially thought that her name was only 2 parts, but after further digging we uncovered the third name.
+We want the third name of his wife
 
-If you can confirm our findings, please submit his wife's last name in the flag format (with first letter capital, the rest lowercase). For example, if you concluded that the wife's full name is Marthe Eriksen Bratlie, the flag will be: EPT{Bratlie}.
+### Solution
 
-### Løsning
-
-Et søk i [digitalarkivet](https://www.digitalarkivet.no/search/3/100095?fornavn=&etternavn=&kjonn=&bosted=Fjære&fodestad=&fodselsdato=&fodselsaar=1890&alder=&stilling_stand=&familiestilling=&aar=&utreisedato=&reisemal=&ankomstdato=&linje=&skip=Stvr.fj.&agent=&pass=&nytt_yrke=&aarsak=&utreisehavn=&ekspdato=&kontraktdato=&herred=&fogderi=&prgjeld=
-) med alle filter satt inn gir 3 personer:
+A search in [Digital Archives](https://www.digitalarkivet.no/search/3/100095?fornavn=&etternavn=&kjonn=&bosted=Fjære&fodestad=&fodselsdato=&fodselsaar=1890&alder=&stilling_stand=&familiestilling=&aar=&utreisedato=&reisemal=&ankomstdato=&linje=&skip=Stvr.fj.&agent=&pass=&nytt_yrke=&aarsak=&utreisehavn=&ekspdato=&kontraktdato=&herred=&fogderi=&prgjeld=) with all filters applied returns 3 people:
 
 ![alt text](image.png)
 
-Siden det også står at mannen er en "sailor" velger vi mannen som er matros, Anders Bergqvist.
+Since it also mentions that the man is a "sailor," we choose the man who is listed as a "Matros", Anders Bergqvist.
 
-Googlesøket Anders Bergqvist 1980 gir noen resultater på [MyHeritage](https://www.myheritage.no/names/anders_bergquist). Der står det hvem Anders er gift med:
+A Google search for "Anders Bergqvist 1980" gives some results from [MyHeritage](https://www.myheritage.no/names/anders_bergquist). There, we find out who Anders was married to:
 
 ![alt text](image-1.png)
 
-Nå står vi igjen med to navn som kan prøves, hennes nåværende navn Bergqvist og hennes tidligere navn Johnsen.
+Now, we are left with two names that we can try, her current name Bergqvist and her maiden name Johnsen.
 
 <details>
-<summary>Flagg</summary>
+<summary>Flag</summary>
 
 `EPT{Johnsen}`
 </details>

