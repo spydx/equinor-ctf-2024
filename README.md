@@ -91,6 +91,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Waves](/writeups/reversing/Waves)**
 ### web
  - **[Shop 5](/writeups/web/Shop%205)**
+	 - [RumbleInTheJungle](/writeups/web/Shop%205/RumbleInTheJungle)  
 	 - [telenor](/writeups/web/Shop%205/telenor)  
 	 - [Datasnok](/writeups/web/Shop%205/Datasnok)  
  - **[Use the source](/writeups/web/Use%20the%20source)**
