@@ -25,6 +25,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [Datasnok](/writeups/onsite/EPT%20Printer/Datasnok)  
  - **[Wooden Treasure Chest](/writeups/onsite/Wooden%20Treasure%20Chest)**
  - **[Pixel Perfect](/writeups/onsite/Pixel%20Perfect)**
+	 - [mneF00](/writeups/onsite/Pixel%20Perfect/mneF00)  
  - **[EPT Cyber Range 12aplha_release9d GOLD EDITION](/writeups/onsite/EPT%20Cyber%20Range%2012aplha_release9d%20GOLD%20EDITION)**
  - **[Run, Forrest! Revenge!](/writeups/onsite/Run,%20Forrest!%20Revenge!)**
  - **[WiFi Sanity Check](/writeups/onsite/WiFi%20Sanity%20Check)**
@@ -83,6 +84,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [bwnfools](/writeups/reversing/RotC/bwnfools)  
  - **[Random Flag Generator](/writeups/reversing/Random%20Flag%20Generator)**
 	 - [53-kilo-med-data](/writeups/reversing/Random%20Flag%20Generator/53-kilo-med-data)  
+	 - [Equisør](/writeups/reversing/Random%20Flag%20Generator/Equisør)  
 	 - [koodl](/writeups/reversing/Random%20Flag%20Generator/koodl)  
 	 - [Datasnok](/writeups/reversing/Random%20Flag%20Generator/Datasnok)  
  - **[Saint Rings](/writeups/reversing/Saint%20Rings)**
