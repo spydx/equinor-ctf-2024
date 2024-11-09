@@ -49,6 +49,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Prime Time (user)](/writeups/realworld/Prime%20Time%20(user))**
 	 - [53-kilo-med-data](/writeups/realworld/Prime%20Time%20(user)/53-kilo-med-data)  
 	 - [Equisør](/writeups/realworld/Prime%20Time%20(user)/Equisør)  
+	 - [munintrollet](/writeups/realworld/Prime%20Time%20(user)/munintrollet)  
 ### pwn
  - **[Vault](/writeups/pwn/Vault)**
 	 - [53-kilo-med-data](/writeups/pwn/Vault/53-kilo-med-data)  
@@ -83,8 +84,6 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [mneF00](/writeups/forensics/Red%20Alert/mneF00)  
 ### boot2root
  - **[Excellent (user)](/writeups/boot2root/Excellent%20(user))**
- - **[Prime Time (user)](/writeups/boot2root/Prime%20Time%20(user))**
-	 - [munintrollet](/writeups/boot2root/Prime%20Time%20(user)/munintrollet)  
  - **[Excellent (root)](/writeups/boot2root/Excellent%20(root))**
 ### reversing
  - **[RotC](/writeups/reversing/RotC)**
