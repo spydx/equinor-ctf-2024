@@ -1,8 +1,8 @@
 # Employee of the Week
 
 ### Challenge Overview
-This was a easy and fun challenge to get to do some scripting early on in the competition on my part.
-It is a challenge that is solved when finding the needle in a heystack, which fortunatly is easy with compuers.
+This was an easy and fun challenge to get to do some scripting early on in the competition on my part.
+It is a challenge that is solved when finding the needle in a heystack, which fortunately is easy with computers.
 
 **Challenge extract:**
 > "Our 'employee of the week' eloped. He was the only one that knew the master class secret. We managed to extract logs from his last activities. Can you find anything from this?"
@@ -21,7 +21,7 @@ Then I created what I imagined would be the correct command to decrypt this late
 ```bash
 openssl enc -d -aes-256-cbc -pbkdf2 -iter ($(iter_value)) -in enc.enc -k ($(PWD)) -a
 ```
-Here we are missing two peices of information. `iter_value` and `$PWD`.
+Here we are missing two pieces of information. `iter_value` and `$PWD`.
 
 - The `ITER` was generated from a UNIX timestamp, calculated by dividing by one million.
 ```bash
@@ -34,7 +34,7 @@ This is doable to find.
 ![image](./time.png)
 
 
-That leaves us with just `$PWD`, normally this is the current working directoy of a shell, but investigating the shell log further showed this.
+That leaves us with just `$PWD`, normally this is the current working directory of a shell, but investigating the shell log further showed this.
 ```bash
 export PWD=$(hostname)
 ```
@@ -50,7 +50,7 @@ openssl enc -d -aes-256-cbc -pbkdf2 -iter ($(iter_value)) -in enc.enc -k "ubuntu
 ### Finding the solution
 Now we just needed to find the needle (the correct second) in the heystack (week 38 of 2024).
 
-I was looking forwards to coding this, but I also wanted to finish quickly to be able to move on to other challenges, so I used the friendly chat-bot (I'm sorry).
+I was looking forward to coding this, but I also wanted to finish quickly to be able to move on to other challenges, so I used the friendly chat-bot (I'm sorry).
 
 Chatbot output:
 ```plaintext
@@ -97,12 +97,16 @@ for timestamp in timestamps:
         continue
 ```
 
-When the friendly chat-bot knows gets enough information it often manages to write functionall code.
-I'm not really sure if this is a good code or not, but it worked and I havent looked back at it since. I guess I could have tried to style it nicely for the writeup, but I didnt bother. (im sorry)
+When the friendly chat-bot gets enough information it often manages to write functional code.
+I'm not really sure if this is good code or not, but it worked and I havent looked back at it since. I guess I could have tried to style it nicely for the writeup, but I didnt bother. (im sorry)
 ```plaintext
 Success with ITER = 1726
 Decrypted content: Master class secret: EPT{Ach13v3m3nt_Unl0ck3d_293857}
 ```
 
+
+## Afterthoughts 
+After writing my own writeup I wanted to see what [other writeups](../arctic_anon/README.md) did. My oh my. It's not hard to find the needle in the heystack if the needle is heystack sized and there is no heystack. I never looked too close at the code to realise what dividing the second by 1 million in reality meant. It shows that every second that whole week will all result in 1726. Perfect. 
+Anyhow, I'm sure this code can in some way be used again in CTFs later on, so Its not always bad to do it *thoroughly™* 
 
 
