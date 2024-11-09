@@ -28,8 +28,11 @@ Here we are missing two peices of information. `iter_value` and `$PWD`.
 export ITER=$(($(date +%s) / 1000000))
 ```
 It would be crazy to search all seconds throughout all time, but thankfully the log shows the admin using the `week` and `cal` commands which both show the week number and the year. 
-![image](./time.png)
 This is doable to find.
+
+
+![image](./time.png)
+
 
 That leaves us with just `$PWD`, normally this is the current working directoy of a shell, but investigating the shell log further showed this.
 ```bash
