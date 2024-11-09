@@ -30,7 +30,7 @@ DataSectionObject	0xc50ce5139980	security email.pdf	file.0xc50ce5139980.0xc50ce5
 ```
 
 After opening the file, it displays a PDF document containing text and a QR code.
-![[Sus_email.png]]
+![image1](./Pictures/Sus_email.png)
 
 A quick scan of the QR code reveals a URL containing the flag:
 ```
