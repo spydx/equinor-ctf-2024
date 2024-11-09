@@ -12,11 +12,11 @@ Then we noticed the top row of lights were not moving. 16 different lights not m
 0(Red) - 8(Light blue)
 ![image1](./Images/20241108232006.png)
 9(Orange) - 16(F in hex) (White):
-![[Pasted image 20241108232037.png]]
+![image2][Pasted image 20241108232037.png]]
 
 First we wanted to know what we were looking for. What is `EPT{` in hex values?
 
-![[Pasted image 20241108225338.png]]
+![image3](./Images/20241108225338.png)
 
 45 = cyan + light pink
 50 = light pink + red
@@ -29,6 +29,6 @@ Soulution: Look for first time this combination apears!
 From there it was a straight-forward algorithm: Match the lights in sequence to their respective numbers. Do this until you get pink + lime green (7d equals `}` in hex)(It REALLY helps to not use video sent over discord.. This obfuscates the colour clarity)
 
 Solution:
-![[Pasted image 20241108231132.png]]
+![image4](./Images/20241108231132.png)
 
 // munintrollet
