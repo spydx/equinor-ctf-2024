@@ -12,7 +12,7 @@ Then we noticed the top row of lights were not moving. 16 different lights not m
 0(Red) - 8(Light blue)
 ![image1](./Images/20241108232006.png)
 9(Orange) - 16(F in hex) (White):
-![image2][Pasted image 20241108232037.png]]
+![image2](./Images/0241108232037.png)
 
 First we wanted to know what we were looking for. What is `EPT{` in hex values?
 
