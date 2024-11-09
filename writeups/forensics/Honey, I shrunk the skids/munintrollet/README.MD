@@ -5,7 +5,7 @@
 In this task, we were given a pcap file and a disk image. The goal, as stated in the task, was to unlock the disk and extract the flag inside.
 
 The most straightforward approach would be to attempt to open the disk directly, but I decided to start by examining the pcap file. I usually check for HTTP traffic, as it is often present in such challenges. Luckily, this was the case here. In the HTTP traffic, I found a `GET` request to the domain `wlndowsupdater.com` to download a zip file. At first glance, this looked like `windowsupdater.com`, but a closer inspection revealed that the `i` had been replaced by an `l`, a common obfuscation tactic.
-![[Get_Zip_File.png]]
+![image1](./Pictures/Get_Zip_File.png)
 
 Extracting the zip file from the pcap and unzipping it revealed a file named `gpedit.msc`. It was unusual to see a `Microsoft Saved Console` file, but examining its contents showed XML code that included URL-escaped text (omitted here for brevity).
 ```xml
@@ -257,7 +257,7 @@ If Len((CreateObject("WScript.Shell").Exec("powershell.exe -Command Resume-BitLo
 ```
 
 The password for BitLocker was generated using the random string from the earlier code. We had everything needed to reconstruct the password except for the seed, which was sent in the `POST` request. By examining the pcap again, I found the `POST` request to `/updatelog`, which contained the hostname and seed encoded in base64.
-![[updatelog.png]]
+![image2](./Pictures/updatelog.)
 
 **DECODED CONTENT**
 ```
