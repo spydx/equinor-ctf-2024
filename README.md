@@ -25,6 +25,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [Datasnok](/writeups/onsite/EPT%20Printer/Datasnok)  
  - **[Wooden Treasure Chest](/writeups/onsite/Wooden%20Treasure%20Chest)**
  - **[Pixel Perfect](/writeups/onsite/Pixel%20Perfect)**
+	 - [munintrollet](/writeups/onsite/Pixel%20Perfect/munintrollet)  
 	 - [mneF00](/writeups/onsite/Pixel%20Perfect/mneF00)  
  - **[EPT Cyber Range 12aplha_release9d GOLD EDITION](/writeups/onsite/EPT%20Cyber%20Range%2012aplha_release9d%20GOLD%20EDITION)**
  - **[Run, Forrest! Revenge!](/writeups/onsite/Run,%20Forrest!%20Revenge!)**
@@ -32,6 +33,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [Norske Nøkkelsnikere](/writeups/onsite/WiFi%20Sanity%20Check/Norske%20Nøkkelsnikere)  
  - **[Walkabout](/writeups/onsite/Walkabout)**
 	 - [FesseMisk](/writeups/onsite/Walkabout/FesseMisk)  
+	 - [munintrollet](/writeups/onsite/Walkabout/munintrollet)  
 	 - [mneF00](/writeups/onsite/Walkabout/mneF00)  
  - **[Button Smasher](/writeups/onsite/Button%20Smasher)**
 	 - [corax](/writeups/onsite/Button%20Smasher/corax)  
@@ -60,23 +62,29 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 ### forensics
  - **[Stealth Stealer](/writeups/forensics/Stealth%20Stealer)**
 	 - [53-kilo-med-data](/writeups/forensics/Stealth%20Stealer/53-kilo-med-data)  
+	 - [munintrollet](/writeups/forensics/Stealth%20Stealer/munintrollet)  
  - **[Honey, I shrunk the skids](/writeups/forensics/Honey,%20I%20shrunk%20the%20skids)**
 	 - [dragonslayerz](/writeups/forensics/Honey,%20I%20shrunk%20the%20skids/dragonslayerz)  
 	 - [RumbleInTheJungle](/writeups/forensics/Honey,%20I%20shrunk%20the%20skids/RumbleInTheJungle)  
 	 - [bwnfools](/writeups/forensics/Honey,%20I%20shrunk%20the%20skids/bwnfools)  
+	 - [munintrollet](/writeups/forensics/Honey,%20I%20shrunk%20the%20skids/munintrollet)  
 	 - [Datasnok](/writeups/forensics/Honey,%20I%20shrunk%20the%20skids/Datasnok)  
  - **[Shadows of the Past](/writeups/forensics/Shadows%20of%20the%20Past)**
 	 - [Buggy bunch](/writeups/forensics/Shadows%20of%20the%20Past/Buggy%20bunch)  
 	 - [bwnfools](/writeups/forensics/Shadows%20of%20the%20Past/bwnfools)  
  - **[Phantom Phish](/writeups/forensics/Phantom%20Phish)**
 	 - [53-kilo-med-data](/writeups/forensics/Phantom%20Phish/53-kilo-med-data)  
+	 - [munintrollet](/writeups/forensics/Phantom%20Phish/munintrollet)  
 	 - [arctic_anon](/writeups/forensics/Phantom%20Phish/arctic_anon)  
  - **[Event Horizon](/writeups/forensics/Event%20Horizon)**
 	 - [RumbleInTheJungle](/writeups/forensics/Event%20Horizon/RumbleInTheJungle)  
  - **[Red Alert](/writeups/forensics/Red%20Alert)**
 	 - [RumbleInTheJungle](/writeups/forensics/Red%20Alert/RumbleInTheJungle)  
+	 - [mneF00](/writeups/forensics/Red%20Alert/mneF00)  
 ### boot2root
  - **[Excellent (user)](/writeups/boot2root/Excellent%20(user))**
+ - **[Prime Time (user)](/writeups/boot2root/Prime%20Time%20(user))**
+	 - [munintrollet](/writeups/boot2root/Prime%20Time%20(user)/munintrollet)  
  - **[Excellent (root)](/writeups/boot2root/Excellent%20(root))**
 ### reversing
  - **[RotC](/writeups/reversing/RotC)**
@@ -93,6 +101,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Find Me](/writeups/reversing/Find%20Me)**
 	 - [53-kilo-med-data](/writeups/reversing/Find%20Me/53-kilo-med-data)  
 	 - [corax](/writeups/reversing/Find%20Me/corax)  
+	 - [munintrollet](/writeups/reversing/Find%20Me/munintrollet)  
  - **[Waves](/writeups/reversing/Waves)**
 ### web
  - **[Shop 5](/writeups/web/Shop%205)**
@@ -141,10 +150,13 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [UiACTF](/writeups/misc/Digital%20Archives/UiACTF)  
  - **[Obsolete (root)](/writeups/misc/Obsolete%20(root))**
  - **[Leftovers](/writeups/misc/Leftovers)**
+	 - [FesseMisk](/writeups/misc/Leftovers/FesseMisk)  
+	 - [Norske Nøkkelsnikere](/writeups/misc/Leftovers/Norske%20Nøkkelsnikere)  
 	 - [arctic_anon](/writeups/misc/Leftovers/arctic_anon)  
  - **[Basketball with Dad](/writeups/misc/Basketball%20with%20Dad)**
 	 - [FesseMisk](/writeups/misc/Basketball%20with%20Dad/FesseMisk)  
 	 - [telenor](/writeups/misc/Basketball%20with%20Dad/telenor)  
+	 - [munintrollet](/writeups/misc/Basketball%20with%20Dad/munintrollet)  
  - **[KQL Validation Service](/writeups/misc/KQL%20Validation%20Service)**
 	 - [FesseMisk](/writeups/misc/KQL%20Validation%20Service/FesseMisk)  
 	 - [HASH GOBLINS](/writeups/misc/KQL%20Validation%20Service/HASH%20GOBLINS)  
