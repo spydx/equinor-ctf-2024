@@ -64,6 +64,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Stealth Stealer](/writeups/forensics/Stealth%20Stealer)**
 	 - [53-kilo-med-data](/writeups/forensics/Stealth%20Stealer/53-kilo-med-data)  
 	 - [munintrollet](/writeups/forensics/Stealth%20Stealer/munintrollet)  
+	 - [NorskeNøkkelsnikere-SimenBai](/writeups/forensics/Stealth%20Stealer/NorskeNøkkelsnikere-SimenBai)  
  - **[Honey, I shrunk the skids](/writeups/forensics/Honey,%20I%20shrunk%20the%20skids)**
 	 - [dragonslayerz](/writeups/forensics/Honey,%20I%20shrunk%20the%20skids/dragonslayerz)  
 	 - [RumbleInTheJungle](/writeups/forensics/Honey,%20I%20shrunk%20the%20skids/RumbleInTheJungle)  
@@ -76,9 +77,11 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Phantom Phish](/writeups/forensics/Phantom%20Phish)**
 	 - [53-kilo-med-data](/writeups/forensics/Phantom%20Phish/53-kilo-med-data)  
 	 - [munintrollet](/writeups/forensics/Phantom%20Phish/munintrollet)  
+	 - [NorskeNøkkelsnikere-SimenBai](/writeups/forensics/Phantom%20Phish/NorskeNøkkelsnikere-SimenBai)  
 	 - [arctic_anon](/writeups/forensics/Phantom%20Phish/arctic_anon)  
  - **[Event Horizon](/writeups/forensics/Event%20Horizon)**
 	 - [RumbleInTheJungle](/writeups/forensics/Event%20Horizon/RumbleInTheJungle)  
+	 - [NorskeNøkkelsnikere-SimenBai](/writeups/forensics/Event%20Horizon/NorskeNøkkelsnikere-SimenBai)  
  - **[Red Alert](/writeups/forensics/Red%20Alert)**
 	 - [RumbleInTheJungle](/writeups/forensics/Red%20Alert/RumbleInTheJungle)  
 	 - [mneF00](/writeups/forensics/Red%20Alert/mneF00)  
