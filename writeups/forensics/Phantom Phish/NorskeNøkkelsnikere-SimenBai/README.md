@@ -59,7 +59,7 @@ When we sort it based on create time we can get an idea of what happened in what
 2. We see that notepad is being used to open a PDF file. This is very weird, and probably something that might be interesting to us. We want to take a look at that file. 
 Information that is relevant: PID `7300`, PPID `1304` (Processe does no longer exist), File opened `C:\Users\Benjamin\Documents\security email.pdf`
 
-3. We see that mshta.exe (A process used to exute html applications (.hta)) is being run towards an external resource. This is a common Living of the land attack pattern, https://lolbas-project.github.io/lolbas/Binaries/Mshta/. Information that is relevant is PID `5696`, PPID `10348` (`powershell.exe`, run under `explorer.exe`), Accessed external resource: `http://192.168.88.130/heist.hta`. It would be very interesting to look at the heist.hta file. (This will be covered in the Stealth Stealer writeup).
+3. We see that mshta.exe (A process used to exute html applications (.hta)) is being run towards an external resource. This is a common Living of the land attack pattern, https://lolbas-project.github.io/lolbas/Binaries/Mshta/. Information that is relevant is PID `5696`, PPID `10348` (`powershell.exe`, run under `explorer.exe`), Accessed external resource: `http://192.168.88.130/heist.hta`. It would be very interesting to look at the heist.hta file. (This will be covered in the [Stealth Stealer writeup](../../Stealth%20Stealer/NorskeNøkkelsnikere-SimenBai/README.md)). 
 
 It's still unclear how they got access to the system. But we want to take a look at the files we discovered first. For this task, the `7300` process is the one that is interesting.
 
