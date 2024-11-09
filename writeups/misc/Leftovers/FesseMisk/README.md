@@ -35,7 +35,7 @@ That leaves us with just `$PWD`, normally this is the current working directoy o
 ```bash
 export PWD=$(hostname)
 ```
-![image](./modt.png)
+![image](./motd.png)
 
 - The password was derived from the hostname (`ubuntu-s-1vcpu-512mb-10gb-ams3-01`).
 
