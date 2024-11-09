@@ -30,7 +30,7 @@ For reference here is the same location, but a bit more zoomed out. Red circle m
 
 <details>
   <summary>Click to view the image</summary>
-  <img src="first_location_maps.png" alt="First location zommed out" width="400"/>
+  <img src="first_location_maps.png" alt="First location" width="400"/>
 </details>
 
 
