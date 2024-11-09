@@ -10,7 +10,7 @@ We started looking into how text could be hidden in colour combinations. Our res
 Then we noticed the top row of lights were not moving. 16 different lights not moving with two and two light moving across the wall...The top row could represents 0-16 value. A pair of 0-16 values make up a byte... This is encoded as hex values! Lets look to our trusted friend Cyberchief! 
 
 0(Red) - 8(Light blue)
-![image1](./Images/Pasted image 20241108232006.png)
+![image1](./Images/20241108232006.png)
 9(Orange) - 16(F in hex) (White):
 ![[Pasted image 20241108232037.png]]
 
