@@ -360,7 +360,7 @@ To obtain these Action IDs, we have a couple of options:
 
 - **Local Setup with Request Interception:** By setting up a local instance of the application and making sure no modifications are done to the `app/actions.ts` and `app/db.ts` files respectively, we can simulate calls to these actions if imported and used in any component. Intercepting the network requests during this process will expose the Action IDs in the request payload.
 
-- **Local Setup with Client-side components:** Similarily, by setting up a local instance of the application and then using the server actions in client-side components. The Action IDs will be included in the bundled client code.
+- **Local Setup with Client-side components:** Similarily, by setting up a local instance of the application and then using the server actions in client-side components. The Action IDs will be included in the bundled client code as mentioned above in my summary of how Action ID works.
 
 - **Extracting from the Server Reference Manifest:** Alternatively, we can pull the Action IDs directly from the generated configuration file (`./next/server/server-reference-manifest.json`) after setting up an instance locally. This file contains all the Action IDs alongside their associated paths.
 
