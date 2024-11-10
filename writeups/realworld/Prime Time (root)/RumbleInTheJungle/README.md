@@ -356,7 +356,7 @@ This approach successfully sets SUID on /bin/bash, granting root access.
 
 ---
 
-# PrivEsc #5
+## PrivEsc #5
 
 Although we have sudo permissions to run anything in `/opt/CSCOlumos/rcmds/`, we don’t have write access to the scripts within this directory. However, since we own the parent directory, we can exploit this by renaming the `rcmds` folder, creating our own with the same name, and adding a custom script to execute with sudo.
 
