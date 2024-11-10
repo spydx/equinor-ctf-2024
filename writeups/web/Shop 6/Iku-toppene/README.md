@@ -757,3 +757,7 @@ With this, we should have lots of the `Fun` items added to our inventory. Manual
 To wrap up this write-up, I would like to thank my teammates at Iku-toppene for the great teamwork during the CTF. Solving this challenge was definitely a team effort alongside the bigshot milk hero, olefredrik, and not something I had done alone. Additionally, I would like to express my greatest appreciation to the Equinor Pwn Team (EPT) for hosting such an amazing CTF and for the high-quality challenges. Finally, a special thanks to the people who reached out after the CTF and started discussions with me, this greatly encouraged me to further explore and piece together the findings shared above.
 
 Thank you for reading!
+
+Oh, and by the way... here's a video of the Fire 🔥 announcement for getting first blood on this challenge during the CTF 😎
+
+https://github.com/user-attachments/assets/51e44009-2048-4251-b7de-fa1ec84d66fc
