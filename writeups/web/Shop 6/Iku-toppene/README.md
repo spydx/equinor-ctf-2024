@@ -242,13 +242,13 @@ Anyway, from my understanding, here's a summary of how Action IDs work for Next.
 
 - When the application builds, Next.js analyzes all defined Server Actions and generates a unique ID for each one.
 - The process of generating the IDs is very dependent on the action's location as well as its contents, making the ID specific to the code structure and function details, such as parameters and arguments. This will be further mentioned later.
-    - It is, therefore, important to note that changes in these factors will alter the ID
+  - It is, therefore, important to note that changes in these factors will alter the ID
 - When client-side components use Server Actions, instead of having access to the actual function directly, a reference that includes this action ID will be bundled within the client code.
-    - This way, it is theoretically possible to leak and expose all Server Actions placed in the same file as the action the client uses. However, this challenge application is not susceptible to this as most components use SSR.
+  - This way, it is theoretically possible to leak and expose all Server Actions placed in the same file as the action the client uses. However, this challenge application is not susceptible to this as most components use SSR.
 - A configuration file placed at `./.next/server/server-reference-manifest.json` is also generated during the build process, containing details about all Server Actions. This file includes:
-    - All Server Action IDs (as JSON keys) in whole the application
-    - Specific server workers (at specific page/endpoints) designated to handle each Server Action
-    - An encryption key used for Server Action closures. This will also be mentioned later regarding invocating Server Actions.
+  - All Server Action IDs (as JSON keys) in whole the application
+  - Specific server workers (at specific page/endpoints) designated to handle each Server Action
+  - An encryption key used for Server Action closures. This will also be mentioned later regarding invocating Server Actions.
 
 The configuration structure might look something like this:
 
@@ -563,9 +563,9 @@ export async function setMoney(amount: number): Promise<boolean> {
 
 #### Next-Action header
 
-Lastly, this is one of the more mysterious aspects of how Server Actions work, with very little documentation available on the internet aside from a few scattered examples found in Stack Overflow discussions, blogs, and articles. It seemed that this header were used under the hood in Next.js to trigger Server actions. For instance, you can take a look at this snippet from Next.js' source code on how requests are parsed: https://github.com/vercel/next.js/blob/v14.2.15/packages/next/src/client/components/router-reducer/reducers/server-action-reducer.ts#L149. But essentially, this means that any request to the server with the header Next-Action would trigger a specific Server Action based on the header's value (Action ID).
+Lastly, this is one of the more mysterious aspects of how Server Actions work, with very little documentation available on the internet aside from a few scattered examples found in Stack Overflow discussions, blogs, and articles. It seemed that this header is suppoed to be used under the hood in Next.js to trigger Server actions. For instance, you can take a look at this snippet from Next.js' source code on how requests are parsed: https://github.com/vercel/next.js/blob/v14.2.15/packages/next/src/client/components/router-reducer/reducers/server-action-reducer.ts#L149. But essentially, this means that any request to the server with the header Next-Action would trigger a specific Server Action based on the header's value (Action ID).
 
-In the context of the challenge application, there was one file we didn't investigate during our initial analysis, the `middleware.ts` file. This file ensured that all requests which were not explicitly made by the server are blocked. Specifically, it targets requests containing the `Next-Action` header, responding with a 403 Forbidden status code:
+However, in the context of the challenge application, there was one file we didn't investigate during our initial analysis, the `middleware.ts` file. This file ensured that all requests containing the `Next-Action` header, which were not explicitly made by the server, are blocked. Specifically, responding with a 403 Forbidden status code:
 
 ```ts
 import { NextRequest, NextResponse } from "next/server";
@@ -672,7 +672,7 @@ Content-Disposition: form-data; name="$ACTION_2:1"
 
 ```
 
-### Path 2 - EPT Tote Bag in my bag
+### Path 2 - EPT Tote Bag directly in my bag
 
 Similarily, an even easier way is to just simply add the EPT Tote Bag containing the flag, directly to our inventory.
 
