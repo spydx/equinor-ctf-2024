@@ -1,6 +1,6 @@
 **Author: Zukane**
 
-*A wall of QR codes stands in your way. What lies behind?
+*A wall of QR codes stands in your way. What lies behind?*
 
 ##### Challenge overview
 
