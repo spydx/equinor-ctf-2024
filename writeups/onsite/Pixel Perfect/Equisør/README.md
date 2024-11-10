@@ -13,7 +13,7 @@ The colors below came together 2 and 2, and were going for about a minute.
 Seeing that there were 16 colors at the top, and how the colors came in pairs, we began to think that they had to be hexadecimal numbers. 
 We figured that the ones standing still at the top would have to indicate what number or letter they would have to be. Starting from the left, noting them down as 0-9 and A-F.
 
-https://github.com/user-attachments/assets/c4b07c6f-d281-4bca-8ede-35c258134ea2
+https://github.com/user-attachments/assets/073f1027-08a5-448e-bdce-08203840654c
 
 By noting down the rotating colors, and connecting them to the colors at the top, we got alot of hexadecimal numbers.
 Putting them into a hexadecimal to plain text converter, we got something along the lines of;
