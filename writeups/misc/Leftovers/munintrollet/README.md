@@ -47,7 +47,8 @@ Lets start with **`$PWD`**:
 > 
 >The problem is that we do not have the `hostname` in any of our commands or output! But in the welcome message displayed by the Ubuntu terminal, it displays the `hostname` at the very top:
 >![Hostname](./attachments/hostname.png)
-> Specifically: **`ubuntu-s-1vcpu-512mb-10gb-ams3-01`**
+>\
+>Specifically: **`ubuntu-s-1vcpu-512mb-10gb-ams3-01`**
 
 Now for **`$ITER`**:
 >The command run prior to the encryption command itself sets the `$ITER` value. It's *simply* the output of `date +%s` divided by `1000000`. But what *`tf`* is this `date +%s` thingy? 
@@ -70,7 +71,7 @@ This script does the following:
 >	[...]
 >done
 >```
-* For each iteration, try to decrypt the un-believable "*master class secret*" using the current day, and check the exit code for decryption command after success.
+* For each iteration, try to decrypt the un-believable "*master class secret*" using the current day, and check the exit code for decryption command success.
 >```bash
 >ITER=$(($(date -d "$DATE" +%s) / 1000000))
 >echo "Trying with ITER=$ITER for date $DATE"
@@ -87,7 +88,7 @@ This script does the following:
 
 ---
 # FLAG
-Here we have output of the decryption script containing the decrypted juicy "*master class secret*":
+Here we have the output of the decryption script containing the decrypted juicy "*master class secret*":
 \
 ![Script Output](attachments/script_output.png)
 \
@@ -98,9 +99,9 @@ EPT{Ach13v3m3nt_Unl0ck3d_293857}
 
 ---
 # Turtle > Rabbit
-While writing this writeup explaining what the `openssl` command and bash-script does. I quickly realized that, as mentioned in the disclaimer above, we do not need to iterate over all the days in week 38 of 2024. This is because the calculation of `$ITER`  is a bit extreme. Specifically, the division part.
+While writing this writeup explaining what the `openssl` command and the bash-script does. I quickly realized that, as mentioned in the disclaimer above, we do not need to iterate over all the days in week 38 of 2024. This is because the calculation of `$ITER`  is a bit extreme. Specifically, the division part.
 
-First day of week 38 in 2024 (16th sept.), is  `1 726 080 000` seconds after that random day in 1970. So, `$ITER` will be `1 726 080 000` / `1 000 000` = **`1726`**. Last day of week 38 in 2024 (22nd sept.), is `1 726 144 000` seconds after that day in 1970. So, here `$ITER` will become `1 726 144 000` / `1 000 000` = **`1726`**. THE SAME VALUE. EACH DAY (AND BEYOND) RETURNS THE SAME `$ITER` VALUE. The division value of `1 000 000` is way too big and does not affect the `$ITER` value nearly enough.
+First day of week 38 in 2024 (16th sept.) is  `1 726 080 000` seconds after that random day in 1970. So, `$ITER` will be `1 726 080 000` / `1 000 000` = **`1726`**. Last day of week 38 in 2024 (22nd sept.) is `1 726 144 000` seconds after that day in 1970. So, here `$ITER` will become `1 726 144 000` / `1 000 000` = **`1726`**. THE SAME VALUE. EACH DAY (AND SOME MORE) RETURNS THE SAME `$ITER` VALUE. The division value of `1 000 000` is way too big and does not affect the `$ITER` value nearly enough.
 
 Channelling the inner turtle during a CTF tournament is something we all, at least I, should do more often. Or maybe not the inner turtle, since `first bloods > air`,  but the inner **turbit**:
 \
