@@ -1,7 +1,7 @@
 # Waves
 By: n0k0 and poiko
 
-This chall was a bit hard to get rendering properly for many users, so there is a video of what is acutally looks like:
+This chall was a bit hard to get rendering properly for many users, so there is a video of what is actually looks like:
 https://youtu.be/hybopUPKeT8
 
 It should be noted that it can still be solved without the rendering support, but it does help _a lot_.
@@ -46,12 +46,12 @@ img.onload = () => {
                 }
 ```
 
-Here we can see that the system supports images that are 23x23 pixels, can we can assume that the flag is already embedded in such an image when loading the main page.
+Here we can see that the system supports images that are 23x23 pixels, can we assume that the flag is already embedded in such an image when loading the main page.
 The question now is just where and how.
 
-Using the webgpu-devtools as adviced we can get some more information out of the pipeline, mainly about how is it structured.
+Using the webgpu-devtools as advised we can get some more information out of the pipeline, mainly about how it is structured.
 
-First lets look a the "whole" pipeline:
+First let's look a the "whole" pipeline:
 ![alt text](image.png)
 
 
@@ -65,9 +65,9 @@ There are two bind groups, "Push bind group" and "Img Bind Group" that are defin
 ![alt text](image-2.png)
 ![alt text](image-3.png)
 
-This is _very_ interesting, as its a image we are looking for!
+This is _very_ interesting, as it's a image we are looking for!
 
-The three refered to buffers is as follows:
+The three referred to buffers is as follows:
 
 Push buffer:
 ![alt text](image-4.png)
@@ -79,7 +79,7 @@ Img buffer 2:
 ![alt text](image-6.png)
 
 
-So the question on my mind now is what the content of the buffers acutally are. We note that the push buffer seems a bit small with only 12 bytes, but the Image buffers has a more "roomy" outlook with 2128 bytes each.
+So the question on my mind now is what the content of the buffers actually  are. We note that the push buffer seems a bit small with only 12 bytes, but the Image buffers have a more "roomy" outlook with 2128 bytes each.
 
 This is "almost" the same as 23 x 23 floats (32bit), which looks like something we should follow up.
 
@@ -232,7 +232,7 @@ Img 2:
 ```
 
 
-At this point, I (n0k0) was stumped and tried to encode the bytes as image. Every resolution, grayscale, bitmap, rgb and rgba only outputted nonsense.
+At this point, I (n0k0) was stumped and tried to encode the bytes as images. Every resolution, grayscale, bitmap, rgb and rgba only outputted nonsense, the script is in this folder.
 
 Poiko did the smarter thing and started to reverse more of the code to figure out how the images are processed.
 
@@ -282,7 +282,7 @@ Note some magic values in the next code that hinted to what the variables are:
 ```c
 undefined4 Process::process_img::h68e5f95be1a9876a(undefined4 ptr0,undefined4 len0)
 {
-    
+
   int index_row?;
   undefined8 *float_array_pointer;
   int index_col?;
