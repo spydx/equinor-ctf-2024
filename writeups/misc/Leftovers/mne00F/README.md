@@ -72,8 +72,6 @@ Su Mo Tu We Th Fr Sa
 ```
 - This means the hostname is the password, which is given at the top of the file: ```ubuntu-s-1vcpu-512mb-10gb-ams3-01```
 
-![Leftovers hostname](./hostname.png)
-
 - Now, with all the parts, the command (excluding the ```-out``` option) ends up as:
 ```bash
 ❯ openssl aes-256-cbc -d -a -pbkdf2 -iter 1726 -in secret.txt.enc -k ubuntu-s-1vcpu-512mb-10gb-ams3-01
@@ -81,5 +79,3 @@ Su Mo Tu We Th Fr Sa
 This yields the output 
 
 ```Master class secret: EPT{Ach13v3m3nt_Unl0ck3d_293857}```
-
-![Leftovers flag](./command.png)
