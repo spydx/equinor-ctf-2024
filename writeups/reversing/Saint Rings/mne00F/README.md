@@ -16,7 +16,7 @@ Bringing truth forth from the digital nigh.
 
 ### Analysis
 
-When running the file ```darkness```, the the following text is printed,
+When running the file ```darkness```, the the following text is printed
 ```bash
 Speak friend and enter
 ```
