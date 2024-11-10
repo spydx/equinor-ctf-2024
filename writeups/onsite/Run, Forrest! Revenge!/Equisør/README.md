@@ -24,5 +24,5 @@ We did not record the scanning process, but here is a image of a access card:
 ![Access Card](access_card.png)
 
 
-We looked around for scanners and found one. (3)
+We looked around for scanners and found number 3. 
 We found the other two (1, 2) by accident. When hanging around the venue we saw other people scan their cards. People laying in the stairs looked suspicious, and we decided to investigate.
