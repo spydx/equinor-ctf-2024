@@ -1,4 +1,5 @@
 # Saints Ring
+By: Nikolas "n0k0" Papaioannou
 
 ## Solution
 

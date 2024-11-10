@@ -1,4 +1,7 @@
 # Pixel Perfect
+By: Nikolas "n0k0" Papaioannou
+
+
 We know _something_ has changed in the room, but what?
 
 ## Solution
