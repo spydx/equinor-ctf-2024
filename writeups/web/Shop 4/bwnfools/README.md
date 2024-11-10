@@ -67,7 +67,8 @@ Asking for a refund using the GUI (I know - so total n00b), only to have Burp in
 
 (AI AI AI my EYES!!!) (Burp HAS dark-mode you know....)
 
-Sending it to intruder and setting payload position somewhere in the user-agent string, I create a new resource pool with 50 concurrent requests maximum.
+Sending it to intruder and setting payload position somewhere in the user-agent string of our POST request, I create a new resource pool with 50 concurrent requests maximum.
+For the payload, just go with numbers and set from 0 to 100 - should more than suffice.
 
 ![Resources](shop4i.png)
 
