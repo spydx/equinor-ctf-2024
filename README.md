@@ -82,6 +82,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [munintrollet](/writeups/forensics/Shadows%20of%20the%20Past/munintrollet)  
  - **[Phantom Phish](/writeups/forensics/Phantom%20Phish)**
 	 - [FesseMisk](/writeups/forensics/Phantom%20Phish/FesseMisk)  
+	 - [NorskeNøkkelsnikere-FoxMaccloud](/writeups/forensics/Phantom%20Phish/NorskeNøkkelsnikere-FoxMaccloud)  
 	 - [53-kilo-med-data](/writeups/forensics/Phantom%20Phish/53-kilo-med-data)  
 	 - [munintrollet](/writeups/forensics/Phantom%20Phish/munintrollet)  
 	 - [NorskeNøkkelsnikere-SimenBai](/writeups/forensics/Phantom%20Phish/NorskeNøkkelsnikere-SimenBai)  
@@ -101,6 +102,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [koodl](/writeups/reversing/RotC/koodl)  
 	 - [bwnfools](/writeups/reversing/RotC/bwnfools)  
 	 - [munintrollet](/writeups/reversing/RotC/munintrollet)  
+	 - [Norske Nøkkelsnikere](/writeups/reversing/RotC/Norske%20Nøkkelsnikere)  
  - **[Random Flag Generator](/writeups/reversing/Random%20Flag%20Generator)**
 	 - [53-kilo-med-data](/writeups/reversing/Random%20Flag%20Generator/53-kilo-med-data)  
 	 - [Equisør](/writeups/reversing/Random%20Flag%20Generator/Equisør)  
@@ -111,11 +113,13 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [bootplug](/writeups/reversing/Saint%20Rings/bootplug)  
 	 - [mne00F](/writeups/reversing/Saint%20Rings/mne00F)  
 	 - [koodl](/writeups/reversing/Saint%20Rings/koodl)  
+	 - [Norske Nøkkelsnikere](/writeups/reversing/Saint%20Rings/Norske%20Nøkkelsnikere)  
  - **[Jrsk Julekort](/writeups/reversing/Jrsk%20Julekort)**
  - **[Find Me](/writeups/reversing/Find%20Me)**
 	 - [53-kilo-med-data](/writeups/reversing/Find%20Me/53-kilo-med-data)  
 	 - [corax](/writeups/reversing/Find%20Me/corax)  
 	 - [munintrollet](/writeups/reversing/Find%20Me/munintrollet)  
+	 - [Norske Nøkkelsnikere](/writeups/reversing/Find%20Me/Norske%20Nøkkelsnikere)  
  - **[Waves](/writeups/reversing/Waves)**
 ### web
  - **[Shop 5](/writeups/web/Shop%205)**
