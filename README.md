@@ -47,6 +47,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [53-kilo-med-data](/writeups/realworld/OMM%20API%20(root)/53-kilo-med-data)  
  - **[Prime Time (root)](/writeups/realworld/Prime%20Time%20(root))**
 	 - [53-kilo-med-data](/writeups/realworld/Prime%20Time%20(root)/53-kilo-med-data)  
+	 - [RumbleInTheJungle](/writeups/realworld/Prime%20Time%20(root)/RumbleInTheJungle)  
 	 - [Equisør](/writeups/realworld/Prime%20Time%20(root)/Equisør)  
  - **[Prime Time (user)](/writeups/realworld/Prime%20Time%20(user))**
 	 - [53-kilo-med-data](/writeups/realworld/Prime%20Time%20(user)/53-kilo-med-data)  
