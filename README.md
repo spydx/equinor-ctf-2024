@@ -184,6 +184,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[EPT Arcade Game](/writeups/misc/EPT%20Arcade%20Game)**
 	 - [53-kilo-med-data](/writeups/misc/EPT%20Arcade%20Game/53-kilo-med-data)  
 	 - [koodl](/writeups/misc/EPT%20Arcade%20Game/koodl)  
+	 - [munintrollet](/writeups/misc/EPT%20Arcade%20Game/munintrollet)  
  - **[Obsolete (user)](/writeups/misc/Obsolete%20(user))**
 	 - [mneF00](/writeups/misc/Obsolete%20(user)/mneF00)  
 ### crypto
