@@ -100,7 +100,9 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [mneF00](/writeups/forensics/Red%20Alert/mneF00)  
 ### boot2root
  - **[Excellent (user)](/writeups/boot2root/Excellent%20(user))**
+	 - [Iku-toppene](/writeups/boot2root/Excellent%20(user)/Iku-toppene)  
  - **[Excellent (root)](/writeups/boot2root/Excellent%20(root))**
+	 - [Iku-toppene](/writeups/boot2root/Excellent%20(root)/Iku-toppene)  
 ### reversing
  - **[RotC](/writeups/reversing/RotC)**
 	 - [mne00F](/writeups/reversing/RotC/mne00F)  
@@ -152,6 +154,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [Blodbamsen](/writeups/web/Images/Blodbamsen)  
  - **[Shop 6](/writeups/web/Shop%206)**
 	 - [Datasnok](/writeups/web/Shop%206/Datasnok)  
+	 - [Iku-toppene](/writeups/web/Shop%206/Iku-toppene)  
  - **[Let's bake](/writeups/web/Let's%20bake)**
 	 - [bwnfools](/writeups/web/Let's%20bake/bwnfools)  
  - **[Blood In Blood Out](/writeups/web/Blood%20In%20Blood%20Out)**
@@ -199,6 +202,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [munintrollet](/writeups/misc/Basketball%20with%20Dad/munintrollet)  
  - **[KQL Validation Service](/writeups/misc/KQL%20Validation%20Service)**
 	 - [FesseMisk](/writeups/misc/KQL%20Validation%20Service/FesseMisk)  
+	 - [dragonslayerz](/writeups/misc/KQL%20Validation%20Service/dragonslayerz)  
 	 - [HASH GOBLINS](/writeups/misc/KQL%20Validation%20Service/HASH%20GOBLINS)  
 	 - [Norske Nøkkelsnikere](/writeups/misc/KQL%20Validation%20Service/Norske%20Nøkkelsnikere)  
  - **[Linux Levels](/writeups/misc/Linux%20Levels)**
