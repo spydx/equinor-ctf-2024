@@ -8,14 +8,14 @@ This challenge involved leveraging an Excel-based database for credential extrac
 The first step in this challenge is to determine the server’s backend, which appeared to use Excel. By sending the input `" , "`, an Excel error message is returned, confirming the use of Excel as the database.\
 ![Error](./assets/error.png)\
 With Excel confirmed as the backend, it is possible to retrieve the Admin password using an Excel formula. By setting the name field to =$C1, which references the C1 column, the password of the Administrator user is revealed.\
-![c1](./assets/c1.png)
+![c1](./assets/c1.png)\
 The password is revealed after logging in as the user.\
 ![username](./assets/username.png)\
 It is now possible to log in as the Admin user.\
 ![admin](./assets/admin.png)\
 ## Reverse shell in SSTI
 After logging in as Admin, is is possible to access the /report page. An SSTI vulnerability is identified by entering the payload `{{7*7}}` as the name while registerring a user.\
-![ssti](./assets/ssti.png)\
+![ssti](./assets/ssti.png)
 During the competition, we first attempted to use PowerShell for a reverse shell, but these attempts were caught by Defender AntiVirus. However, switching to Python is simpler. The following payload is used for reverse shell
 ```
 import os,socket,subprocess,threading;
