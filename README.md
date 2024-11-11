@@ -123,6 +123,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [munintrollet](/writeups/reversing/Find%20Me/munintrollet)  
 	 - [Norske Nøkkelsnikere](/writeups/reversing/Find%20Me/Norske%20Nøkkelsnikere)  
  - **[Waves](/writeups/reversing/Waves)**
+	 - [bootplug](/writeups/reversing/Waves/bootplug)  
 ### web
  - **[Shop 5](/writeups/web/Shop%205)**
 	 - [RumbleInTheJungle](/writeups/web/Shop%205/RumbleInTheJungle)  
