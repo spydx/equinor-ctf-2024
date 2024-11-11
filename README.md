@@ -25,8 +25,10 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [the-nio](/writeups/onsite/EPT%20Printer/the-nio)  
 	 - [Datasnok](/writeups/onsite/EPT%20Printer/Datasnok)  
  - **[Wooden Treasure Chest](/writeups/onsite/Wooden%20Treasure%20Chest)**
+	 - [Equisør](/writeups/onsite/Wooden%20Treasure%20Chest/Equisør)  
  - **[Pixel Perfect](/writeups/onsite/Pixel%20Perfect)**
 	 - [bootplug](/writeups/onsite/Pixel%20Perfect/bootplug)  
+	 - [Equisør](/writeups/onsite/Pixel%20Perfect/Equisør)  
 	 - [munintrollet](/writeups/onsite/Pixel%20Perfect/munintrollet)  
 	 - [mneF00](/writeups/onsite/Pixel%20Perfect/mneF00)  
  - **[EPT Cyber Range 12aplha_release9d GOLD EDITION](/writeups/onsite/EPT%20Cyber%20Range%2012aplha_release9d%20GOLD%20EDITION)**
@@ -135,6 +137,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Shop 4](/writeups/web/Shop%204)**
 	 - [FesseMisk](/writeups/web/Shop%204/FesseMisk)  
 	 - [53-kilo-med-data](/writeups/web/Shop%204/53-kilo-med-data)  
+	 - [dragonslayerz](/writeups/web/Shop%204/dragonslayerz)  
 	 - [bwnfools](/writeups/web/Shop%204/bwnfools)  
 	 - [munintrollet](/writeups/web/Shop%204/munintrollet)  
 	 - [Datasnok](/writeups/web/Shop%204/Datasnok)  
