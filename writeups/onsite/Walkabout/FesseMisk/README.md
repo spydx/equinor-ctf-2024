@@ -6,7 +6,7 @@ Once the first baby tasks where solved it was time to check out this one.
 
 The first image was quickly solved to an approximate location. Suhslok rushed out to run for the flag, meanwhile Brille became *the guy in the chair*.
 
-<img src="image-3.png" style="width:100%;max-width:500px">
+<img src="image-3.png">
 
 After researching the image we found that it was just north of the Munch Museum, with Sørenga in the backgound.
 
@@ -15,18 +15,18 @@ After researching the image we found that it was just north of the Munch Museum,
 
 As noone had solved the challenge yet, we wanted to be as fast as possible. After just a few minutes our field agent sent this in chat:
 
-<img src="image-4.png" style="width:100%;max-width:500px">
+<img src="image-4.png">
 
 Therefore we had to up the game to be faster for the next locations to beat the competition.
 
-<img src="image-2.png" style="width:100%;max-width:500px">
+<img src="image-2.png">
 
 
 ### Second location
 
 Now headed for the next location *the guy in the chair* provided a gps grid of the exact location:
 
-<img src="image-5.png" style="width:100%;max-width:500px">
+<img src="image-5.png">
 
 Ez find.
 
@@ -34,7 +34,7 @@ Ez find.
 
 Now for the next one HQ wanted to find the exact location to make it a fast run. Brille dropped the Streetview man and got the exact angle the image was taken. This way the distance of the runner could be optimized to the brim:
 
-<img src="image.png" style="width:100%;max-width:500px">
+<img src="image.png">
 
 Suhslok, sprinting like his life depended on it, followed the instructions from the *guy in the chair*, Brille, who barked out directions: “Cross the street NOW — no, wait, too close to the buildings, I’m losing you!” - ”Agent. You are on your own now”
 
@@ -43,7 +43,7 @@ Suhslok, sprinting like his life depended on it, followed the instructions from 
 
 And now we are headed for the last location:
 
-<img src="image-1.png" style="width:100%;max-width:500px">
+<img src="image-1.png">
 
 As the local knower he is "Byens beste bebab" was not a hard find for Suhslok. With one exception:
 
@@ -51,15 +51,12 @@ As the local knower he is "Byens beste bebab" was not a hard find for Suhslok. W
 
 But after Suhslok recievs a GPS grid from HQ this becomes a quick find:
 
-<img src="image-6.png" style="width:100%;max-width:500px">
+<img src="image-6.png">
 
 So then it is just to submit...
 
-<img src="image-10.png" style="width:50%;max-width:250px">
-<img src="image-9.png" style="width:50%;max-width:250px">
-
-<img src="image-7.png" style="width:50%;max-width:250px">
-<img src="image-8.png" style="width:50%;max-width:250px">
+<img src="image-7.png">
+<img src="image-8.png">
 
 What???
 
