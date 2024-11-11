@@ -21,6 +21,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 
 ### onsite
  - **[EPT Printer](/writeups/onsite/EPT%20Printer)**
+	 - [FesseMisk](/writeups/onsite/EPT%20Printer/FesseMisk)  
 	 - [the-nio](/writeups/onsite/EPT%20Printer/the-nio)  
 	 - [Datasnok](/writeups/onsite/EPT%20Printer/Datasnok)  
  - **[Wooden Treasure Chest](/writeups/onsite/Wooden%20Treasure%20Chest)**
@@ -75,9 +76,11 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [munintrollet](/writeups/forensics/Honey,%20I%20shrunk%20the%20skids/munintrollet)  
 	 - [Datasnok](/writeups/forensics/Honey,%20I%20shrunk%20the%20skids/Datasnok)  
  - **[Shadows of the Past](/writeups/forensics/Shadows%20of%20the%20Past)**
+	 - [FesseMisk](/writeups/forensics/Shadows%20of%20the%20Past/FesseMisk)  
 	 - [Buggy bunch](/writeups/forensics/Shadows%20of%20the%20Past/Buggy%20bunch)  
 	 - [bwnfools](/writeups/forensics/Shadows%20of%20the%20Past/bwnfools)  
  - **[Phantom Phish](/writeups/forensics/Phantom%20Phish)**
+	 - [FesseMisk](/writeups/forensics/Phantom%20Phish/FesseMisk)  
 	 - [53-kilo-med-data](/writeups/forensics/Phantom%20Phish/53-kilo-med-data)  
 	 - [munintrollet](/writeups/forensics/Phantom%20Phish/munintrollet)  
 	 - [NorskeNøkkelsnikere-SimenBai](/writeups/forensics/Phantom%20Phish/NorskeNøkkelsnikere-SimenBai)  
@@ -93,6 +96,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Excellent (root)](/writeups/boot2root/Excellent%20(root))**
 ### reversing
  - **[RotC](/writeups/reversing/RotC)**
+	 - [mne00F](/writeups/reversing/RotC/mne00F)  
 	 - [koodl](/writeups/reversing/RotC/koodl)  
 	 - [bwnfools](/writeups/reversing/RotC/bwnfools)  
  - **[Random Flag Generator](/writeups/reversing/Random%20Flag%20Generator)**
@@ -102,6 +106,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [Datasnok](/writeups/reversing/Random%20Flag%20Generator/Datasnok)  
  - **[Saint Rings](/writeups/reversing/Saint%20Rings)**
 	 - [bootplug](/writeups/reversing/Saint%20Rings/bootplug)  
+	 - [mne00F](/writeups/reversing/Saint%20Rings/mne00F)  
 	 - [koodl](/writeups/reversing/Saint%20Rings/koodl)  
  - **[Jrsk Julekort](/writeups/reversing/Jrsk%20Julekort)**
  - **[Find Me](/writeups/reversing/Find%20Me)**
@@ -119,6 +124,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[EPT Security Hub](/writeups/web/EPT%20Security%20Hub)**
 	 - [Equisør](/writeups/web/EPT%20Security%20Hub/Equisør)  
  - **[Shop 4](/writeups/web/Shop%204)**
+	 - [FesseMisk](/writeups/web/Shop%204/FesseMisk)  
 	 - [53-kilo-med-data](/writeups/web/Shop%204/53-kilo-med-data)  
 	 - [bwnfools](/writeups/web/Shop%204/bwnfools)  
 	 - [Datasnok](/writeups/web/Shop%204/Datasnok)  
@@ -150,6 +156,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [Equisør](/writeups/misc/Canvas%20Curve/Equisør)  
 	 - [Norske Nøkkelsnikere](/writeups/misc/Canvas%20Curve/Norske%20Nøkkelsnikere)  
  - **[SQL 101](/writeups/misc/SQL%20101)**
+	 - [FesseMisk](/writeups/misc/SQL%20101/FesseMisk)  
 	 - [53-kilo-med-data](/writeups/misc/SQL%20101/53-kilo-med-data)  
 	 - [dragonslayerz](/writeups/misc/SQL%20101/dragonslayerz)  
 	 - [Blodbamsen](/writeups/misc/SQL%20101/Blodbamsen)  
@@ -159,6 +166,8 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[Obsolete (root)](/writeups/misc/Obsolete%20(root))**
  - **[Leftovers](/writeups/misc/Leftovers)**
 	 - [FesseMisk](/writeups/misc/Leftovers/FesseMisk)  
+	 - [mne00F](/writeups/misc/Leftovers/mne00F)  
+	 - [munintrollet](/writeups/misc/Leftovers/munintrollet)  
 	 - [Norske Nøkkelsnikere](/writeups/misc/Leftovers/Norske%20Nøkkelsnikere)  
 	 - [arctic_anon](/writeups/misc/Leftovers/arctic_anon)  
  - **[Basketball with Dad](/writeups/misc/Basketball%20with%20Dad)**
@@ -170,6 +179,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [HASH GOBLINS](/writeups/misc/KQL%20Validation%20Service/HASH%20GOBLINS)  
 	 - [Norske Nøkkelsnikere](/writeups/misc/KQL%20Validation%20Service/Norske%20Nøkkelsnikere)  
  - **[Linux Levels](/writeups/misc/Linux%20Levels)**
+	 - [FesseMisk](/writeups/misc/Linux%20Levels/FesseMisk)  
 	 - [arctic_anon](/writeups/misc/Linux%20Levels/arctic_anon)  
  - **[EPT Arcade Game](/writeups/misc/EPT%20Arcade%20Game)**
 	 - [53-kilo-med-data](/writeups/misc/EPT%20Arcade%20Game/53-kilo-med-data)  
