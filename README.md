@@ -25,6 +25,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [Datasnok](/writeups/onsite/EPT%20Printer/Datasnok)  
  - **[Wooden Treasure Chest](/writeups/onsite/Wooden%20Treasure%20Chest)**
  - **[Pixel Perfect](/writeups/onsite/Pixel%20Perfect)**
+	 - [bootplug](/writeups/onsite/Pixel%20Perfect/bootplug)  
 	 - [munintrollet](/writeups/onsite/Pixel%20Perfect/munintrollet)  
 	 - [mneF00](/writeups/onsite/Pixel%20Perfect/mneF00)  
  - **[EPT Cyber Range 12aplha_release9d GOLD EDITION](/writeups/onsite/EPT%20Cyber%20Range%2012aplha_release9d%20GOLD%20EDITION)**
@@ -99,6 +100,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [koodl](/writeups/reversing/Random%20Flag%20Generator/koodl)  
 	 - [Datasnok](/writeups/reversing/Random%20Flag%20Generator/Datasnok)  
  - **[Saint Rings](/writeups/reversing/Saint%20Rings)**
+	 - [bootplug](/writeups/reversing/Saint%20Rings/bootplug)  
 	 - [koodl](/writeups/reversing/Saint%20Rings/koodl)  
  - **[Jrsk Julekort](/writeups/reversing/Jrsk%20Julekort)**
  - **[Find Me](/writeups/reversing/Find%20Me)**
@@ -136,6 +138,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [Norske Nøkkelsnikere](/writeups/misc/EPT%20Got%20talent/Norske%20Nøkkelsnikere)  
  - **[QR Madness](/writeups/misc/QR%20Madness)**
 	 - [FesseMisk](/writeups/misc/QR%20Madness/FesseMisk)  
+	 - [bootplug](/writeups/misc/QR%20Madness/bootplug)  
 	 - [Statskanalen](/writeups/misc/QR%20Madness/Statskanalen)  
  - **[The Kusto Query Game](/writeups/misc/The%20Kusto%20Query%20Game)**
 	 - [FesseMisk](/writeups/misc/The%20Kusto%20Query%20Game/FesseMisk)  
