@@ -49,15 +49,18 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
  - **[OMM API (root)](/writeups/realworld/OMM%20API%20(root))**
 	 - [53-kilo-med-data](/writeups/realworld/OMM%20API%20(root)/53-kilo-med-data)  
  - **[Prime Time (root)](/writeups/realworld/Prime%20Time%20(root))**
+	 - [FesseMisk](/writeups/realworld/Prime%20Time%20(root)/FesseMisk)  
 	 - [53-kilo-med-data](/writeups/realworld/Prime%20Time%20(root)/53-kilo-med-data)  
 	 - [RumbleInTheJungle](/writeups/realworld/Prime%20Time%20(root)/RumbleInTheJungle)  
 	 - [Equisør](/writeups/realworld/Prime%20Time%20(root)/Equisør)  
  - **[Prime Time (user)](/writeups/realworld/Prime%20Time%20(user))**
+	 - [FesseMisk](/writeups/realworld/Prime%20Time%20(user)/FesseMisk)  
 	 - [53-kilo-med-data](/writeups/realworld/Prime%20Time%20(user)/53-kilo-med-data)  
 	 - [Equisør](/writeups/realworld/Prime%20Time%20(user)/Equisør)  
 	 - [munintrollet](/writeups/realworld/Prime%20Time%20(user)/munintrollet)  
 ### pwn
  - **[Vault](/writeups/pwn/Vault)**
+	 - [FesseMisk](/writeups/pwn/Vault/FesseMisk)  
 	 - [53-kilo-med-data](/writeups/pwn/Vault/53-kilo-med-data)  
  - **[Jrsk Julepwn](/writeups/pwn/Jrsk%20Julepwn)**
 	 - [Iku-toppene](/writeups/pwn/Jrsk%20Julepwn/Iku-toppene)  
@@ -106,6 +109,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [munintrollet](/writeups/reversing/RotC/munintrollet)  
 	 - [Norske Nøkkelsnikere](/writeups/reversing/RotC/Norske%20Nøkkelsnikere)  
  - **[Random Flag Generator](/writeups/reversing/Random%20Flag%20Generator)**
+	 - [FesseMisk](/writeups/reversing/Random%20Flag%20Generator/FesseMisk)  
 	 - [53-kilo-med-data](/writeups/reversing/Random%20Flag%20Generator/53-kilo-med-data)  
 	 - [Equisør](/writeups/reversing/Random%20Flag%20Generator/Equisør)  
 	 - [koodl](/writeups/reversing/Random%20Flag%20Generator/koodl)  
@@ -126,6 +130,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [bootplug](/writeups/reversing/Waves/bootplug)  
 ### web
  - **[Shop 5](/writeups/web/Shop%205)**
+	 - [FesseMisk](/writeups/web/Shop%205/FesseMisk)  
 	 - [RumbleInTheJungle](/writeups/web/Shop%205/RumbleInTheJungle)  
 	 - [telenor](/writeups/web/Shop%205/telenor)  
 	 - [munintrollet](/writeups/web/Shop%205/munintrollet)  
@@ -167,6 +172,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [53-kilo-med-data](/writeups/misc/The%20Kusto%20Query%20Game/53-kilo-med-data)  
 	 - [HASH GOBLINS](/writeups/misc/The%20Kusto%20Query%20Game/HASH%20GOBLINS)  
  - **[Canvas Curve](/writeups/misc/Canvas%20Curve)**
+	 - [FesseMisk](/writeups/misc/Canvas%20Curve/FesseMisk)  
 	 - [53-kilo-med-data](/writeups/misc/Canvas%20Curve/53-kilo-med-data)  
 	 - [Equisør](/writeups/misc/Canvas%20Curve/Equisør)  
 	 - [munintrollet](/writeups/misc/Canvas%20Curve/munintrollet)  
@@ -199,6 +205,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [FesseMisk](/writeups/misc/Linux%20Levels/FesseMisk)  
 	 - [arctic_anon](/writeups/misc/Linux%20Levels/arctic_anon)  
  - **[EPT Arcade Game](/writeups/misc/EPT%20Arcade%20Game)**
+	 - [FesseMisk](/writeups/misc/EPT%20Arcade%20Game/FesseMisk)  
 	 - [53-kilo-med-data](/writeups/misc/EPT%20Arcade%20Game/53-kilo-med-data)  
 	 - [koodl](/writeups/misc/EPT%20Arcade%20Game/koodl)  
 	 - [munintrollet](/writeups/misc/EPT%20Arcade%20Game/munintrollet)  
