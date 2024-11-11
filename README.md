@@ -29,6 +29,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [mneF00](/writeups/onsite/Pixel%20Perfect/mneF00)  
  - **[EPT Cyber Range 12aplha_release9d GOLD EDITION](/writeups/onsite/EPT%20Cyber%20Range%2012aplha_release9d%20GOLD%20EDITION)**
  - **[Run, Forrest! Revenge!](/writeups/onsite/Run,%20Forrest!%20Revenge!)**
+	 - [Equisør](/writeups/onsite/Run,%20Forrest!%20Revenge!/Equisør)  
  - **[WiFi Sanity Check](/writeups/onsite/WiFi%20Sanity%20Check)**
 	 - [Norske Nøkkelsnikere](/writeups/onsite/WiFi%20Sanity%20Check/Norske%20Nøkkelsnikere)  
  - **[Walkabout](/writeups/onsite/Walkabout)**
@@ -131,6 +132,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 ### misc
  - **[EPT Got talent](/writeups/misc/EPT%20Got%20talent)**
 	 - [Burot](/writeups/misc/EPT%20Got%20talent/Burot)  
+	 - [Eqiusør](/writeups/misc/EPT%20Got%20talent/Eqiusør)  
 	 - [Norske Nøkkelsnikere](/writeups/misc/EPT%20Got%20talent/Norske%20Nøkkelsnikere)  
  - **[QR Madness](/writeups/misc/QR%20Madness)**
 	 - [FesseMisk](/writeups/misc/QR%20Madness/FesseMisk)  
