@@ -32,6 +32,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [munintrollet](/writeups/onsite/Pixel%20Perfect/munintrollet)  
 	 - [mneF00](/writeups/onsite/Pixel%20Perfect/mneF00)  
  - **[EPT Cyber Range 12aplha_release9d GOLD EDITION](/writeups/onsite/EPT%20Cyber%20Range%2012aplha_release9d%20GOLD%20EDITION)**
+	 - [FesseMisk](/writeups/onsite/EPT%20Cyber%20Range%2012aplha_release9d%20GOLD%20EDITION/FesseMisk)  
  - **[Run, Forrest! Revenge!](/writeups/onsite/Run,%20Forrest!%20Revenge!)**
 	 - [Equisør](/writeups/onsite/Run,%20Forrest!%20Revenge!/Equisør)  
  - **[WiFi Sanity Check](/writeups/onsite/WiFi%20Sanity%20Check)**
