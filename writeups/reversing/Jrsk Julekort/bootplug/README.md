@@ -239,7 +239,5 @@ print(bytes(msg))
 ```
 The resulting message is Lorem ipsum with the flag placed somewhere in the middle:
 ```
-...
-Suspendisse sit amet sapien varius tortor sollicitudin mollis nec sit amet sapien. EPT{god_hjul1!}  Aenean non eleifend nulla. Nullam quis posuere nisi, ut sollicitudin urna. Quisque et mollis ipsum.
-...
+[...] Suspendisse sit amet sapien varius tortor sollicitudin mollis nec sit amet sapien. EPT{god_hjul1!}  Aenean non eleifend nulla. Nullam quis posuere nisi, ut sollicitudin urna. Quisque et mollis ipsum. [...]
 ```
