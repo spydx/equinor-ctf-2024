@@ -124,6 +124,7 @@ Educational guides, writeups and challenges resources for the 2024 Equinor CTF
 	 - [koodl](/writeups/reversing/Saint%20Rings/koodl)  
 	 - [Norske Nøkkelsnikere](/writeups/reversing/Saint%20Rings/Norske%20Nøkkelsnikere)  
  - **[Jrsk Julekort](/writeups/reversing/Jrsk%20Julekort)**
+	 - [bootplug](/writeups/reversing/Jrsk%20Julekort/bootplug)  
  - **[Find Me](/writeups/reversing/Find%20Me)**
 	 - [53-kilo-med-data](/writeups/reversing/Find%20Me/53-kilo-med-data)  
 	 - [corax](/writeups/reversing/Find%20Me/corax)  
